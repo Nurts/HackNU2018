@@ -1,0 +1,1410 @@
+{
+  "search_params": {
+    "to_type": "airport",
+    "flyFrom_type": "airport",
+    "seats": {
+      "infants": 0,
+      "passengers": 1,
+      "adults": 1,
+      "children": 0
+    }
+  },
+  "connections": [],
+  "currency": "EUR",
+  "currency_rate": 1.0,
+  "all_stopover_airports": [],
+  "data": [
+    {
+      "mapIdfrom": "astana",
+      "duration": {
+        "total": 6000,
+        "return": 0,
+        "departure": 6000
+      },
+      "flyTo": "ALA",
+      "conversion": {
+        "EUR": 104
+      },
+      "deep_link": "https://www.kiwi.com/deep?from=TSE&to=ALA&departure=06-06-2018&flightsId=4031909150582640_0%7C4031909150582640_1&price=104&passengers=1&affilid=picky&lang=en&currency=EUR&booking_token=TjFsU9KOyjpEDqm5dNSrO1ZjuRMVMgZrERrSppD325T6P8+P9w468E+3gYirNKm0xjFEaQ8brFkJXYHcFnHHQMiKg0Dkoaiav5UhUit795iH+ye6QLBiXEuRH7DpkvCi518FkCTa6S44z3bBlYWTndkvPfzVpD9ObGLn5CQOSGu9DhApd/fckx+1UZp3ZFmeVVKEBWVEJ/6TF1l8poy5EX31EDCItzNbedk7pJ0Kp4/fOtlWBDrHRnvREnUv++4xGRPKBJacbBwxqRxYQJRSrZKgfBILqFT3wT680yKYorgjnoRUcBDudWueuFZHbdf2ZIGdGaVJR7OyYp15XnfKgIY3ilbg64wOX7jPYMIj+zmJnmF3h31DfxEWYrUGIfnyR1mKxQoFnu4Q1lBd08/UdF0NUP6AJxiUYKk6ehjaD2znXeOappASSYzb75tNLLHKrpz5w315K154G257sR72lx4bRCmriUJIdmAgmmWaAsGgFLdlppweYdsMkTZTqnEhh9dinWAcm47i+AxLXo8Y84sNeIs5LWXF1KMke9T6WQBciuT71kbpvoHb/WV+afSw1o04phLa6F1NHTowUs40r+h86YrQ8Fc+9lPQFTfooVXgHawO03U4E5cLJjrTOdVIGC6ZVR4P0p9iHmdXMslu0ES4NwUim3/Wx6z498Vm95jq04ffhI2cCjauodFK0FP4EYTYozwyvrP14c//13uRWGXbik7V0UdxWpULUuGm8gHnyGxJFESel95DCxjMDc73dK6JpQNkoS7wUbz57hFdFWDxxjc7mq5u6iFOytitlmA=",
+      "mapIdto": "almaty",
+      "nightsInDest": null,
+      "airlines": [
+        "KC"
+      ],
+      "id": "4031909150582640_0|4031909150582640_1",
+      "facilitated_booking_available": true,
+      "pnr_count": 1,
+      "fly_duration": "1h 40m",
+      "countryTo": {
+        "code": "KZ",
+        "name": "Kazakhstan"
+      },
+      "baglimit": {
+        "hand_width": 45,
+        "hand_length": 56,
+        "hold_weight": 20,
+        "hand_height": 25,
+        "hand_weight": 7
+      },
+      "aTimeUTC": 1528262400,
+      "p3": 1,
+      "price": 104,
+      "type_flights": [
+        "GDS"
+      ],
+      "bags_price": {
+        "1": 0.0
+      },
+      "cityTo": "Almaty",
+      "transfers": [],
+      "flyFrom": "TSE",
+      "dTimeUTC": 1528256400,
+      "p2": 1,
+      "countryFrom": {
+        "code": "KZ",
+        "name": "Kazakhstan"
+      },
+      "p1": 1,
+      "dTime": 1528278000,
+      "found_on": [
+        "deprecated"
+      ],
+      "booking_token": "TjFsU9KOyjpEDqm5dNSrO1ZjuRMVMgZrERrSppD325T6P8+P9w468E+3gYirNKm0xjFEaQ8brFkJXYHcFnHHQMiKg0Dkoaiav5UhUit795iH+ye6QLBiXEuRH7DpkvCi518FkCTa6S44z3bBlYWTndkvPfzVpD9ObGLn5CQOSGu9DhApd/fckx+1UZp3ZFmeVVKEBWVEJ/6TF1l8poy5EX31EDCItzNbedk7pJ0Kp4/fOtlWBDrHRnvREnUv++4xGRPKBJacbBwxqRxYQJRSrZKgfBILqFT3wT680yKYorgjnoRUcBDudWueuFZHbdf2ZIGdGaVJR7OyYp15XnfKgIY3ilbg64wOX7jPYMIj+zmJnmF3h31DfxEWYrUGIfnyR1mKxQoFnu4Q1lBd08/UdF0NUP6AJxiUYKk6ehjaD2znXeOappASSYzb75tNLLHKrpz5w315K154G257sR72lx4bRCmriUJIdmAgmmWaAsGgFLdlppweYdsMkTZTqnEhh9dinWAcm47i+AxLXo8Y84sNeIs5LWXF1KMke9T6WQBciuT71kbpvoHb/WV+afSw1o04phLa6F1NHTowUs40r+h86YrQ8Fc+9lPQFTfooVXgHawO03U4E5cLJjrTOdVIGC6ZVR4P0p9iHmdXMslu0ES4NwUim3/Wx6z498Vm95jq04ffhI2cCjauodFK0FP4EYTYozwyvrP14c//13uRWGXbik7V0UdxWpULUuGm8gHnyGxJFESel95DCxjMDc73dK6JpQNkoS7wUbz57hFdFWDxxjc7mq5u6iFOytitlmA=",
+      "routes": [
+        [
+          "TSE",
+          "ALA"
+        ]
+      ],
+      "cityFrom": "Astana",
+      "aTime": 1528284000,
+      "route": [
+        {
+          "bags_recheck_required": false,
+          "mapIdfrom": "astana",
+          "flight_no": 672,
+          "original_return": 0,
+          "lngFrom": 71.466944,
+          "flyTo": "ALA",
+          "guarantee": false,
+          "mapIdto": "almaty",
+          "source": "deprecated",
+          "combination_id": "4031909150582640",
+          "id": "4031909150582640_0",
+          "latFrom": 51.023056,
+          "lngTo": 77.042222,
+          "aTimeUTC": 1528262400,
+          "refresh_timestamp": 0,
+          "return": 0,
+          "price": 1,
+          "cityTo": "Almaty",
+          "vehicle_type": "aircraft",
+          "flyFrom": "TSE",
+          "dTimeUTC": 1528256400,
+          "latTo": 43.353333,
+          "dTime": 1528278000,
+          "found_on": "deprecated",
+          "airline": "KC",
+          "cityFrom": "Astana",
+          "aTime": 1528284000
+        }
+      ],
+      "distance": 951.6
+    },
+    {
+      "mapIdfrom": "astana",
+      "duration": {
+        "total": 6000,
+        "return": 0,
+        "departure": 6000
+      },
+      "flyTo": "ALA",
+      "conversion": {
+        "EUR": 104
+      },
+      "deep_link": "https://www.kiwi.com/deep?from=TSE&to=ALA&departure=06-06-2018&flightsId=3912062570387972_0%7C3912062570387972_1&price=104&passengers=1&affilid=picky&lang=en&currency=EUR&booking_token=TjFsU9KOyjpEDqm5dNSrO1ZjuRMVMgZrERrSppD325T6P8+P9w468E+3gYirNKm0xjFEaQ8brFkJXYHcFnHHQMiKg0Dkoaiav5UhUit795jtH7FdyZdf5FJhuSVBpmnJbGoxF2K/qtNSpmbWnTnfIHAcu7O1Vix3PES/FWh1iQ/PrOdlBf0mNDBfAn8XmiHQ6zbIOLKHbS5XOPXMOI7GcEOcqHwbczLXCCCzlpwV9sJ4okRvrTdkAUnp/4LJah0HgUI7pvqFyKaAgfkejwjq9GwcwWNw6tuy9EGeaQR5dhYgVceOZIWEN9NGXmcjwnIcMyyN+2CMjpBy+4Nx+m4q1L/udEJ/ht97nIg/FPBll/UNM2iSsXXjHTrYAs7Ir33dJ+D6cUQotXAFg61KzelAPg2fiMfxqA/g5Bd9m5ZtAoZngCFEQOMhQQ2O+eU+2Rbqwm/rM5tBilZDy8rmnQlHCCMAVIrYQWdto8UfmjEAGy5MHj8EaJYaq8AI2vFKtJEKHOPo/jhlFEkG1XtsVk4hoO+Pxn1rxePmopuqDUgoQDolHSdMQQe3mhZll4+WGXyGvrv1wtzux5r25xdstOfUr1tazSBbD5swpQkn6FTNzkumqwFX3XPslbUAeAVoNzINcB/7fXYzu+0VjAQBF9VP8nStokKrDOyH4r6Y9n9GaYBKsY0ZolduH9Klg019gsZbpb86xUqRmYpa1gi7yisM8QPVFPeNFdlIZJJrq3EEeaOC+6VwvDtvrZuyQ7wfCtR6pvW8XEanIqKiumFqmFaWcwHANH9D/uyj34t8L4Fpfyw=",
+      "mapIdto": "almaty",
+      "nightsInDest": null,
+      "airlines": [
+        "KC"
+      ],
+      "id": "3912062570387972_0|3912062570387972_1",
+      "facilitated_booking_available": true,
+      "pnr_count": 1,
+      "fly_duration": "1h 40m",
+      "countryTo": {
+        "code": "KZ",
+        "name": "Kazakhstan"
+      },
+      "baglimit": {
+        "hand_width": 45,
+        "hand_length": 56,
+        "hold_weight": 20,
+        "hand_height": 25,
+        "hand_weight": 7
+      },
+      "aTimeUTC": 1528305000,
+      "p3": 1,
+      "price": 104,
+      "type_flights": [
+        "GDS"
+      ],
+      "bags_price": {
+        "1": 0.0
+      },
+      "cityTo": "Almaty",
+      "transfers": [],
+      "flyFrom": "TSE",
+      "dTimeUTC": 1528299000,
+      "p2": 1,
+      "countryFrom": {
+        "code": "KZ",
+        "name": "Kazakhstan"
+      },
+      "p1": 1,
+      "dTime": 1528320600,
+      "found_on": [
+        "deprecated"
+      ],
+      "booking_token": "TjFsU9KOyjpEDqm5dNSrO1ZjuRMVMgZrERrSppD325T6P8+P9w468E+3gYirNKm0xjFEaQ8brFkJXYHcFnHHQMiKg0Dkoaiav5UhUit795jtH7FdyZdf5FJhuSVBpmnJbGoxF2K/qtNSpmbWnTnfIHAcu7O1Vix3PES/FWh1iQ/PrOdlBf0mNDBfAn8XmiHQ6zbIOLKHbS5XOPXMOI7GcEOcqHwbczLXCCCzlpwV9sJ4okRvrTdkAUnp/4LJah0HgUI7pvqFyKaAgfkejwjq9GwcwWNw6tuy9EGeaQR5dhYgVceOZIWEN9NGXmcjwnIcMyyN+2CMjpBy+4Nx+m4q1L/udEJ/ht97nIg/FPBll/UNM2iSsXXjHTrYAs7Ir33dJ+D6cUQotXAFg61KzelAPg2fiMfxqA/g5Bd9m5ZtAoZngCFEQOMhQQ2O+eU+2Rbqwm/rM5tBilZDy8rmnQlHCCMAVIrYQWdto8UfmjEAGy5MHj8EaJYaq8AI2vFKtJEKHOPo/jhlFEkG1XtsVk4hoO+Pxn1rxePmopuqDUgoQDolHSdMQQe3mhZll4+WGXyGvrv1wtzux5r25xdstOfUr1tazSBbD5swpQkn6FTNzkumqwFX3XPslbUAeAVoNzINcB/7fXYzu+0VjAQBF9VP8nStokKrDOyH4r6Y9n9GaYBKsY0ZolduH9Klg019gsZbpb86xUqRmYpa1gi7yisM8QPVFPeNFdlIZJJrq3EEeaOC+6VwvDtvrZuyQ7wfCtR6pvW8XEanIqKiumFqmFaWcwHANH9D/uyj34t8L4Fpfyw=",
+      "routes": [
+        [
+          "TSE",
+          "ALA"
+        ]
+      ],
+      "cityFrom": "Astana",
+      "aTime": 1528326600,
+      "route": [
+        {
+          "bags_recheck_required": false,
+          "mapIdfrom": "astana",
+          "flight_no": 992,
+          "original_return": 0,
+          "lngFrom": 71.466944,
+          "flyTo": "ALA",
+          "guarantee": false,
+          "mapIdto": "almaty",
+          "source": "deprecated",
+          "combination_id": "3912062570387972",
+          "id": "3912062570387972_0",
+          "latFrom": 51.023056,
+          "lngTo": 77.042222,
+          "aTimeUTC": 1528305000,
+          "refresh_timestamp": 0,
+          "return": 0,
+          "price": 1,
+          "cityTo": "Almaty",
+          "vehicle_type": "aircraft",
+          "flyFrom": "TSE",
+          "dTimeUTC": 1528299000,
+          "latTo": 43.353333,
+          "dTime": 1528320600,
+          "found_on": "deprecated",
+          "airline": "KC",
+          "cityFrom": "Astana",
+          "aTime": 1528326600
+        }
+      ],
+      "distance": 951.6
+    },
+    {
+      "mapIdfrom": "astana",
+      "duration": {
+        "total": 24000,
+        "return": 0,
+        "departure": 24000
+      },
+      "flyTo": "ALA",
+      "conversion": {
+        "EUR": 125
+      },
+      "deep_link": "https://www.kiwi.com/deep?from=TSE&to=ALA&departure=06-06-2018&flightsId=3916460617654318_0%7C3916460617654318_1%7C3916460617654318_2&price=125&passengers=1&affilid=picky&lang=en&currency=EUR&booking_token=TjFsU9KOyjpEDqm5dNSrO1ZjuRMVMgZrERrSppD325T6P8+P9w468E+3gYirNKm0xjFEaQ8brFkJXYHcFnHHQMiKg0Dkoaiav5UhUit795g97HlmsH6AqDGRkT/fAb6WSM9jbyMyUaKiacE0oC8LhzQvHTLJ6jfiJVrEUv7KZrm5fP9bdExO6I6PHORpa8OYyQ13W1Tba6SQ3A2K63yAZ51gKKhgWu7ylJgC8CdqeQopqgLSP+pVB1E6G5/OQqMPfS4VKasbsjByj6TBApy8cnKMlUxSKzTKn/eoA5Ovoeiziewctyz2+3cRECzXoGl/G9IfXavJnyE9M8fMOGGuWqCph77u3sLVzQ7Nut7s0Avw21oov51f5mBt4VvfgO3aBLgpsoTFfa9kIhxOxd35j1/tHpIp7nI3vtnGvJDk+Q1N0IiBRs1IcsvZ+opaYLU6qtSzoJDhR4Qiz7EU76as/h3yB+EkGVDAJLT57MRB3nlyoF7wWybC5IA30KiFOV3/CybQZRSvWbSCUri+KdwZq0TwJv+uOB/lKBmo0MKngD40mAiHzTCljj5OrLPynSx5IIQwY2J1fyhLpSaFeutxr0dVh/dYQeladcSaDUghf79wiwcvJOmL45Ku/5jjmVhD7rkINswQ1Rv1LZRo6b4vTGFjON4IKpHfD9WM2sgARJAL5YT4gT8Gp7Iw8aY4vGUWQ6gTHjVA00oQ3E0Qok1SMVSt7B5XcNZlkNfd+pGdPvGYDwQ9cWEcTvEy2Aa0s0ZvTlIQdOhS6jUMXVhpqN4eVVCVpv2PJmQE8A8TesyR/DmwWz2oFS+MtE95GApi4uwbfPDssNONxwEcCrzKSNSiNA==",
+      "mapIdto": "almaty",
+      "nightsInDest": null,
+      "airlines": [
+        "KC"
+      ],
+      "id": "3916460617654318_0|3916460617654318_1|3916460617654318_2",
+      "facilitated_booking_available": true,
+      "pnr_count": 1,
+      "fly_duration": "6h 40m",
+      "countryTo": {
+        "code": "KZ",
+        "name": "Kazakhstan"
+      },
+      "baglimit": {
+        "hand_width": 45,
+        "hand_length": 56,
+        "hold_weight": 20,
+        "hand_height": 25,
+        "hand_weight": 7
+      },
+      "aTimeUTC": 1528281600,
+      "p3": 1,
+      "price": 125,
+      "type_flights": [
+        "GDS"
+      ],
+      "bags_price": {
+        "1": 0.0
+      },
+      "cityTo": "Almaty",
+      "transfers": [],
+      "flyFrom": "TSE",
+      "dTimeUTC": 1528257600,
+      "p2": 1,
+      "countryFrom": {
+        "code": "KZ",
+        "name": "Kazakhstan"
+      },
+      "p1": 1,
+      "dTime": 1528279200,
+      "found_on": [
+        "deprecated"
+      ],
+      "booking_token": "TjFsU9KOyjpEDqm5dNSrO1ZjuRMVMgZrERrSppD325T6P8+P9w468E+3gYirNKm0xjFEaQ8brFkJXYHcFnHHQMiKg0Dkoaiav5UhUit795g97HlmsH6AqDGRkT/fAb6WSM9jbyMyUaKiacE0oC8LhzQvHTLJ6jfiJVrEUv7KZrm5fP9bdExO6I6PHORpa8OYyQ13W1Tba6SQ3A2K63yAZ51gKKhgWu7ylJgC8CdqeQopqgLSP+pVB1E6G5/OQqMPfS4VKasbsjByj6TBApy8cnKMlUxSKzTKn/eoA5Ovoeiziewctyz2+3cRECzXoGl/G9IfXavJnyE9M8fMOGGuWqCph77u3sLVzQ7Nut7s0Avw21oov51f5mBt4VvfgO3aBLgpsoTFfa9kIhxOxd35j1/tHpIp7nI3vtnGvJDk+Q1N0IiBRs1IcsvZ+opaYLU6qtSzoJDhR4Qiz7EU76as/h3yB+EkGVDAJLT57MRB3nlyoF7wWybC5IA30KiFOV3/CybQZRSvWbSCUri+KdwZq0TwJv+uOB/lKBmo0MKngD40mAiHzTCljj5OrLPynSx5IIQwY2J1fyhLpSaFeutxr0dVh/dYQeladcSaDUghf79wiwcvJOmL45Ku/5jjmVhD7rkINswQ1Rv1LZRo6b4vTGFjON4IKpHfD9WM2sgARJAL5YT4gT8Gp7Iw8aY4vGUWQ6gTHjVA00oQ3E0Qok1SMVSt7B5XcNZlkNfd+pGdPvGYDwQ9cWEcTvEy2Aa0s0ZvTlIQdOhS6jUMXVhpqN4eVVCVpv2PJmQE8A8TesyR/DmwWz2oFS+MtE95GApi4uwbfPDssNONxwEcCrzKSNSiNA==",
+      "routes": [
+        [
+          "TSE",
+          "ALA"
+        ]
+      ],
+      "cityFrom": "Astana",
+      "aTime": 1528303200,
+      "route": [
+        {
+          "bags_recheck_required": false,
+          "mapIdfrom": "astana",
+          "flight_no": 315,
+          "original_return": 0,
+          "lngFrom": 71.466944,
+          "flyTo": "PWQ",
+          "guarantee": false,
+          "mapIdto": "pavlodar",
+          "source": "deprecated",
+          "combination_id": "3916460617654318",
+          "id": "3916460617654318_0",
+          "latFrom": 51.023056,
+          "lngTo": 77.073889,
+          "aTimeUTC": 1528261200,
+          "refresh_timestamp": 0,
+          "return": 0,
+          "price": 1,
+          "cityTo": "Pavlodar",
+          "vehicle_type": "aircraft",
+          "flyFrom": "TSE",
+          "dTimeUTC": 1528257600,
+          "latTo": 52.195,
+          "dTime": 1528279200,
+          "found_on": "deprecated",
+          "airline": "KC",
+          "cityFrom": "Astana",
+          "aTime": 1528282800
+        },
+        {
+          "bags_recheck_required": false,
+          "mapIdfrom": "pavlodar",
+          "flight_no": 308,
+          "original_return": 0,
+          "lngFrom": 77.073889,
+          "flyTo": "ALA",
+          "guarantee": false,
+          "mapIdto": "almaty",
+          "source": "deprecated",
+          "combination_id": "3916460617654318",
+          "id": "3916460617654318_1",
+          "latFrom": 52.195,
+          "lngTo": 77.042222,
+          "aTimeUTC": 1528281600,
+          "refresh_timestamp": 0,
+          "return": 0,
+          "price": 1,
+          "cityTo": "Almaty",
+          "vehicle_type": "aircraft",
+          "flyFrom": "PWQ",
+          "dTimeUTC": 1528275600,
+          "latTo": 43.353333,
+          "dTime": 1528297200,
+          "found_on": "deprecated",
+          "airline": "KC",
+          "cityFrom": "Pavlodar",
+          "aTime": 1528303200
+        }
+      ],
+      "distance": 951.6
+    },
+    {
+      "mapIdfrom": "astana",
+      "duration": {
+        "total": 5700,
+        "return": 0,
+        "departure": 5700
+      },
+      "flyTo": "ALA",
+      "conversion": {
+        "EUR": 142
+      },
+      "deep_link": "https://www.kiwi.com/deep?from=TSE&to=ALA&departure=06-06-2018&flightsId=3916460617654337_0%7C3916460617654337_1&price=142&passengers=1&affilid=picky&lang=en&currency=EUR&booking_token=TjFsU9KOyjpEDqm5dNSrO1ZjuRMVMgZrERrSppD325T6P8+P9w468E+3gYirNKm0xjFEaQ8brFkJXYHcFnHHQMiKg0Dkoaiav5UhUit795iRU7w9YBsM96jLgXVqtEbxhMe2dlcen2nPqmJ8aKPIKV7kbVwBVIx4oHNXQYoDwEKONdkKiqrtwq8KIYzFn967s/gCng04an4MZbUAX/VDweI9Q3V/xSqQDfGU+LTB75Ybv4VPrV67zguXBAtz/8+xq/GxYxb/srG3x/hDa1srQE38HK0YzGbHm5Vq5DF0HiNtyy+lRNxuqmUyHYQ6zqTSGIyIkop+E2/f2abMIhWwdjPQukzAiA5V7VqM4USFlMrxZhnyqY5ENSHcVkWKC3PxPc/heMLRanxSttTc4Niw7z/OMigBeyf+MIHEvNrcXlR4Pq510J2BgZzsinSDsQC9E13AQtgh9HjnYUQnjDsFc2NqxvZ46nenV7r+/ozEYjYIj/020AY1wvfb9Nm3EQFmOqOZLCCwkJNs+4RUHKZK3rimAH+vAK4/lIMjE8HKR5rAjfZXMbKKyhIjur2nrpndW9GdN3QWvwqkKNXkJZTROAsVExUzr3jZOC1ZzAFcC4g3YqVQfheASlXMYEgp5stlBaGOzAmnxLjxRGiAMqjQ2wAOP+uoPRhWk8XaN+btbqO3lFXYoZy7cNeGAQx/1mvEOpk1mho3xbsBpbjibV86OZwbHSZ35xWvPb1Zwx2ehFrBaPd+PM3v4yI1Z/buQGCtrDy4Vhj5aYQOVdQ85CsX5he6nyHXrOFknECE8ZdwGOU=",
+      "mapIdto": "almaty",
+      "nightsInDest": null,
+      "airlines": [
+        "KC"
+      ],
+      "id": "3916460617654337_0|3916460617654337_1",
+      "facilitated_booking_available": true,
+      "pnr_count": 1,
+      "fly_duration": "1h 35m",
+      "countryTo": {
+        "code": "KZ",
+        "name": "Kazakhstan"
+      },
+      "baglimit": {
+        "hand_width": 45,
+        "hand_length": 56,
+        "hold_weight": 20,
+        "hand_height": 25,
+        "hand_weight": 7
+      },
+      "aTimeUTC": 1528308300,
+      "p3": 1,
+      "price": 142,
+      "type_flights": [
+        "GDS"
+      ],
+      "bags_price": {
+        "1": 0.0
+      },
+      "cityTo": "Almaty",
+      "transfers": [],
+      "flyFrom": "TSE",
+      "dTimeUTC": 1528302600,
+      "p2": 1,
+      "countryFrom": {
+        "code": "KZ",
+        "name": "Kazakhstan"
+      },
+      "p1": 1,
+      "dTime": 1528324200,
+      "found_on": [
+        "deprecated"
+      ],
+      "booking_token": "TjFsU9KOyjpEDqm5dNSrO1ZjuRMVMgZrERrSppD325T6P8+P9w468E+3gYirNKm0xjFEaQ8brFkJXYHcFnHHQMiKg0Dkoaiav5UhUit795iRU7w9YBsM96jLgXVqtEbxhMe2dlcen2nPqmJ8aKPIKV7kbVwBVIx4oHNXQYoDwEKONdkKiqrtwq8KIYzFn967s/gCng04an4MZbUAX/VDweI9Q3V/xSqQDfGU+LTB75Ybv4VPrV67zguXBAtz/8+xq/GxYxb/srG3x/hDa1srQE38HK0YzGbHm5Vq5DF0HiNtyy+lRNxuqmUyHYQ6zqTSGIyIkop+E2/f2abMIhWwdjPQukzAiA5V7VqM4USFlMrxZhnyqY5ENSHcVkWKC3PxPc/heMLRanxSttTc4Niw7z/OMigBeyf+MIHEvNrcXlR4Pq510J2BgZzsinSDsQC9E13AQtgh9HjnYUQnjDsFc2NqxvZ46nenV7r+/ozEYjYIj/020AY1wvfb9Nm3EQFmOqOZLCCwkJNs+4RUHKZK3rimAH+vAK4/lIMjE8HKR5rAjfZXMbKKyhIjur2nrpndW9GdN3QWvwqkKNXkJZTROAsVExUzr3jZOC1ZzAFcC4g3YqVQfheASlXMYEgp5stlBaGOzAmnxLjxRGiAMqjQ2wAOP+uoPRhWk8XaN+btbqO3lFXYoZy7cNeGAQx/1mvEOpk1mho3xbsBpbjibV86OZwbHSZ35xWvPb1Zwx2ehFrBaPd+PM3v4yI1Z/buQGCtrDy4Vhj5aYQOVdQ85CsX5he6nyHXrOFknECE8ZdwGOU=",
+      "routes": [
+        [
+          "TSE",
+          "ALA"
+        ]
+      ],
+      "cityFrom": "Astana",
+      "aTime": 1528329900,
+      "route": [
+        {
+          "bags_recheck_required": false,
+          "mapIdfrom": "astana",
+          "flight_no": 856,
+          "original_return": 0,
+          "lngFrom": 71.466944,
+          "flyTo": "ALA",
+          "guarantee": false,
+          "mapIdto": "almaty",
+          "source": "deprecated",
+          "combination_id": "3916460617654337",
+          "id": "3916460617654337_0",
+          "latFrom": 51.023056,
+          "lngTo": 77.042222,
+          "aTimeUTC": 1528308300,
+          "refresh_timestamp": 0,
+          "return": 0,
+          "price": 1,
+          "cityTo": "Almaty",
+          "vehicle_type": "aircraft",
+          "flyFrom": "TSE",
+          "dTimeUTC": 1528302600,
+          "latTo": 43.353333,
+          "dTime": 1528324200,
+          "found_on": "deprecated",
+          "airline": "KC",
+          "cityFrom": "Astana",
+          "aTime": 1528329900
+        }
+      ],
+      "distance": 951.6
+    },
+    {
+      "mapIdfrom": "astana",
+      "duration": {
+        "total": 6000,
+        "return": 0,
+        "departure": 6000
+      },
+      "flyTo": "ALA",
+      "conversion": {
+        "EUR": 142
+      },
+      "deep_link": "https://www.kiwi.com/deep?from=TSE&to=ALA&departure=06-06-2018&flightsId=3916460617654397_0%7C3916460617654397_1&price=142&passengers=1&affilid=picky&lang=en&currency=EUR&booking_token=TjFsU9KOyjpEDqm5dNSrO1ZjuRMVMgZrERrSppD325T6P8+P9w468E+3gYirNKm0xjFEaQ8brFkJXYHcFnHHQMiKg0Dkoaiav5UhUit795gsYs5w9sxv48fNX0umK4yOjNoVkmbVsxsQDkXxaGMAjdLii63LLWn1EMQyen30tfZ2tnhbbGLY6aL7TRdg1atkZtbZl4nGthdKSnHQaWaa95Y5yFNhdHQp+6ZyYRrlvplnb0FQ+tCnCxH6FZzOFz/f/fqlxY+GN2+EpJUwN4Oi/KZhQJtFOu4kIIrcb9+br2lxqPxfVf50XJ0FHvyQDy9kqCJWFSEhJdcw0ysKT4XVmwD7fLzraKNw8T6Yy99qeIKhdx0w73Xqcghqy2WmwszRd5LGQ/zVpwT7GqU1LgOSbdCvOitCp5kr+ptnaYrV9x4vownXcgp0KNbTSRzUzon2AAvewctwU2VTZoPBvhIVR6O1T0cE9v4jTB3eXTbeo5Zd4Se8lYmncTzlB19YCJhEN9rSVxfJ+EhtI3h9f6eJmeaGzFkZ8q9RuP5VZx6XCMuO/r3W93E7JEVAy1jwCgWEwjSEWpjZDbx3z5D+30fDJZLeE4QY6oQ+zAAiHOTnHBOyKMRPvUfRBbfoWYFMvAp35iBfi6SQac0WJ7a0CO/UyCkzohfehGt1WTue9IsePxFa/qoNhHqnb9MssKhK8JCm3lIAQlNVYjs8vcdZnSNVMMMRVkPuoUzf5qzat+6i9gPySksnEiokN6q3AFOMguCXV7S826OCKoMerhujUNEDwZeF6s95GwiR/NBgmwbK9CU=",
+      "mapIdto": "almaty",
+      "nightsInDest": null,
+      "airlines": [
+        "KC"
+      ],
+      "id": "3916460617654397_0|3916460617654397_1",
+      "facilitated_booking_available": true,
+      "pnr_count": 1,
+      "fly_duration": "1h 40m",
+      "countryTo": {
+        "code": "KZ",
+        "name": "Kazakhstan"
+      },
+      "baglimit": {
+        "hand_width": 45,
+        "hand_length": 56,
+        "hold_weight": 20,
+        "hand_height": 25,
+        "hand_weight": 7
+      },
+      "aTimeUTC": 1528277400,
+      "p3": 1,
+      "price": 142,
+      "type_flights": [
+        "GDS"
+      ],
+      "bags_price": {
+        "1": 0.0
+      },
+      "cityTo": "Almaty",
+      "transfers": [],
+      "flyFrom": "TSE",
+      "dTimeUTC": 1528271400,
+      "p2": 1,
+      "countryFrom": {
+        "code": "KZ",
+        "name": "Kazakhstan"
+      },
+      "p1": 1,
+      "dTime": 1528293000,
+      "found_on": [
+        "deprecated"
+      ],
+      "booking_token": "TjFsU9KOyjpEDqm5dNSrO1ZjuRMVMgZrERrSppD325T6P8+P9w468E+3gYirNKm0xjFEaQ8brFkJXYHcFnHHQMiKg0Dkoaiav5UhUit795gsYs5w9sxv48fNX0umK4yOjNoVkmbVsxsQDkXxaGMAjdLii63LLWn1EMQyen30tfZ2tnhbbGLY6aL7TRdg1atkZtbZl4nGthdKSnHQaWaa95Y5yFNhdHQp+6ZyYRrlvplnb0FQ+tCnCxH6FZzOFz/f/fqlxY+GN2+EpJUwN4Oi/KZhQJtFOu4kIIrcb9+br2lxqPxfVf50XJ0FHvyQDy9kqCJWFSEhJdcw0ysKT4XVmwD7fLzraKNw8T6Yy99qeIKhdx0w73Xqcghqy2WmwszRd5LGQ/zVpwT7GqU1LgOSbdCvOitCp5kr+ptnaYrV9x4vownXcgp0KNbTSRzUzon2AAvewctwU2VTZoPBvhIVR6O1T0cE9v4jTB3eXTbeo5Zd4Se8lYmncTzlB19YCJhEN9rSVxfJ+EhtI3h9f6eJmeaGzFkZ8q9RuP5VZx6XCMuO/r3W93E7JEVAy1jwCgWEwjSEWpjZDbx3z5D+30fDJZLeE4QY6oQ+zAAiHOTnHBOyKMRPvUfRBbfoWYFMvAp35iBfi6SQac0WJ7a0CO/UyCkzohfehGt1WTue9IsePxFa/qoNhHqnb9MssKhK8JCm3lIAQlNVYjs8vcdZnSNVMMMRVkPuoUzf5qzat+6i9gPySksnEiokN6q3AFOMguCXV7S826OCKoMerhujUNEDwZeF6s95GwiR/NBgmwbK9CU=",
+      "routes": [
+        [
+          "TSE",
+          "ALA"
+        ]
+      ],
+      "cityFrom": "Astana",
+      "aTime": 1528299000,
+      "route": [
+        {
+          "bags_recheck_required": false,
+          "mapIdfrom": "astana",
+          "flight_no": 956,
+          "original_return": 0,
+          "lngFrom": 71.466944,
+          "flyTo": "ALA",
+          "guarantee": false,
+          "mapIdto": "almaty",
+          "source": "deprecated",
+          "combination_id": "3916460617654397",
+          "id": "3916460617654397_0",
+          "latFrom": 51.023056,
+          "lngTo": 77.042222,
+          "aTimeUTC": 1528277400,
+          "refresh_timestamp": 0,
+          "return": 0,
+          "price": 1,
+          "cityTo": "Almaty",
+          "vehicle_type": "aircraft",
+          "flyFrom": "TSE",
+          "dTimeUTC": 1528271400,
+          "latTo": 43.353333,
+          "dTime": 1528293000,
+          "found_on": "deprecated",
+          "airline": "KC",
+          "cityFrom": "Astana",
+          "aTime": 1528299000
+        }
+      ],
+      "distance": 951.6
+    },
+    {
+      "mapIdfrom": "astana",
+      "duration": {
+        "total": 6000,
+        "return": 0,
+        "departure": 6000
+      },
+      "flyTo": "ALA",
+      "conversion": {
+        "EUR": 142
+      },
+      "deep_link": "https://www.kiwi.com/deep?from=TSE&to=ALA&departure=06-06-2018&flightsId=3916460617654346_0%7C3916460617654346_1&price=142&passengers=1&affilid=picky&lang=en&currency=EUR&booking_token=TjFsU9KOyjpEDqm5dNSrO1ZjuRMVMgZrERrSppD325T6P8+P9w468E+3gYirNKm0xjFEaQ8brFkJXYHcFnHHQMiKg0Dkoaiav5UhUit795j+3QzVIZDNwK9FpsHB1guJQKTeTn2li7Cfm0kRO48YpzzornqRjkSjXj8EqsRtW9jY12Yj9YdY+OpvVkBdyDsb6Os635vFlcZhgMyQ0iB80TVLqWPL9GjQJve34EGYsNa/aSa4Ofm/C5ZHrIczUeAEsrA/SMkaEHDzY4NuFxK7LNA4xpvlW0Qzp3a84+WV/rxL4fLf3ChTIsD1VwzkNzp2tEKB+7leGzsaRL2uWM73d1Evr6SR0ZourSca2/0j0AjmvBwEgyl+bcFIv045UOT1QP1BoUEWWQ/9xUUinfuixSnSAjnNc4j3wOw8T0AjWAf5jeNMr7vQax7fEi6eSPC9+zd4SrUSD2xaEqSB/7mlLL5gqkVCZM58WLn1Faqwx6WZKw7H5qD5xyxCxRpyTipqXuZxg/5Dg0X7Lyl95tIl1lDY9EnTg0qt7tXGyfYSeG0o336PuMVDCf+czjvua5lHN2KwqawcJUNHDTy0J7PGuzv94QbqsToW23h0rb6LDMkwu0/93sm6BV8A4J6vc0O+j9WuNZAde9R8Nae2/OVGf/2uHZ8A0x7QNF1kZ6mXJjLhqzFVurjoWGOBrPCu1WhGcMW7F5hunpmHk4dw367oY7s3SaKMsbMhExK0D63lBMxdpiVkF+g0iLZdb6N7iwX+0FZxYPR0f/BQGAsfPDHGKAvj1rJFYctEMGrVc+XW7Lk=",
+      "mapIdto": "almaty",
+      "nightsInDest": null,
+      "airlines": [
+        "KC"
+      ],
+      "id": "3916460617654346_0|3916460617654346_1",
+      "facilitated_booking_available": true,
+      "pnr_count": 1,
+      "fly_duration": "1h 40m",
+      "countryTo": {
+        "code": "KZ",
+        "name": "Kazakhstan"
+      },
+      "baglimit": {
+        "hand_width": 45,
+        "hand_length": 56,
+        "hold_weight": 20,
+        "hand_height": 25,
+        "hand_weight": 7
+      },
+      "aTimeUTC": 1528269000,
+      "p3": 1,
+      "price": 142,
+      "type_flights": [
+        "GDS"
+      ],
+      "bags_price": {
+        "1": 0.0
+      },
+      "cityTo": "Almaty",
+      "transfers": [],
+      "flyFrom": "TSE",
+      "dTimeUTC": 1528263000,
+      "p2": 1,
+      "countryFrom": {
+        "code": "KZ",
+        "name": "Kazakhstan"
+      },
+      "p1": 1,
+      "dTime": 1528284600,
+      "found_on": [
+        "deprecated"
+      ],
+      "booking_token": "TjFsU9KOyjpEDqm5dNSrO1ZjuRMVMgZrERrSppD325T6P8+P9w468E+3gYirNKm0xjFEaQ8brFkJXYHcFnHHQMiKg0Dkoaiav5UhUit795j+3QzVIZDNwK9FpsHB1guJQKTeTn2li7Cfm0kRO48YpzzornqRjkSjXj8EqsRtW9jY12Yj9YdY+OpvVkBdyDsb6Os635vFlcZhgMyQ0iB80TVLqWPL9GjQJve34EGYsNa/aSa4Ofm/C5ZHrIczUeAEsrA/SMkaEHDzY4NuFxK7LNA4xpvlW0Qzp3a84+WV/rxL4fLf3ChTIsD1VwzkNzp2tEKB+7leGzsaRL2uWM73d1Evr6SR0ZourSca2/0j0AjmvBwEgyl+bcFIv045UOT1QP1BoUEWWQ/9xUUinfuixSnSAjnNc4j3wOw8T0AjWAf5jeNMr7vQax7fEi6eSPC9+zd4SrUSD2xaEqSB/7mlLL5gqkVCZM58WLn1Faqwx6WZKw7H5qD5xyxCxRpyTipqXuZxg/5Dg0X7Lyl95tIl1lDY9EnTg0qt7tXGyfYSeG0o336PuMVDCf+czjvua5lHN2KwqawcJUNHDTy0J7PGuzv94QbqsToW23h0rb6LDMkwu0/93sm6BV8A4J6vc0O+j9WuNZAde9R8Nae2/OVGf/2uHZ8A0x7QNF1kZ6mXJjLhqzFVurjoWGOBrPCu1WhGcMW7F5hunpmHk4dw367oY7s3SaKMsbMhExK0D63lBMxdpiVkF+g0iLZdb6N7iwX+0FZxYPR0f/BQGAsfPDHGKAvj1rJFYctEMGrVc+XW7Lk=",
+      "routes": [
+        [
+          "TSE",
+          "ALA"
+        ]
+      ],
+      "cityFrom": "Astana",
+      "aTime": 1528290600,
+      "route": [
+        {
+          "bags_recheck_required": false,
+          "mapIdfrom": "astana",
+          "flight_no": 852,
+          "original_return": 0,
+          "lngFrom": 71.466944,
+          "flyTo": "ALA",
+          "guarantee": false,
+          "mapIdto": "almaty",
+          "source": "deprecated",
+          "combination_id": "3916460617654346",
+          "id": "3916460617654346_0",
+          "latFrom": 51.023056,
+          "lngTo": 77.042222,
+          "aTimeUTC": 1528269000,
+          "refresh_timestamp": 0,
+          "return": 0,
+          "price": 1,
+          "cityTo": "Almaty",
+          "vehicle_type": "aircraft",
+          "flyFrom": "TSE",
+          "dTimeUTC": 1528263000,
+          "latTo": 43.353333,
+          "dTime": 1528284600,
+          "found_on": "deprecated",
+          "airline": "KC",
+          "cityFrom": "Astana",
+          "aTime": 1528290600
+        }
+      ],
+      "distance": 951.6
+    },
+    {
+      "mapIdfrom": "astana",
+      "duration": {
+        "total": 6000,
+        "return": 0,
+        "departure": 6000
+      },
+      "flyTo": "ALA",
+      "conversion": {
+        "EUR": 142
+      },
+      "deep_link": "https://www.kiwi.com/deep?from=TSE&to=ALA&departure=06-06-2018&flightsId=3916460617654477_0%7C3916460617654477_1&price=142&passengers=1&affilid=picky&lang=en&currency=EUR&booking_token=TjFsU9KOyjpEDqm5dNSrO1ZjuRMVMgZrERrSppD325T6P8+P9w468E+3gYirNKm0xjFEaQ8brFkJXYHcFnHHQMiKg0Dkoaiav5UhUit795jUcbstbHe6xNC5AMmlfCmGYtBmM7mrYpyVGuiBBQx8VDf1sbnKDm5Yftkf+7WF0ZLLA+kqyz0qDyaurktetIQ2YjsIBM2g+lg+4b7nw6ec4aYCHDqZh18tXWkrWGb69/fzK72wWUouIDX8obfyltaT1J6fpwnChWi57avs47WG/AGoLaX7Jcya8yysK2b/7M5rkp/eUTaWAdPnDeCDj217trwflwl+esYTIIXkgfYF+HBrmtxwpjj+7a61feuuFJxeOdbx/3IPfCnJLtNZrKpn/dtgf/+n0COgJY1EyEV7YLx5nqYLf4FbhGz5boKsNVzBzzPZOGYMR+8vI8FhVCbE8o4shusxHjTpga3XyKb+R+G2rudO0O0uVq3PtEcoCyyNhPN5NKJSQn65MJGAaa1cevU41gMh4XBTNr0Ijg4KxbBo+5qeSJEEOJ0MgXn5O5Au4Ha6V0VFVX6AfNTJfMjKTxv18C7PDtC/LsTlj/PLrApE46rJihIQaNMWtFODBZ7j1hnlGrNQM9rlHE5bGYnKN0lDVRITjaCH7lhPiVfuGDdXzcKCfjKedKjX7Fp3TZv59oXlRiLHvSz5KCiYgV5KpNYq3Nru1JYfGFaWeostmfu6r/Dvcrd0JbCJOLUZ4zAABGm9XzTK4t0kjGDJbC4YHlReJ56GuY0Yr7OOpx5moqZu/IFpQBWhU4aci1vrtQg=",
+      "mapIdto": "almaty",
+      "nightsInDest": null,
+      "airlines": [
+        "KC"
+      ],
+      "id": "3916460617654477_0|3916460617654477_1",
+      "facilitated_booking_available": true,
+      "pnr_count": 1,
+      "fly_duration": "1h 40m",
+      "countryTo": {
+        "code": "KZ",
+        "name": "Kazakhstan"
+      },
+      "baglimit": {
+        "hand_width": 45,
+        "hand_length": 56,
+        "hold_weight": 20,
+        "hand_height": 25,
+        "hand_weight": 7
+      },
+      "aTimeUTC": 1528260000,
+      "p3": 1,
+      "price": 142,
+      "type_flights": [
+        "GDS"
+      ],
+      "bags_price": {
+        "1": 0.0
+      },
+      "cityTo": "Almaty",
+      "transfers": [],
+      "flyFrom": "TSE",
+      "dTimeUTC": 1528254000,
+      "p2": 1,
+      "countryFrom": {
+        "code": "KZ",
+        "name": "Kazakhstan"
+      },
+      "p1": 1,
+      "dTime": 1528275600,
+      "found_on": [
+        "deprecated"
+      ],
+      "booking_token": "TjFsU9KOyjpEDqm5dNSrO1ZjuRMVMgZrERrSppD325T6P8+P9w468E+3gYirNKm0xjFEaQ8brFkJXYHcFnHHQMiKg0Dkoaiav5UhUit795jUcbstbHe6xNC5AMmlfCmGYtBmM7mrYpyVGuiBBQx8VDf1sbnKDm5Yftkf+7WF0ZLLA+kqyz0qDyaurktetIQ2YjsIBM2g+lg+4b7nw6ec4aYCHDqZh18tXWkrWGb69/fzK72wWUouIDX8obfyltaT1J6fpwnChWi57avs47WG/AGoLaX7Jcya8yysK2b/7M5rkp/eUTaWAdPnDeCDj217trwflwl+esYTIIXkgfYF+HBrmtxwpjj+7a61feuuFJxeOdbx/3IPfCnJLtNZrKpn/dtgf/+n0COgJY1EyEV7YLx5nqYLf4FbhGz5boKsNVzBzzPZOGYMR+8vI8FhVCbE8o4shusxHjTpga3XyKb+R+G2rudO0O0uVq3PtEcoCyyNhPN5NKJSQn65MJGAaa1cevU41gMh4XBTNr0Ijg4KxbBo+5qeSJEEOJ0MgXn5O5Au4Ha6V0VFVX6AfNTJfMjKTxv18C7PDtC/LsTlj/PLrApE46rJihIQaNMWtFODBZ7j1hnlGrNQM9rlHE5bGYnKN0lDVRITjaCH7lhPiVfuGDdXzcKCfjKedKjX7Fp3TZv59oXlRiLHvSz5KCiYgV5KpNYq3Nru1JYfGFaWeostmfu6r/Dvcrd0JbCJOLUZ4zAABGm9XzTK4t0kjGDJbC4YHlReJ56GuY0Yr7OOpx5moqZu/IFpQBWhU4aci1vrtQg=",
+      "routes": [
+        [
+          "TSE",
+          "ALA"
+        ]
+      ],
+      "cityFrom": "Astana",
+      "aTime": 1528281600,
+      "route": [
+        {
+          "bags_recheck_required": false,
+          "mapIdfrom": "astana",
+          "flight_no": 952,
+          "original_return": 0,
+          "lngFrom": 71.466944,
+          "flyTo": "ALA",
+          "guarantee": false,
+          "mapIdto": "almaty",
+          "source": "deprecated",
+          "combination_id": "3916460617654477",
+          "id": "3916460617654477_0",
+          "latFrom": 51.023056,
+          "lngTo": 77.042222,
+          "aTimeUTC": 1528260000,
+          "refresh_timestamp": 0,
+          "return": 0,
+          "price": 1,
+          "cityTo": "Almaty",
+          "vehicle_type": "aircraft",
+          "flyFrom": "TSE",
+          "dTimeUTC": 1528254000,
+          "latTo": 43.353333,
+          "dTime": 1528275600,
+          "found_on": "deprecated",
+          "airline": "KC",
+          "cityFrom": "Astana",
+          "aTime": 1528281600
+        }
+      ],
+      "distance": 951.6
+    },
+    {
+      "mapIdfrom": "astana",
+      "duration": {
+        "total": 6000,
+        "return": 0,
+        "departure": 6000
+      },
+      "flyTo": "ALA",
+      "conversion": {
+        "EUR": 142
+      },
+      "deep_link": "https://www.kiwi.com/deep?from=TSE&to=ALA&departure=06-06-2018&flightsId=3916460617654372_0%7C3916460617654372_1&price=142&passengers=1&affilid=picky&lang=en&currency=EUR&booking_token=TjFsU9KOyjpEDqm5dNSrO1ZjuRMVMgZrERrSppD325T6P8+P9w468E+3gYirNKm0xjFEaQ8brFkJXYHcFnHHQMiKg0Dkoaiav5UhUit795g/OIIeGu3zW66n+AI37L3cX8rOurQNOgK87p3BOFC020QM/63r5Vh9NXsJkaNfgOhsuoxHDPjPrScY/0g4ajhTpRP6j5lAFCtwNo6dx9SKTuCl+hWHJgzsHG+IVrfKoLFHIAVIStDslAO7jSz0zzDl5ZfjHxMdLql9oYZDpy5WfCmKNTMPFQ2u1lE+6XK2hSW5DXKcvIlyi3iny0fovsynGb1qXsoh7fp89Y7sHtJ/Q2bLGqTbqPzP6zZHurUlL6evRJtf8cbnyqkkeOKY4RGPwmHduDzotyTSk1iOoz3D+ZL+Yz2AZyxwkKI9R+QE8xJNK5D2NFyMvGen7AlF5e7PFDimn8YlBKxKsWWYteJRQvuFRM3TBsQxipjs9VHcPe/d9SJ9mdUxVgcrM+FNnx+6jrHEUn7xulgJjnvLf+OsU/FZkvKeN2ZiyRWF5n0151H6oylruQ45PVQSvFYBbOq0ysRGuDlOo7Hx00H0x/2xfomfRW5DnrTNeVfDjtu9rP+31HH+bQ+4z4L9rcPLiBto8wJ2w5BOulrO3Gk/aulQhNiabN4fsQQ/KdyyJrBApXxOxP/teW7VNjmOVUcx/LES03c5x6xOuqsuInLD7m9ByS3D8AOAtjnrE0tlXfLqnC3Sjv8WvYRTdI/w+M9LUYdgLoF1ftKNGS1pmP1yBA7jSsxlZOLPkHZ9CWR0BIUm2Ok=",
+      "mapIdto": "almaty",
+      "nightsInDest": null,
+      "airlines": [
+        "KC"
+      ],
+      "id": "3916460617654372_0|3916460617654372_1",
+      "facilitated_booking_available": true,
+      "pnr_count": 1,
+      "fly_duration": "1h 40m",
+      "countryTo": {
+        "code": "KZ",
+        "name": "Kazakhstan"
+      },
+      "baglimit": {
+        "hand_width": 45,
+        "hand_length": 56,
+        "hold_weight": 20,
+        "hand_height": 25,
+        "hand_weight": 7
+      },
+      "aTimeUTC": 1528301700,
+      "p3": 1,
+      "price": 142,
+      "type_flights": [
+        "GDS"
+      ],
+      "bags_price": {
+        "1": 0.0
+      },
+      "cityTo": "Almaty",
+      "transfers": [],
+      "flyFrom": "TSE",
+      "dTimeUTC": 1528295700,
+      "p2": 1,
+      "countryFrom": {
+        "code": "KZ",
+        "name": "Kazakhstan"
+      },
+      "p1": 1,
+      "dTime": 1528317300,
+      "found_on": [
+        "deprecated"
+      ],
+      "booking_token": "TjFsU9KOyjpEDqm5dNSrO1ZjuRMVMgZrERrSppD325T6P8+P9w468E+3gYirNKm0xjFEaQ8brFkJXYHcFnHHQMiKg0Dkoaiav5UhUit795g/OIIeGu3zW66n+AI37L3cX8rOurQNOgK87p3BOFC020QM/63r5Vh9NXsJkaNfgOhsuoxHDPjPrScY/0g4ajhTpRP6j5lAFCtwNo6dx9SKTuCl+hWHJgzsHG+IVrfKoLFHIAVIStDslAO7jSz0zzDl5ZfjHxMdLql9oYZDpy5WfCmKNTMPFQ2u1lE+6XK2hSW5DXKcvIlyi3iny0fovsynGb1qXsoh7fp89Y7sHtJ/Q2bLGqTbqPzP6zZHurUlL6evRJtf8cbnyqkkeOKY4RGPwmHduDzotyTSk1iOoz3D+ZL+Yz2AZyxwkKI9R+QE8xJNK5D2NFyMvGen7AlF5e7PFDimn8YlBKxKsWWYteJRQvuFRM3TBsQxipjs9VHcPe/d9SJ9mdUxVgcrM+FNnx+6jrHEUn7xulgJjnvLf+OsU/FZkvKeN2ZiyRWF5n0151H6oylruQ45PVQSvFYBbOq0ysRGuDlOo7Hx00H0x/2xfomfRW5DnrTNeVfDjtu9rP+31HH+bQ+4z4L9rcPLiBto8wJ2w5BOulrO3Gk/aulQhNiabN4fsQQ/KdyyJrBApXxOxP/teW7VNjmOVUcx/LES03c5x6xOuqsuInLD7m9ByS3D8AOAtjnrE0tlXfLqnC3Sjv8WvYRTdI/w+M9LUYdgLoF1ftKNGS1pmP1yBA7jSsxlZOLPkHZ9CWR0BIUm2Ok=",
+      "routes": [
+        [
+          "TSE",
+          "ALA"
+        ]
+      ],
+      "cityFrom": "Astana",
+      "aTime": 1528323300,
+      "route": [
+        {
+          "bags_recheck_required": false,
+          "mapIdfrom": "astana",
+          "flight_no": 996,
+          "original_return": 0,
+          "lngFrom": 71.466944,
+          "flyTo": "ALA",
+          "guarantee": false,
+          "mapIdto": "almaty",
+          "source": "deprecated",
+          "combination_id": "3916460617654372",
+          "id": "3916460617654372_0",
+          "latFrom": 51.023056,
+          "lngTo": 77.042222,
+          "aTimeUTC": 1528301700,
+          "refresh_timestamp": 0,
+          "return": 0,
+          "price": 1,
+          "cityTo": "Almaty",
+          "vehicle_type": "aircraft",
+          "flyFrom": "TSE",
+          "dTimeUTC": 1528295700,
+          "latTo": 43.353333,
+          "dTime": 1528317300,
+          "found_on": "deprecated",
+          "airline": "KC",
+          "cityFrom": "Astana",
+          "aTime": 1528323300
+        }
+      ],
+      "distance": 951.6
+    },
+    {
+      "mapIdfrom": "astana",
+      "duration": {
+        "total": 6000,
+        "return": 0,
+        "departure": 6000
+      },
+      "flyTo": "ALA",
+      "conversion": {
+        "EUR": 142
+      },
+      "deep_link": "https://www.kiwi.com/deep?from=TSE&to=ALA&departure=06-06-2018&flightsId=3916460617654420_0%7C3916460617654420_1&price=142&passengers=1&affilid=picky&lang=en&currency=EUR&booking_token=TjFsU9KOyjpEDqm5dNSrO1ZjuRMVMgZrERrSppD325T6P8+P9w468E+3gYirNKm0xjFEaQ8brFkJXYHcFnHHQMiKg0Dkoaiav5UhUit795iY9mzUM7kpJ4QeWM2TLM86qop/AQ7j+4MeTH4TC1dr3NEF6gCa0uapDp+oPecOi57GBXX0qxLzefvY089XZUu8gDsf4fPYHi/9SWlGWqyvTKQlIVZqT3LUpvay4DMQKKQh3bkaWVhrVZ/87S9DWenKnQF1dInrs11f/hZlvT8c7YpdUOWlZPj3kDOU3Gozzi/6O3UCHoBf5KIupDAsKkLg45lRP6/bsG3hy8ybDAGh6gLl9iY6IGuOGs7PIwJqjBWXfHIQGzt40fEQfaRjp94womt9RQ8NCvmPKbSibZ+2t00MsNMXkAZNxMMisvTFXUe/z3FlDJ4e1SJTDn2FbeGxpdEJgPrm29keJ8621LoQKJRc4O+DkfWdBKtKvisyt5VrwvYWds7Z+N0fRqXFe1mYeBXkyg0qf47Rjd3PRMW3vMNeu31Qq9Mj+PP2JiuFOTij/T9sDHgV7zMU8EjJOEnwA2tNbMNN0oesJSPS1CNpVX8jXWidpJtaGxhj/2c8o4glmQE8P7wJLF2Lc1oAD58aOeMVaLl1EYRdyMtI7bOypDNnzgjPn5v/z7bQfBtIF/HdKzcc3wVdvGXRYF5EQtw+vzGk/p7dd3JZ/Na1yWy3feN2iQBTFF0eG5ha82GGBUEpnck3IOS/oYFllN0Juc5oU0uNy4m4P6C9nfGq42Ht5dCs+bFwLVh9qyEbELy2eFo=",
+      "mapIdto": "almaty",
+      "nightsInDest": null,
+      "airlines": [
+        "KC"
+      ],
+      "id": "3916460617654420_0|3916460617654420_1",
+      "facilitated_booking_available": true,
+      "pnr_count": 1,
+      "fly_duration": "1h 40m",
+      "countryTo": {
+        "code": "KZ",
+        "name": "Kazakhstan"
+      },
+      "baglimit": {
+        "hand_width": 45,
+        "hand_length": 56,
+        "hold_weight": 20,
+        "hand_height": 25,
+        "hand_weight": 7
+      },
+      "aTimeUTC": 1528252800,
+      "p3": 1,
+      "price": 142,
+      "type_flights": [
+        "GDS"
+      ],
+      "bags_price": {
+        "1": 0.0
+      },
+      "cityTo": "Almaty",
+      "transfers": [],
+      "flyFrom": "TSE",
+      "dTimeUTC": 1528246800,
+      "p2": 1,
+      "countryFrom": {
+        "code": "KZ",
+        "name": "Kazakhstan"
+      },
+      "p1": 1,
+      "dTime": 1528268400,
+      "found_on": [
+        "deprecated"
+      ],
+      "booking_token": "TjFsU9KOyjpEDqm5dNSrO1ZjuRMVMgZrERrSppD325T6P8+P9w468E+3gYirNKm0xjFEaQ8brFkJXYHcFnHHQMiKg0Dkoaiav5UhUit795iY9mzUM7kpJ4QeWM2TLM86qop/AQ7j+4MeTH4TC1dr3NEF6gCa0uapDp+oPecOi57GBXX0qxLzefvY089XZUu8gDsf4fPYHi/9SWlGWqyvTKQlIVZqT3LUpvay4DMQKKQh3bkaWVhrVZ/87S9DWenKnQF1dInrs11f/hZlvT8c7YpdUOWlZPj3kDOU3Gozzi/6O3UCHoBf5KIupDAsKkLg45lRP6/bsG3hy8ybDAGh6gLl9iY6IGuOGs7PIwJqjBWXfHIQGzt40fEQfaRjp94womt9RQ8NCvmPKbSibZ+2t00MsNMXkAZNxMMisvTFXUe/z3FlDJ4e1SJTDn2FbeGxpdEJgPrm29keJ8621LoQKJRc4O+DkfWdBKtKvisyt5VrwvYWds7Z+N0fRqXFe1mYeBXkyg0qf47Rjd3PRMW3vMNeu31Qq9Mj+PP2JiuFOTij/T9sDHgV7zMU8EjJOEnwA2tNbMNN0oesJSPS1CNpVX8jXWidpJtaGxhj/2c8o4glmQE8P7wJLF2Lc1oAD58aOeMVaLl1EYRdyMtI7bOypDNnzgjPn5v/z7bQfBtIF/HdKzcc3wVdvGXRYF5EQtw+vzGk/p7dd3JZ/Na1yWy3feN2iQBTFF0eG5ha82GGBUEpnck3IOS/oYFllN0Juc5oU0uNy4m4P6C9nfGq42Ht5dCs+bFwLVh9qyEbELy2eFo=",
+      "routes": [
+        [
+          "TSE",
+          "ALA"
+        ]
+      ],
+      "cityFrom": "Astana",
+      "aTime": 1528274400,
+      "route": [
+        {
+          "bags_recheck_required": false,
+          "mapIdfrom": "astana",
+          "flight_no": 622,
+          "original_return": 0,
+          "lngFrom": 71.466944,
+          "flyTo": "ALA",
+          "guarantee": false,
+          "mapIdto": "almaty",
+          "source": "deprecated",
+          "combination_id": "3916460617654420",
+          "id": "3916460617654420_0",
+          "latFrom": 51.023056,
+          "lngTo": 77.042222,
+          "aTimeUTC": 1528252800,
+          "refresh_timestamp": 0,
+          "return": 0,
+          "price": 1,
+          "cityTo": "Almaty",
+          "vehicle_type": "aircraft",
+          "flyFrom": "TSE",
+          "dTimeUTC": 1528246800,
+          "latTo": 43.353333,
+          "dTime": 1528268400,
+          "found_on": "deprecated",
+          "airline": "KC",
+          "cityFrom": "Astana",
+          "aTime": 1528274400
+        }
+      ],
+      "distance": 951.6
+    },
+    {
+      "mapIdfrom": "astana",
+      "duration": {
+        "total": 6000,
+        "return": 0,
+        "departure": 6000
+      },
+      "flyTo": "ALA",
+      "conversion": {
+        "EUR": 142
+      },
+      "deep_link": "https://www.kiwi.com/deep?from=TSE&to=ALA&departure=06-06-2018&flightsId=3916460617654369_0%7C3916460617654369_1&price=142&passengers=1&affilid=picky&lang=en&currency=EUR&booking_token=TjFsU9KOyjpEDqm5dNSrO1ZjuRMVMgZrERrSppD325T6P8+P9w468E+3gYirNKm0xjFEaQ8brFkJXYHcFnHHQMiKg0Dkoaiav5UhUit795ga968ZfId6YSqVSAY60AYp2XDUbszUu55Gp0PwqgMBTBQ8rwIbgxQhJMttc2C6pricvG8jN70mT5pBHLdWp8bIdhBSb0be31KjPfa/dmCIM3yPsy7YwyJhDcYP//bnQMyuj/15pcGLOlBkvYY3a6Txc1bAomBSspLgsd8QT0XqJ5eiESWsdO7WoWMF2yMhhTrtN0zPxi2Z59bnROUBIeE6w3W2aCMoM8R8tYZRPlRyo9GTfUQDcnjUFC0822dwi3SPqyELjlcC/uhvFt7PWK9TOKSNg9ICNA2b5SL+IKJiwyxt1kJ720ZlSbHQ2hz3FqM3WPkO/y+hptjkV9P88rvWIECARlob+Sgy6ddokGED7J763f9lAikvoLD0mnd+y0w54GJSLvcXG5qNaEWy21QLvESBae9FrF1g5IZV1beUInYpnyioLFcT0B4kTYg+ApRFlaZS4INnsEY1GRx8w+JLx8ZbkeeVWm5CEJFAzVeJrlko+vr2o3dJ6jpNpsCng/8raRjklK/NQKtjLNEcW2TBlWCRFl/mE3fe54DY9XETb8omBS/fkpyudfXEvGTBkgZooNV4C5LF7rf6welPpfPswA1v7fP1EbOPCN3DIOOYcTWmZnT6K3pKm8ynP4w9OZ4pMh4BDkn3JlS5Se+EbkbRQlLjSe6vUViS9Ib6CqVWsT1GWfoXdPq7LbKge0o8lyE=",
+      "mapIdto": "almaty",
+      "nightsInDest": null,
+      "airlines": [
+        "KC"
+      ],
+      "id": "3916460617654369_0|3916460617654369_1",
+      "facilitated_booking_available": true,
+      "pnr_count": 1,
+      "fly_duration": "1h 40m",
+      "countryTo": {
+        "code": "KZ",
+        "name": "Kazakhstan"
+      },
+      "baglimit": {
+        "hand_width": 45,
+        "hand_length": 56,
+        "hold_weight": 20,
+        "hand_height": 25,
+        "hand_weight": 7
+      },
+      "aTimeUTC": 1528293900,
+      "p3": 1,
+      "price": 142,
+      "type_flights": [
+        "GDS"
+      ],
+      "bags_price": {
+        "1": 0.0
+      },
+      "cityTo": "Almaty",
+      "transfers": [],
+      "flyFrom": "TSE",
+      "dTimeUTC": 1528287900,
+      "p2": 1,
+      "countryFrom": {
+        "code": "KZ",
+        "name": "Kazakhstan"
+      },
+      "p1": 1,
+      "dTime": 1528309500,
+      "found_on": [
+        "deprecated"
+      ],
+      "booking_token": "TjFsU9KOyjpEDqm5dNSrO1ZjuRMVMgZrERrSppD325T6P8+P9w468E+3gYirNKm0xjFEaQ8brFkJXYHcFnHHQMiKg0Dkoaiav5UhUit795ga968ZfId6YSqVSAY60AYp2XDUbszUu55Gp0PwqgMBTBQ8rwIbgxQhJMttc2C6pricvG8jN70mT5pBHLdWp8bIdhBSb0be31KjPfa/dmCIM3yPsy7YwyJhDcYP//bnQMyuj/15pcGLOlBkvYY3a6Txc1bAomBSspLgsd8QT0XqJ5eiESWsdO7WoWMF2yMhhTrtN0zPxi2Z59bnROUBIeE6w3W2aCMoM8R8tYZRPlRyo9GTfUQDcnjUFC0822dwi3SPqyELjlcC/uhvFt7PWK9TOKSNg9ICNA2b5SL+IKJiwyxt1kJ720ZlSbHQ2hz3FqM3WPkO/y+hptjkV9P88rvWIECARlob+Sgy6ddokGED7J763f9lAikvoLD0mnd+y0w54GJSLvcXG5qNaEWy21QLvESBae9FrF1g5IZV1beUInYpnyioLFcT0B4kTYg+ApRFlaZS4INnsEY1GRx8w+JLx8ZbkeeVWm5CEJFAzVeJrlko+vr2o3dJ6jpNpsCng/8raRjklK/NQKtjLNEcW2TBlWCRFl/mE3fe54DY9XETb8omBS/fkpyudfXEvGTBkgZooNV4C5LF7rf6welPpfPswA1v7fP1EbOPCN3DIOOYcTWmZnT6K3pKm8ynP4w9OZ4pMh4BDkn3JlS5Se+EbkbRQlLjSe6vUViS9Ib6CqVWsT1GWfoXdPq7LbKge0o8lyE=",
+      "routes": [
+        [
+          "TSE",
+          "ALA"
+        ]
+      ],
+      "cityFrom": "Astana",
+      "aTime": 1528315500,
+      "route": [
+        {
+          "bags_recheck_required": false,
+          "mapIdfrom": "astana",
+          "flight_no": 954,
+          "original_return": 0,
+          "lngFrom": 71.466944,
+          "flyTo": "ALA",
+          "guarantee": false,
+          "mapIdto": "almaty",
+          "source": "deprecated",
+          "combination_id": "3916460617654369",
+          "id": "3916460617654369_0",
+          "latFrom": 51.023056,
+          "lngTo": 77.042222,
+          "aTimeUTC": 1528293900,
+          "refresh_timestamp": 0,
+          "return": 0,
+          "price": 1,
+          "cityTo": "Almaty",
+          "vehicle_type": "aircraft",
+          "flyFrom": "TSE",
+          "dTimeUTC": 1528287900,
+          "latTo": 43.353333,
+          "dTime": 1528309500,
+          "found_on": "deprecated",
+          "airline": "KC",
+          "cityFrom": "Astana",
+          "aTime": 1528315500
+        }
+      ],
+      "distance": 951.6
+    },
+    {
+      "mapIdfrom": "astana",
+      "duration": {
+        "total": 6000,
+        "return": 0,
+        "departure": 6000
+      },
+      "flyTo": "ALA",
+      "conversion": {
+        "EUR": 142
+      },
+      "deep_link": "https://www.kiwi.com/deep?from=TSE&to=ALA&departure=06-06-2018&flightsId=3916460617654399_0%7C3916460617654399_1&price=142&passengers=1&affilid=picky&lang=en&currency=EUR&booking_token=TjFsU9KOyjpEDqm5dNSrO1ZjuRMVMgZrERrSppD325T6P8+P9w468E+3gYirNKm0xjFEaQ8brFkJXYHcFnHHQMiKg0Dkoaiav5UhUit795h+NjF2jvU7URzSxfPch1Mb85S4UqjjyewXZTLD4/n8Fg8C2Ft5vdafXswrEGBoHklL1A4ogw4frpWrHo1X0pB0M3F/LK8JmY7zPoT1ldrLvjKrL7HeAVXuwai5NSGBgo7UyGhziobEX5DYVyj53NDbcCZ/Jb3MHMWlOEQ5jcCBO8I/rMwACuvnAO99gFzJE2GeEwOyvqVOXZzpkAooz2UyzdJeGGFj0eq5/gpkqX8y1mVpouDlnvdrJdJxNDEWPq7CwNeUfYrFx0HtEVE0TU/oah6EN6VHjgeDoLtqT3W6vRk1KMYf87H7IT4m0iRIZ2lU2ie3Zkh5EG07QdLOSl3yaCEama0WIyVzjhVwbZCfwbEyVeovCQvPr5JQdf5PoyDIkMIkMDhXkEnJ9PSUSQHgtpsHOtSlgyrkJ5fjxPRCrwy6gz3hKfAkEQ8ezQiRpARlvijDJA4ZXwa4ru0NxsNrSXmIOUUShKL415ed9IbZ0ngfiu0MYALIy0VZ20V+wrCn7Xk//Urj6Qyf/BZY3ikWk5XL8w9kLRB64snqVOtnI67pKrVH8RPE+nx8aVmRO2x57aujsbwOkMYYEm4CCqNrNgZTXkchtP9MIYyXIMT/QD8hwFfeOdXdltxfV2WtJfuacApWWXstg/tzNH60AsUKfH/+hNayury2g1VdzRTj0wBE6GlBYOzSv04fxNd6N/Q=",
+      "mapIdto": "almaty",
+      "nightsInDest": null,
+      "airlines": [
+        "KC"
+      ],
+      "id": "3916460617654399_0|3916460617654399_1",
+      "facilitated_booking_available": true,
+      "pnr_count": 1,
+      "fly_duration": "1h 40m",
+      "countryTo": {
+        "code": "KZ",
+        "name": "Kazakhstan"
+      },
+      "baglimit": {
+        "hand_width": 45,
+        "hand_length": 56,
+        "hold_weight": 20,
+        "hand_height": 25,
+        "hand_weight": 7
+      },
+      "aTimeUTC": 1528283700,
+      "p3": 1,
+      "price": 142,
+      "type_flights": [
+        "GDS"
+      ],
+      "bags_price": {
+        "1": 0.0
+      },
+      "cityTo": "Almaty",
+      "transfers": [],
+      "flyFrom": "TSE",
+      "dTimeUTC": 1528277700,
+      "p2": 1,
+      "countryFrom": {
+        "code": "KZ",
+        "name": "Kazakhstan"
+      },
+      "p1": 1,
+      "dTime": 1528299300,
+      "found_on": [
+        "deprecated"
+      ],
+      "booking_token": "TjFsU9KOyjpEDqm5dNSrO1ZjuRMVMgZrERrSppD325T6P8+P9w468E+3gYirNKm0xjFEaQ8brFkJXYHcFnHHQMiKg0Dkoaiav5UhUit795h+NjF2jvU7URzSxfPch1Mb85S4UqjjyewXZTLD4/n8Fg8C2Ft5vdafXswrEGBoHklL1A4ogw4frpWrHo1X0pB0M3F/LK8JmY7zPoT1ldrLvjKrL7HeAVXuwai5NSGBgo7UyGhziobEX5DYVyj53NDbcCZ/Jb3MHMWlOEQ5jcCBO8I/rMwACuvnAO99gFzJE2GeEwOyvqVOXZzpkAooz2UyzdJeGGFj0eq5/gpkqX8y1mVpouDlnvdrJdJxNDEWPq7CwNeUfYrFx0HtEVE0TU/oah6EN6VHjgeDoLtqT3W6vRk1KMYf87H7IT4m0iRIZ2lU2ie3Zkh5EG07QdLOSl3yaCEama0WIyVzjhVwbZCfwbEyVeovCQvPr5JQdf5PoyDIkMIkMDhXkEnJ9PSUSQHgtpsHOtSlgyrkJ5fjxPRCrwy6gz3hKfAkEQ8ezQiRpARlvijDJA4ZXwa4ru0NxsNrSXmIOUUShKL415ed9IbZ0ngfiu0MYALIy0VZ20V+wrCn7Xk//Urj6Qyf/BZY3ikWk5XL8w9kLRB64snqVOtnI67pKrVH8RPE+nx8aVmRO2x57aujsbwOkMYYEm4CCqNrNgZTXkchtP9MIYyXIMT/QD8hwFfeOdXdltxfV2WtJfuacApWWXstg/tzNH60AsUKfH/+hNayury2g1VdzRTj0wBE6GlBYOzSv04fxNd6N/Q=",
+      "routes": [
+        [
+          "TSE",
+          "ALA"
+        ]
+      ],
+      "cityFrom": "Astana",
+      "aTime": 1528305300,
+      "route": [
+        {
+          "bags_recheck_required": false,
+          "mapIdfrom": "astana",
+          "flight_no": 854,
+          "original_return": 0,
+          "lngFrom": 71.466944,
+          "flyTo": "ALA",
+          "guarantee": false,
+          "mapIdto": "almaty",
+          "source": "deprecated",
+          "combination_id": "3916460617654399",
+          "id": "3916460617654399_0",
+          "latFrom": 51.023056,
+          "lngTo": 77.042222,
+          "aTimeUTC": 1528283700,
+          "refresh_timestamp": 0,
+          "return": 0,
+          "price": 1,
+          "cityTo": "Almaty",
+          "vehicle_type": "aircraft",
+          "flyFrom": "TSE",
+          "dTimeUTC": 1528277700,
+          "latTo": 43.353333,
+          "dTime": 1528299300,
+          "found_on": "deprecated",
+          "airline": "KC",
+          "cityFrom": "Astana",
+          "aTime": 1528305300
+        }
+      ],
+      "distance": 951.6
+    },
+    {
+      "mapIdfrom": "astana",
+      "duration": {
+        "total": 5400,
+        "return": 0,
+        "departure": 5400
+      },
+      "flyTo": "ALA",
+      "conversion": {
+        "EUR": 274
+      },
+      "deep_link": "https://www.kiwi.com/deep?from=TSE&to=ALA&departure=06-06-2018&flightsId=3527233855686565_0&price=274&passengers=1&affilid=picky&lang=en&currency=EUR&booking_token=TjFsU9KOyjpEDqm5dNSrO1ZjuRMVMgZrERrSppD325T6P8+P9w468E+3gYirNKm0xjFEaQ8brFkJXYHcFnHHQMiKg0Dkoaiav5UhUit795iz0U2G0Ppa2u2c+RlkxXhRAjiiIfv/NdX42b7wOfTIbldcnrPPnmZbWvxtbwyu/4QeypH1uA2oHZiFD2z8qjer3nvpJK9vFE4Y9Z4UYL5SrpUATW/0WQLcAV0aeseihn5XWRs5nWDdhpewr0alqgIaa+spUpW6KwPSFdsjAnssAeK0FjKaW/jFsEcWUHnSNqagJNNJmaUaS8g+xo9bjFbRBXA/nXlAUzFZx98UC9WvfRwu+oDbhLyGFvwWykGeLg+n5PzIekwMVRX/SxhR+oxRAji4K6CGIqk4be5DxCzIo6mdb+Rx18EMdyFdsxtTyavX2bAJmW337G0z2ONC9ByMfqPJbZKPYiM3qGZExGr5jlNgQ4OQRbQrHZWQOGSjHR3+PWXVO9A0plmNYV+Rgd2ViJmNv9tXvekhCKrAAZBzKPwtIk+I/zRcANvWGjVABIGAm2ftRbIPDFleYsqKPxEL7LzgNdMJBXMDeSf5fYB0uSWrxrr+gMpq0B7n6ftI98jpuBWcEcAuPrgbYeNETssjjHThhFdiEIk+VQf3IjYJywk8i6jGvw9auBz2orR4LKdrZ5sh/PC4svEoiLMEUGyhLQSQUPw/AACbkwvXyfGF3jBZU5dYiU+FWKmxn4CiIqU=",
+      "mapIdto": "almaty",
+      "nightsInDest": null,
+      "airlines": [
+        "Z9"
+      ],
+      "id": "3527233855686565_0",
+      "facilitated_booking_available": false,
+      "pnr_count": 1,
+      "fly_duration": "1h 30m",
+      "countryTo": {
+        "code": "KZ",
+        "name": "Kazakhstan"
+      },
+      "baglimit": {
+        "hand_width": 40,
+        "hand_length": 55,
+        "hold_weight": 15,
+        "hand_height": 20,
+        "hand_weight": 5
+      },
+      "aTimeUTC": 1528291800,
+      "p3": 1,
+      "price": 274,
+      "type_flights": [
+        "lcc-Z9"
+      ],
+      "bags_price": {
+        "1": 20.0
+      },
+      "cityTo": "Almaty",
+      "transfers": [],
+      "flyFrom": "TSE",
+      "dTimeUTC": 1528286400,
+      "p2": 1,
+      "countryFrom": {
+        "code": "KZ",
+        "name": "Kazakhstan"
+      },
+      "p1": 1,
+      "dTime": 1528308000,
+      "found_on": [
+        "deprecated"
+      ],
+      "booking_token": "TjFsU9KOyjpEDqm5dNSrO1ZjuRMVMgZrERrSppD325T6P8+P9w468E+3gYirNKm0xjFEaQ8brFkJXYHcFnHHQMiKg0Dkoaiav5UhUit795iz0U2G0Ppa2u2c+RlkxXhRAjiiIfv/NdX42b7wOfTIbldcnrPPnmZbWvxtbwyu/4QeypH1uA2oHZiFD2z8qjer3nvpJK9vFE4Y9Z4UYL5SrpUATW/0WQLcAV0aeseihn5XWRs5nWDdhpewr0alqgIaa+spUpW6KwPSFdsjAnssAeK0FjKaW/jFsEcWUHnSNqagJNNJmaUaS8g+xo9bjFbRBXA/nXlAUzFZx98UC9WvfRwu+oDbhLyGFvwWykGeLg+n5PzIekwMVRX/SxhR+oxRAji4K6CGIqk4be5DxCzIo6mdb+Rx18EMdyFdsxtTyavX2bAJmW337G0z2ONC9ByMfqPJbZKPYiM3qGZExGr5jlNgQ4OQRbQrHZWQOGSjHR3+PWXVO9A0plmNYV+Rgd2ViJmNv9tXvekhCKrAAZBzKPwtIk+I/zRcANvWGjVABIGAm2ftRbIPDFleYsqKPxEL7LzgNdMJBXMDeSf5fYB0uSWrxrr+gMpq0B7n6ftI98jpuBWcEcAuPrgbYeNETssjjHThhFdiEIk+VQf3IjYJywk8i6jGvw9auBz2orR4LKdrZ5sh/PC4svEoiLMEUGyhLQSQUPw/AACbkwvXyfGF3jBZU5dYiU+FWKmxn4CiIqU=",
+      "routes": [
+        [
+          "TSE",
+          "ALA"
+        ]
+      ],
+      "cityFrom": "Astana",
+      "aTime": 1528313400,
+      "route": [
+        {
+          "bags_recheck_required": false,
+          "mapIdfrom": "astana",
+          "flight_no": 2111,
+          "original_return": 0,
+          "lngFrom": 71.466944,
+          "flyTo": "ALA",
+          "guarantee": false,
+          "mapIdto": "almaty",
+          "source": "deprecated",
+          "combination_id": "3527233855686565",
+          "id": "3527233855686565_0",
+          "latFrom": 51.023056,
+          "lngTo": 77.042222,
+          "aTimeUTC": 1528291800,
+          "refresh_timestamp": 1523720784,
+          "return": 0,
+          "price": 1,
+          "cityTo": "Almaty",
+          "vehicle_type": "aircraft",
+          "flyFrom": "TSE",
+          "dTimeUTC": 1528286400,
+          "latTo": 43.353333,
+          "dTime": 1528308000,
+          "found_on": "deprecated",
+          "airline": "Z9",
+          "cityFrom": "Astana",
+          "aTime": 1528313400
+        }
+      ],
+      "distance": 951.6
+    },
+    {
+      "mapIdfrom": "astana",
+      "duration": {
+        "total": 5400,
+        "return": 0,
+        "departure": 5400
+      },
+      "flyTo": "ALA",
+      "conversion": {
+        "EUR": 274
+      },
+      "deep_link": "https://www.kiwi.com/deep?from=TSE&to=ALA&departure=06-06-2018&flightsId=3527233855686564_0&price=274&passengers=1&affilid=picky&lang=en&currency=EUR&booking_token=TjFsU9KOyjpEDqm5dNSrO1ZjuRMVMgZrERrSppD325T6P8+P9w468E+3gYirNKm0xjFEaQ8brFkJXYHcFnHHQMiKg0Dkoaiav5UhUit795jzqmPY3OpkfNsGhCi4f1nTjXTBNR9YHIxc70Jk6yHLgs+//7R81f3S7vNa5/Dx4X8EBnkOUlUqG6mQhwNZ064nGJjt6jZwPdwuSbdldE5lmsGioBXALqDGoqTPhlZv9TFU3NOXhQwPeBahLe2wA3rwV3pm/RFvj330dkarWFmcw5lyx7auhcZUamMuYEWqgS87Ha35yX1zGXKW2QiXARS0isWTbbtEGSXeFZoHqCKAuuem62h1OReId+59bEYi/BWQKI6Vfmmicb3qFaw9jt4qKhIhBOomMVSdL96l8Y6uN3H/7Ul2psvvvXTL9txCTc+kJBS7gAATaUyxbTaC76PG8uwheVM2rbzafxVb/xsNZFhGRsZQZbz/jcCgm1m38BLJCiByMdzplTUj1gvqWsqxvBqJrNDS09pUJcS0WoweZ2X7+LQcEyT21eUWxILcvYLdw0ude50o07DgP5QZIRbnjVufKITORzw1OKmHYzGEPAJFwde30auYmKj7KxhaD/5lXrDuYrP4sxDz2/YLrjrc8ESpNt87hkOWffoBIWGXqeYiyQ5Ev/mnmANx3eOU2iZIESsTUQM9P08PTlVelozUSSsV6LR299LF4HJFPsZbYUv23lDea5oGkzo/tExnG+k=",
+      "mapIdto": "almaty",
+      "nightsInDest": null,
+      "airlines": [
+        "Z9"
+      ],
+      "id": "3527233855686564_0",
+      "facilitated_booking_available": true,
+      "pnr_count": 1,
+      "fly_duration": "1h 30m",
+      "countryTo": {
+        "code": "KZ",
+        "name": "Kazakhstan"
+      },
+      "baglimit": {
+        "hand_width": 40,
+        "hand_length": 55,
+        "hold_weight": 15,
+        "hand_height": 20,
+        "hand_weight": 5
+      },
+      "aTimeUTC": 1528257600,
+      "p3": 1,
+      "price": 274,
+      "type_flights": [
+        "GDS-r"
+      ],
+      "bags_price": {
+        "1": 20.0
+      },
+      "cityTo": "Almaty",
+      "transfers": [],
+      "flyFrom": "TSE",
+      "dTimeUTC": 1528252200,
+      "p2": 1,
+      "countryFrom": {
+        "code": "KZ",
+        "name": "Kazakhstan"
+      },
+      "p1": 1,
+      "dTime": 1528273800,
+      "found_on": [
+        "deprecated"
+      ],
+      "booking_token": "TjFsU9KOyjpEDqm5dNSrO1ZjuRMVMgZrERrSppD325T6P8+P9w468E+3gYirNKm0xjFEaQ8brFkJXYHcFnHHQMiKg0Dkoaiav5UhUit795jzqmPY3OpkfNsGhCi4f1nTjXTBNR9YHIxc70Jk6yHLgs+//7R81f3S7vNa5/Dx4X8EBnkOUlUqG6mQhwNZ064nGJjt6jZwPdwuSbdldE5lmsGioBXALqDGoqTPhlZv9TFU3NOXhQwPeBahLe2wA3rwV3pm/RFvj330dkarWFmcw5lyx7auhcZUamMuYEWqgS87Ha35yX1zGXKW2QiXARS0isWTbbtEGSXeFZoHqCKAuuem62h1OReId+59bEYi/BWQKI6Vfmmicb3qFaw9jt4qKhIhBOomMVSdL96l8Y6uN3H/7Ul2psvvvXTL9txCTc+kJBS7gAATaUyxbTaC76PG8uwheVM2rbzafxVb/xsNZFhGRsZQZbz/jcCgm1m38BLJCiByMdzplTUj1gvqWsqxvBqJrNDS09pUJcS0WoweZ2X7+LQcEyT21eUWxILcvYLdw0ude50o07DgP5QZIRbnjVufKITORzw1OKmHYzGEPAJFwde30auYmKj7KxhaD/5lXrDuYrP4sxDz2/YLrjrc8ESpNt87hkOWffoBIWGXqeYiyQ5Ev/mnmANx3eOU2iZIESsTUQM9P08PTlVelozUSSsV6LR299LF4HJFPsZbYUv23lDea5oGkzo/tExnG+k=",
+      "routes": [
+        [
+          "TSE",
+          "ALA"
+        ]
+      ],
+      "cityFrom": "Astana",
+      "aTime": 1528279200,
+      "route": [
+        {
+          "bags_recheck_required": false,
+          "mapIdfrom": "astana",
+          "flight_no": 2121,
+          "original_return": 0,
+          "lngFrom": 71.466944,
+          "flyTo": "ALA",
+          "guarantee": false,
+          "mapIdto": "almaty",
+          "source": "deprecated",
+          "combination_id": "3527233855686564",
+          "id": "3527233855686564_0",
+          "latFrom": 51.023056,
+          "lngTo": 77.042222,
+          "aTimeUTC": 1528257600,
+          "refresh_timestamp": 1523719762,
+          "return": 0,
+          "price": 1,
+          "cityTo": "Almaty",
+          "vehicle_type": "aircraft",
+          "flyFrom": "TSE",
+          "dTimeUTC": 1528252200,
+          "latTo": 43.353333,
+          "dTime": 1528273800,
+          "found_on": "deprecated",
+          "airline": "Z9",
+          "cityFrom": "Astana",
+          "aTime": 1528279200
+        }
+      ],
+      "distance": 951.6
+    },
+    {
+      "mapIdfrom": "astana",
+      "duration": {
+        "total": 5400,
+        "return": 0,
+        "departure": 5400
+      },
+      "flyTo": "ALA",
+      "conversion": {
+        "EUR": 274
+      },
+      "deep_link": "https://www.kiwi.com/deep?from=TSE&to=ALA&departure=06-06-2018&flightsId=3527233855686563_0&price=274&passengers=1&affilid=picky&lang=en&currency=EUR&booking_token=TjFsU9KOyjpEDqm5dNSrO1ZjuRMVMgZrERrSppD325T6P8+P9w468E+3gYirNKm0xjFEaQ8brFkJXYHcFnHHQMiKg0Dkoaiav5UhUit795gkf4zGhVA7zek//RtJl6UIc2ZJAdVvMIVQwgnsMmf5vP58z9kZaePQXvQOgaT10yDGrCxJaxNUJcUN53c6u9t+mKWjTS1XSe8PvEyi1aWsXn6W8SzbFIyXy7VVDViqwYpVM7QhBwnPQyuOiJKgBi3mC55kNhwuFrz8J7QNFn3E7Klhow+XoGhnWLx3jrPSvRx5RE+f4A8mc1EMeOskOjsirgnLd252AbziXSQ6OsBMRhGGQT0UALGY8svveGvkHbHOinpD31m7G2FRjWk5lfUEmIN25PIrIB1dKpljMIX8qbCGq46ejqiJNmwyjuXXfEb/EbqHN/fcjYhUBQzc6PgkP74h8RA+8/YtENQBofPwU/raFT14MsZ6CrvPqeK+gfcQnxKY1ho2ZC+q5QPRuHpiO6LWWEbf3uBLUIxyxCHs81S95O4mhiIt66pvshZuMEzCARHtTios30TBnePwfcXKPTB6rv/BNGRU7GL7mLYazPoN7MaODT3Zp2gzT2orbyWR9ocvQ5x/eNT6SgB3fOD69j6xJldIc5HZfSpH2PA5Vutd4h3LJjwvQe+ofuovHMnT3jxmmNVQ8wcMCN1SzcrMJXwTT/oJrGA6KfNDHCtx9Nlv+z2FCyqq0bxDAYsMjDE=",
+      "mapIdto": "almaty",
+      "nightsInDest": null,
+      "airlines": [
+        "Z9"
+      ],
+      "id": "3527233855686563_0",
+      "facilitated_booking_available": false,
+      "pnr_count": 1,
+      "fly_duration": "1h 30m",
+      "countryTo": {
+        "code": "KZ",
+        "name": "Kazakhstan"
+      },
+      "baglimit": {
+        "hand_width": 40,
+        "hand_length": 55,
+        "hold_weight": 15,
+        "hand_height": 20,
+        "hand_weight": 5
+      },
+      "aTimeUTC": 1528232400,
+      "p3": 1,
+      "price": 274,
+      "type_flights": [
+        "lcc-Z9"
+      ],
+      "bags_price": {
+        "1": 20.0
+      },
+      "cityTo": "Almaty",
+      "transfers": [],
+      "flyFrom": "TSE",
+      "dTimeUTC": 1528227000,
+      "p2": 1,
+      "countryFrom": {
+        "code": "KZ",
+        "name": "Kazakhstan"
+      },
+      "p1": 1,
+      "dTime": 1528248600,
+      "found_on": [
+        "deprecated"
+      ],
+      "booking_token": "TjFsU9KOyjpEDqm5dNSrO1ZjuRMVMgZrERrSppD325T6P8+P9w468E+3gYirNKm0xjFEaQ8brFkJXYHcFnHHQMiKg0Dkoaiav5UhUit795gkf4zGhVA7zek//RtJl6UIc2ZJAdVvMIVQwgnsMmf5vP58z9kZaePQXvQOgaT10yDGrCxJaxNUJcUN53c6u9t+mKWjTS1XSe8PvEyi1aWsXn6W8SzbFIyXy7VVDViqwYpVM7QhBwnPQyuOiJKgBi3mC55kNhwuFrz8J7QNFn3E7Klhow+XoGhnWLx3jrPSvRx5RE+f4A8mc1EMeOskOjsirgnLd252AbziXSQ6OsBMRhGGQT0UALGY8svveGvkHbHOinpD31m7G2FRjWk5lfUEmIN25PIrIB1dKpljMIX8qbCGq46ejqiJNmwyjuXXfEb/EbqHN/fcjYhUBQzc6PgkP74h8RA+8/YtENQBofPwU/raFT14MsZ6CrvPqeK+gfcQnxKY1ho2ZC+q5QPRuHpiO6LWWEbf3uBLUIxyxCHs81S95O4mhiIt66pvshZuMEzCARHtTios30TBnePwfcXKPTB6rv/BNGRU7GL7mLYazPoN7MaODT3Zp2gzT2orbyWR9ocvQ5x/eNT6SgB3fOD69j6xJldIc5HZfSpH2PA5Vutd4h3LJjwvQe+ofuovHMnT3jxmmNVQ8wcMCN1SzcrMJXwTT/oJrGA6KfNDHCtx9Nlv+z2FCyqq0bxDAYsMjDE=",
+      "routes": [
+        [
+          "TSE",
+          "ALA"
+        ]
+      ],
+      "cityFrom": "Astana",
+      "aTime": 1528254000,
+      "route": [
+        {
+          "bags_recheck_required": false,
+          "mapIdfrom": "astana",
+          "flight_no": 2051,
+          "original_return": 0,
+          "lngFrom": 71.466944,
+          "flyTo": "ALA",
+          "guarantee": false,
+          "mapIdto": "almaty",
+          "source": "deprecated",
+          "combination_id": "3527233855686563",
+          "id": "3527233855686563_0",
+          "latFrom": 51.023056,
+          "lngTo": 77.042222,
+          "aTimeUTC": 1528232400,
+          "refresh_timestamp": 1523720784,
+          "return": 0,
+          "price": 1,
+          "cityTo": "Almaty",
+          "vehicle_type": "aircraft",
+          "flyFrom": "TSE",
+          "dTimeUTC": 1528227000,
+          "latTo": 43.353333,
+          "dTime": 1528248600,
+          "found_on": "deprecated",
+          "airline": "Z9",
+          "cityFrom": "Astana",
+          "aTime": 1528254000
+        }
+      ],
+      "distance": 951.6
+    }
+  ],
+  "ref_tasks": [],
+  "refresh": [],
+  "del": null,
+  "all_airlines": [],
+  "time": 1
+}
