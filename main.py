@@ -4,6 +4,7 @@ import requests
 import json
 import time
 from currency_converter import CurrencyConverter
+from emoji import emojize
 
 BOLD = '\033[1m'
 END = '\033[0m'
@@ -47,14 +48,31 @@ def handle_text(message):
     user_markup = telebot.types.ReplyKeyboardMarkup(True, False)
     user_markup.row('/start', '/end')
     user_markup.row('/next', '/choose time')
-    bot.send_message(message.from_user.id, """Hello, I can help you to find the tickets to airplane.
-    It will be easy to use me instead of surfing the Internet
-    """, reply_markup=user_markup)
+    m1 = "Hello, my dear friend!\n I can find the cheapest airline tickets for you!"
+    m2 = "You have to just write some information about destinations and date in the given order:\n"
+    m3 = "City from you will fly out"
+    m4 = "City where you will fly"
+    m5 = "Date of the fly or first day of the interval"
+    m6 = "Last day of the interval(optional)"
+    m7 = "For example:\n Moscow - Astana - 19/05/2018"
+    m8 = " Almaty - Kazan - 16/04/2018 - 25/04/2018"
+    em1 = emojize(":airplane:", use_aliases=True)
+    em2 = emojize(":date:", use_aliases=True)
+    em3 = emojize(":small_orange_diamond:", use_aliases=True)
+    em4 = emojize(":small_blue_diamond:", use_aliases=True)
+    em8 = emojize(":arrow_upper_right:", use_aliases=True)
+    em9 = emojize(":arrow_lower_right:", use_aliases=True)
+    em5 = emojize(":white_check_mark:", use_aliases=True)
+    sendtext = m1 + em1 + "\n" + m2 + em3 + m3 + em8 + "\n" + em4 + m4 + em9 + "\n" + em3 + m5 + em2 + "\n" + em4 + m6 + em2 + "\n" + m7 + em5 + "\n" + m8 + em5
+    bot.send_message(message.from_user.id, sendtext, reply_markup=user_markup)
 
 @bot.message_handler(commands=['end'])
 def handle_text(message):
-    hide_markup = telebot.types.ReplyKeyboardHide
-    bot.send_message(message.from_user.id, "GoodBye" ,reply_markup=hide_markup)
+    hide_markup = telebot.types.ReplyKeyboardRemove()
+    bot.send_message(message.from_user.id, "GoodBye", reply_markup=hide_markup)
+
+
+
 
 @bot.message_handler(content_types=['text'])
 def handle_text(message):
