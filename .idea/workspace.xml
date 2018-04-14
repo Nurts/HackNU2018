@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ecd0d0d5-dc61-4e2c-ac9d-47f904e233db" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/answer.json" beforeDir="false" afterPath="$PROJECT_DIR$/answer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,11 +26,20 @@
       <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="42" column="25" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
+            <state relative-caret-position="289">
+              <caret line="45" column="31" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
               <folding>
                 <element signature="e#35#49#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="answer.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/answer.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="99246">
+              <caret line="5838" column="1" lean-forward="true" selection-start-line="5838" selection-start-column="1" selection-end-line="5838" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -319,8 +328,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/answer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="1278" column="16" lean-forward="true" selection-start-line="1278" selection-start-column="16" selection-end-line="1278" selection-end-column="16" />
+        <state relative-caret-position="99246">
+          <caret line="5838" column="1" lean-forward="true" selection-start-line="5838" selection-start-column="1" selection-end-line="5838" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -333,8 +342,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="42" column="25" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
+        <state relative-caret-position="289">
+          <caret line="45" column="31" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
           <folding>
             <element signature="e#35#49#0" expanded="true" />
           </folding>
