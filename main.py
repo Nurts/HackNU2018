@@ -6,6 +6,9 @@ import json
 import time
 from currency_converter import CurrencyConverter
 
+BOLD = '\033[1m'
+END = '\033[0m'
+
 bot = telebot.TeleBot(constants.token)
 
 
@@ -29,6 +32,7 @@ def goo_shorten_url(url):
     r = requests.post(post_url, data=json.dumps(payload), headers=headers)
     return r.json()['id']
 
+#def sort_by_time(s, f):
 
 @bot.message_handler(commands=['help'])
 def handle_text(message):
@@ -37,10 +41,17 @@ def handle_text(message):
 
 @bot.message_handler(commands=['start'])
 def handle_text(message):
+    user_markup = telebot.types.ReplyKeyboardMarkup(True, False)
+    user_markup.row('/start', '/end')
+    user_markup.row('/next', '/choose time')
     bot.send_message(message.from_user.id, """Hello, I can help you to find the tickets to airplane.
     It will be easy to use me instead of surfing the Internet
-    """)
+    """, reply_markup=user_markup)
 
+@bot.message_handler(commands=['end'])
+def handle_text(message):
+    hide_markup = telebot.types.ReplyKeyboardHide
+    bot.send_message(message.from_user.id, "GoodBye" ,reply_markup=hide_markup)
 
 @bot.message_handler(content_types=['text'])
 def handle_text(message):
@@ -84,7 +95,7 @@ def handle_text(message):
                             min_cost = each['conversion']['EUR']
                             price = each['price']
                             c = CurrencyConverter()
-                            tem1 = "From airport: " +  each['cityFrom']  + "  To airport: " + each['cityTo'] + "\n"
+                            tem1 = "From airport: " + BOLD + each['cityFrom'] +END + "  To airport: " + each['cityTo'] + "\n"
                             tem2 = "Time leaving: " + time.strftime("%D %H:%M", time.localtime(int(each['dTime']))) + "  Time arriving: " + time.strftime("%D %H:%M", time.localtime(int(each['aTime'])))
                             tem3 = "The best Price: €" + str(price) + " (" + str(c.convert(price,'EUR','USD'))[:6] + " USD)\n"
 
@@ -94,7 +105,7 @@ def handle_text(message):
 
     else:
         answer = "I don't know"
-    bot.send_message(message.from_user.id, answer)
+    bot.send_message(message.from_user.id)
     log(message, answer)
 
 

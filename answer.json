@@ -25,104 +25,7 @@
       "conversion": {
         "EUR": 104
       },
-      "deep_link": "https://www.kiwi.com/deep?from=TSE&to=ALA&departure=06-06-2018&flightsId=4031909150582640_0%7C4031909150582640_1&price=104&passengers=1&affilid=picky&lang=en&currency=EUR&booking_token=TjFsU9KOyjpEDqm5dNSrO1ZjuRMVMgZrERrSppD325T6P8+P9w468E+3gYirNKm0xjFEaQ8brFkJXYHcFnHHQMiKg0Dkoaiav5UhUit795iH+ye6QLBiXEuRH7DpkvCi518FkCTa6S44z3bBlYWTndkvPfzVpD9ObGLn5CQOSGu9DhApd/fckx+1UZp3ZFmeVVKEBWVEJ/6TF1l8poy5EX31EDCItzNbedk7pJ0Kp4/fOtlWBDrHRnvREnUv++4xGRPKBJacbBwxqRxYQJRSrZKgfBILqFT3wT680yKYorgjnoRUcBDudWueuFZHbdf2ZIGdGaVJR7OyYp15XnfKgIY3ilbg64wOX7jPYMIj+zmJnmF3h31DfxEWYrUGIfnyR1mKxQoFnu4Q1lBd08/UdF0NUP6AJxiUYKk6ehjaD2znXeOappASSYzb75tNLLHKrpz5w315K154G257sR72lx4bRCmriUJIdmAgmmWaAsGgFLdlppweYdsMkTZTqnEhh9dinWAcm47i+AxLXo8Y84sNeIs5LWXF1KMke9T6WQBciuT71kbpvoHb/WV+afSw1o04phLa6F1NHTowUs40r+h86YrQ8Fc+9lPQFTfooVXgHawO03U4E5cLJjrTOdVIGC6ZVR4P0p9iHmdXMslu0ES4NwUim3/Wx6z498Vm95jq04ffhI2cCjauodFK0FP4EYTYozwyvrP14c//13uRWGXbik7V0UdxWpULUuGm8gHnyGxJFESel95DCxjMDc73dK6JpQNkoS7wUbz57hFdFWDxxjc7mq5u6iFOytitlmA=",
-      "mapIdto": "almaty",
-      "nightsInDest": null,
-      "airlines": [
-        "KC"
-      ],
-      "id": "4031909150582640_0|4031909150582640_1",
-      "facilitated_booking_available": true,
-      "pnr_count": 1,
-      "fly_duration": "1h 40m",
-      "countryTo": {
-        "code": "KZ",
-        "name": "Kazakhstan"
-      },
-      "baglimit": {
-        "hand_width": 45,
-        "hand_length": 56,
-        "hold_weight": 20,
-        "hand_height": 25,
-        "hand_weight": 7
-      },
-      "aTimeUTC": 1528262400,
-      "p3": 1,
-      "price": 104,
-      "type_flights": [
-        "GDS"
-      ],
-      "bags_price": {
-        "1": 0.0
-      },
-      "cityTo": "Almaty",
-      "transfers": [],
-      "flyFrom": "TSE",
-      "dTimeUTC": 1528256400,
-      "p2": 1,
-      "countryFrom": {
-        "code": "KZ",
-        "name": "Kazakhstan"
-      },
-      "p1": 1,
-      "dTime": 1528278000,
-      "found_on": [
-        "deprecated"
-      ],
-      "booking_token": "TjFsU9KOyjpEDqm5dNSrO1ZjuRMVMgZrERrSppD325T6P8+P9w468E+3gYirNKm0xjFEaQ8brFkJXYHcFnHHQMiKg0Dkoaiav5UhUit795iH+ye6QLBiXEuRH7DpkvCi518FkCTa6S44z3bBlYWTndkvPfzVpD9ObGLn5CQOSGu9DhApd/fckx+1UZp3ZFmeVVKEBWVEJ/6TF1l8poy5EX31EDCItzNbedk7pJ0Kp4/fOtlWBDrHRnvREnUv++4xGRPKBJacbBwxqRxYQJRSrZKgfBILqFT3wT680yKYorgjnoRUcBDudWueuFZHbdf2ZIGdGaVJR7OyYp15XnfKgIY3ilbg64wOX7jPYMIj+zmJnmF3h31DfxEWYrUGIfnyR1mKxQoFnu4Q1lBd08/UdF0NUP6AJxiUYKk6ehjaD2znXeOappASSYzb75tNLLHKrpz5w315K154G257sR72lx4bRCmriUJIdmAgmmWaAsGgFLdlppweYdsMkTZTqnEhh9dinWAcm47i+AxLXo8Y84sNeIs5LWXF1KMke9T6WQBciuT71kbpvoHb/WV+afSw1o04phLa6F1NHTowUs40r+h86YrQ8Fc+9lPQFTfooVXgHawO03U4E5cLJjrTOdVIGC6ZVR4P0p9iHmdXMslu0ES4NwUim3/Wx6z498Vm95jq04ffhI2cCjauodFK0FP4EYTYozwyvrP14c//13uRWGXbik7V0UdxWpULUuGm8gHnyGxJFESel95DCxjMDc73dK6JpQNkoS7wUbz57hFdFWDxxjc7mq5u6iFOytitlmA=",
-      "routes": [
-        [
-          "TSE",
-          "ALA"
-        ]
-      ],
-      "cityFrom": "Astana",
-      "aTime": 1528284000,
-      "route": [
-        {
-          "bags_recheck_required": false,
-          "mapIdfrom": "astana",
-          "flight_no": 672,
-          "original_return": 0,
-          "lngFrom": 71.466944,
-          "flyTo": "ALA",
-          "guarantee": false,
-          "mapIdto": "almaty",
-          "source": "deprecated",
-          "combination_id": "4031909150582640",
-          "id": "4031909150582640_0",
-          "latFrom": 51.023056,
-          "lngTo": 77.042222,
-          "aTimeUTC": 1528262400,
-          "refresh_timestamp": 0,
-          "return": 0,
-          "price": 1,
-          "cityTo": "Almaty",
-          "vehicle_type": "aircraft",
-          "flyFrom": "TSE",
-          "dTimeUTC": 1528256400,
-          "latTo": 43.353333,
-          "dTime": 1528278000,
-          "found_on": "deprecated",
-          "airline": "KC",
-          "cityFrom": "Astana",
-          "aTime": 1528284000
-        }
-      ],
-      "distance": 951.6
-    },
-    {
-      "mapIdfrom": "astana",
-      "duration": {
-        "total": 6000,
-        "return": 0,
-        "departure": 6000
-      },
-      "flyTo": "ALA",
-      "conversion": {
-        "EUR": 104
-      },
-      "deep_link": "https://www.kiwi.com/deep?from=TSE&to=ALA&departure=06-06-2018&flightsId=3912062570387972_0%7C3912062570387972_1&price=104&passengers=1&affilid=picky&lang=en&currency=EUR&booking_token=TjFsU9KOyjpEDqm5dNSrO1ZjuRMVMgZrERrSppD325T6P8+P9w468E+3gYirNKm0xjFEaQ8brFkJXYHcFnHHQMiKg0Dkoaiav5UhUit795jtH7FdyZdf5FJhuSVBpmnJbGoxF2K/qtNSpmbWnTnfIHAcu7O1Vix3PES/FWh1iQ/PrOdlBf0mNDBfAn8XmiHQ6zbIOLKHbS5XOPXMOI7GcEOcqHwbczLXCCCzlpwV9sJ4okRvrTdkAUnp/4LJah0HgUI7pvqFyKaAgfkejwjq9GwcwWNw6tuy9EGeaQR5dhYgVceOZIWEN9NGXmcjwnIcMyyN+2CMjpBy+4Nx+m4q1L/udEJ/ht97nIg/FPBll/UNM2iSsXXjHTrYAs7Ir33dJ+D6cUQotXAFg61KzelAPg2fiMfxqA/g5Bd9m5ZtAoZngCFEQOMhQQ2O+eU+2Rbqwm/rM5tBilZDy8rmnQlHCCMAVIrYQWdto8UfmjEAGy5MHj8EaJYaq8AI2vFKtJEKHOPo/jhlFEkG1XtsVk4hoO+Pxn1rxePmopuqDUgoQDolHSdMQQe3mhZll4+WGXyGvrv1wtzux5r25xdstOfUr1tazSBbD5swpQkn6FTNzkumqwFX3XPslbUAeAVoNzINcB/7fXYzu+0VjAQBF9VP8nStokKrDOyH4r6Y9n9GaYBKsY0ZolduH9Klg019gsZbpb86xUqRmYpa1gi7yisM8QPVFPeNFdlIZJJrq3EEeaOC+6VwvDtvrZuyQ7wfCtR6pvW8XEanIqKiumFqmFaWcwHANH9D/uyj34t8L4Fpfyw=",
+      "deep_link": "https://www.kiwi.com/deep?from=TSE&to=ALA&departure=06-06-2018&flightsId=3912062570387972_0%7C3912062570387972_1&price=104&passengers=1&affilid=picky&lang=en&currency=EUR&booking_token=TjFsU9KOyjpEDqm5dNSrO1ZjuRMVMgZrERrSppD325T6P8+P9w468E+3gYirNKm0xjFEaQ8brFkJXYHcFnHHQMiKg0Dkoaiav5UhUit795jtH7FdyZdf5FJhuSVBpmnJbGoxF2K/qtNSpmbWnTnfIHAcu7O1Vix3PES/FWh1iQ/PrOdlBf0mNDBfAn8XmiHQ6zbIOLKHbS5XOPXMOI7GcEwRWnBP1KMYvI9UbirjQOC//DPc2wArPx2Clg3vxAfrsApKq9aaHGVN4yRBQJ+8rg4aKUKpFDh9z+pI8Ep5NJAbI9DJF8qCNY7w0gbHvOiTosy7smY+6IPdce6KvR59HuU4ZsHTHzMPu97RCqFTKDhuuytbXkZbYCLMwvKxAQopAvf1iAszJeq7uTTYMBBhXeCBRwS+8gjBE0Ice3RYI/kW3hSZl7CVpfXJWc6SQoKmeiDtF3GPEZWHguzH9X1/+XIbFQ79CRdiQYrGRw0Yizq26vB1llthyIJp7Y6aKept/4QRoVG7HETLoF/uqahN5YRR8A+nS5X0+cpO/Jo5ioLVIR2kRitOwPQsmpWwJ6UQggF4JYHqb5m+T3apcUnQp+bKMiofVMDVSDVphwSdgFMSm35luh/qDxpDVQinn/Jpc15KApLxH5ibYEvwxlKjdFj6EkYFgUcHuv/QrMq/D6dgPUfKx8NW2vU/chYsa+TiDoIxLySBHYnjl7AMZn5AV8Rw0rDABHYnACxBknF4Eolm/nDK/TO83kJSJvw5Bxxjanv6pM19giG9K8oxUJVxI1Ii0i71ouiGqkChCfr6aHs=",
       "mapIdto": "almaty",
       "nightsInDest": null,
       "airlines": [
@@ -166,7 +69,7 @@
       "found_on": [
         "deprecated"
       ],
-      "booking_token": "TjFsU9KOyjpEDqm5dNSrO1ZjuRMVMgZrERrSppD325T6P8+P9w468E+3gYirNKm0xjFEaQ8brFkJXYHcFnHHQMiKg0Dkoaiav5UhUit795jtH7FdyZdf5FJhuSVBpmnJbGoxF2K/qtNSpmbWnTnfIHAcu7O1Vix3PES/FWh1iQ/PrOdlBf0mNDBfAn8XmiHQ6zbIOLKHbS5XOPXMOI7GcEOcqHwbczLXCCCzlpwV9sJ4okRvrTdkAUnp/4LJah0HgUI7pvqFyKaAgfkejwjq9GwcwWNw6tuy9EGeaQR5dhYgVceOZIWEN9NGXmcjwnIcMyyN+2CMjpBy+4Nx+m4q1L/udEJ/ht97nIg/FPBll/UNM2iSsXXjHTrYAs7Ir33dJ+D6cUQotXAFg61KzelAPg2fiMfxqA/g5Bd9m5ZtAoZngCFEQOMhQQ2O+eU+2Rbqwm/rM5tBilZDy8rmnQlHCCMAVIrYQWdto8UfmjEAGy5MHj8EaJYaq8AI2vFKtJEKHOPo/jhlFEkG1XtsVk4hoO+Pxn1rxePmopuqDUgoQDolHSdMQQe3mhZll4+WGXyGvrv1wtzux5r25xdstOfUr1tazSBbD5swpQkn6FTNzkumqwFX3XPslbUAeAVoNzINcB/7fXYzu+0VjAQBF9VP8nStokKrDOyH4r6Y9n9GaYBKsY0ZolduH9Klg019gsZbpb86xUqRmYpa1gi7yisM8QPVFPeNFdlIZJJrq3EEeaOC+6VwvDtvrZuyQ7wfCtR6pvW8XEanIqKiumFqmFaWcwHANH9D/uyj34t8L4Fpfyw=",
+      "booking_token": "TjFsU9KOyjpEDqm5dNSrO1ZjuRMVMgZrERrSppD325T6P8+P9w468E+3gYirNKm0xjFEaQ8brFkJXYHcFnHHQMiKg0Dkoaiav5UhUit795jtH7FdyZdf5FJhuSVBpmnJbGoxF2K/qtNSpmbWnTnfIHAcu7O1Vix3PES/FWh1iQ/PrOdlBf0mNDBfAn8XmiHQ6zbIOLKHbS5XOPXMOI7GcEwRWnBP1KMYvI9UbirjQOC//DPc2wArPx2Clg3vxAfrsApKq9aaHGVN4yRBQJ+8rg4aKUKpFDh9z+pI8Ep5NJAbI9DJF8qCNY7w0gbHvOiTosy7smY+6IPdce6KvR59HuU4ZsHTHzMPu97RCqFTKDhuuytbXkZbYCLMwvKxAQopAvf1iAszJeq7uTTYMBBhXeCBRwS+8gjBE0Ice3RYI/kW3hSZl7CVpfXJWc6SQoKmeiDtF3GPEZWHguzH9X1/+XIbFQ79CRdiQYrGRw0Yizq26vB1llthyIJp7Y6aKept/4QRoVG7HETLoF/uqahN5YRR8A+nS5X0+cpO/Jo5ioLVIR2kRitOwPQsmpWwJ6UQggF4JYHqb5m+T3apcUnQp+bKMiofVMDVSDVphwSdgFMSm35luh/qDxpDVQinn/Jpc15KApLxH5ibYEvwxlKjdFj6EkYFgUcHuv/QrMq/D6dgPUfKx8NW2vU/chYsa+TiDoIxLySBHYnjl7AMZn5AV8Rw0rDABHYnACxBknF4Eolm/nDK/TO83kJSJvw5Bxxjanv6pM19giG9K8oxUJVxI1Ii0i71ouiGqkChCfr6aHs=",
       "routes": [
         [
           "TSE",
@@ -219,7 +122,7 @@
       "conversion": {
         "EUR": 125
       },
-      "deep_link": "https://www.kiwi.com/deep?from=TSE&to=ALA&departure=06-06-2018&flightsId=3916460617654318_0%7C3916460617654318_1%7C3916460617654318_2&price=125&passengers=1&affilid=picky&lang=en&currency=EUR&booking_token=TjFsU9KOyjpEDqm5dNSrO1ZjuRMVMgZrERrSppD325T6P8+P9w468E+3gYirNKm0xjFEaQ8brFkJXYHcFnHHQMiKg0Dkoaiav5UhUit795g97HlmsH6AqDGRkT/fAb6WSM9jbyMyUaKiacE0oC8LhzQvHTLJ6jfiJVrEUv7KZrm5fP9bdExO6I6PHORpa8OYyQ13W1Tba6SQ3A2K63yAZ51gKKhgWu7ylJgC8CdqeQopqgLSP+pVB1E6G5/OQqMPfS4VKasbsjByj6TBApy8cnKMlUxSKzTKn/eoA5Ovoeiziewctyz2+3cRECzXoGl/G9IfXavJnyE9M8fMOGGuWqCph77u3sLVzQ7Nut7s0Avw21oov51f5mBt4VvfgO3aBLgpsoTFfa9kIhxOxd35j1/tHpIp7nI3vtnGvJDk+Q1N0IiBRs1IcsvZ+opaYLU6qtSzoJDhR4Qiz7EU76as/h3yB+EkGVDAJLT57MRB3nlyoF7wWybC5IA30KiFOV3/CybQZRSvWbSCUri+KdwZq0TwJv+uOB/lKBmo0MKngD40mAiHzTCljj5OrLPynSx5IIQwY2J1fyhLpSaFeutxr0dVh/dYQeladcSaDUghf79wiwcvJOmL45Ku/5jjmVhD7rkINswQ1Rv1LZRo6b4vTGFjON4IKpHfD9WM2sgARJAL5YT4gT8Gp7Iw8aY4vGUWQ6gTHjVA00oQ3E0Qok1SMVSt7B5XcNZlkNfd+pGdPvGYDwQ9cWEcTvEy2Aa0s0ZvTlIQdOhS6jUMXVhpqN4eVVCVpv2PJmQE8A8TesyR/DmwWz2oFS+MtE95GApi4uwbfPDssNONxwEcCrzKSNSiNA==",
+      "deep_link": "https://www.kiwi.com/deep?from=TSE&to=ALA&departure=06-06-2018&flightsId=3916460617654318_0%7C3916460617654318_1%7C3916460617654318_2&price=125&passengers=1&affilid=picky&lang=en&currency=EUR&booking_token=TjFsU9KOyjpEDqm5dNSrO1ZjuRMVMgZrERrSppD325T6P8+P9w468E+3gYirNKm0xjFEaQ8brFkJXYHcFnHHQMiKg0Dkoaiav5UhUit795g97HlmsH6AqDGRkT/fAb6WSM9jbyMyUaKiacE0oC8LhzQvHTLJ6jfiJVrEUv7KZrm5fP9bdExO6I6PHORpa8OYyQ13W1Tba6SQ3A2K63yAZ51gKKhgWu7ylJgC8CdqeQqafH4Uoz+BIyWd3mpM5QkJXpgRBSzSQlz+RWTMf0hYhbDxgw+l25QdlVh2XcGDlTatXryzYnmVwKygs5Qdn3w9Ev2Hx0NsN2zJvr8dvBccZRnLkiYs953Yddy0I2VrqNwiZViHF2j87Povah/zuuurxRoHU7eaG5g2ad5+UdgamFAP2GVekscfDFypqMZZTRppCZ238IermvP1Tk45wB1ogW+FblWBKkQFj/I9eG/D4XAEJiqXUlupBZ6/m5imUmKsZXZ8no2WdIUsu/htIotLxJqq1Pji13AX7qkrZTATS7OAScH03saMtE+p0o+BjweO5dBNE+swKDaQ1RJ1geUbatDKdBQz1C1FBI8TElFnA8w3foz2edTZk6Efna6d78Y7azRaW7pM5oPTqBEyscnodXEWhUxZE2vL/OUlBD/JZzUJEk/YgIUQ6VDAPI4IbRfKX02Ljch1R2mgcgExEln3faJh6L5XVkLOd9Iev2TioKn/fcOrvioKYLRZR2h67iCu7OOI4pI6AUynuxxEJF3fSyXlKX+YCRkqzgfkCiR64fFkJGHTSl93r2IoEk8WN692JySBdL5Y70Vmb7o8XAm9yW15iw8y7EJKmv6FZgNhUQ==",
       "mapIdto": "almaty",
       "nightsInDest": null,
       "airlines": [
@@ -263,7 +166,7 @@
       "found_on": [
         "deprecated"
       ],
-      "booking_token": "TjFsU9KOyjpEDqm5dNSrO1ZjuRMVMgZrERrSppD325T6P8+P9w468E+3gYirNKm0xjFEaQ8brFkJXYHcFnHHQMiKg0Dkoaiav5UhUit795g97HlmsH6AqDGRkT/fAb6WSM9jbyMyUaKiacE0oC8LhzQvHTLJ6jfiJVrEUv7KZrm5fP9bdExO6I6PHORpa8OYyQ13W1Tba6SQ3A2K63yAZ51gKKhgWu7ylJgC8CdqeQopqgLSP+pVB1E6G5/OQqMPfS4VKasbsjByj6TBApy8cnKMlUxSKzTKn/eoA5Ovoeiziewctyz2+3cRECzXoGl/G9IfXavJnyE9M8fMOGGuWqCph77u3sLVzQ7Nut7s0Avw21oov51f5mBt4VvfgO3aBLgpsoTFfa9kIhxOxd35j1/tHpIp7nI3vtnGvJDk+Q1N0IiBRs1IcsvZ+opaYLU6qtSzoJDhR4Qiz7EU76as/h3yB+EkGVDAJLT57MRB3nlyoF7wWybC5IA30KiFOV3/CybQZRSvWbSCUri+KdwZq0TwJv+uOB/lKBmo0MKngD40mAiHzTCljj5OrLPynSx5IIQwY2J1fyhLpSaFeutxr0dVh/dYQeladcSaDUghf79wiwcvJOmL45Ku/5jjmVhD7rkINswQ1Rv1LZRo6b4vTGFjON4IKpHfD9WM2sgARJAL5YT4gT8Gp7Iw8aY4vGUWQ6gTHjVA00oQ3E0Qok1SMVSt7B5XcNZlkNfd+pGdPvGYDwQ9cWEcTvEy2Aa0s0ZvTlIQdOhS6jUMXVhpqN4eVVCVpv2PJmQE8A8TesyR/DmwWz2oFS+MtE95GApi4uwbfPDssNONxwEcCrzKSNSiNA==",
+      "booking_token": "TjFsU9KOyjpEDqm5dNSrO1ZjuRMVMgZrERrSppD325T6P8+P9w468E+3gYirNKm0xjFEaQ8brFkJXYHcFnHHQMiKg0Dkoaiav5UhUit795g97HlmsH6AqDGRkT/fAb6WSM9jbyMyUaKiacE0oC8LhzQvHTLJ6jfiJVrEUv7KZrm5fP9bdExO6I6PHORpa8OYyQ13W1Tba6SQ3A2K63yAZ51gKKhgWu7ylJgC8CdqeQqafH4Uoz+BIyWd3mpM5QkJXpgRBSzSQlz+RWTMf0hYhbDxgw+l25QdlVh2XcGDlTatXryzYnmVwKygs5Qdn3w9Ev2Hx0NsN2zJvr8dvBccZRnLkiYs953Yddy0I2VrqNwiZViHF2j87Povah/zuuurxRoHU7eaG5g2ad5+UdgamFAP2GVekscfDFypqMZZTRppCZ238IermvP1Tk45wB1ogW+FblWBKkQFj/I9eG/D4XAEJiqXUlupBZ6/m5imUmKsZXZ8no2WdIUsu/htIotLxJqq1Pji13AX7qkrZTATS7OAScH03saMtE+p0o+BjweO5dBNE+swKDaQ1RJ1geUbatDKdBQz1C1FBI8TElFnA8w3foz2edTZk6Efna6d78Y7azRaW7pM5oPTqBEyscnodXEWhUxZE2vL/OUlBD/JZzUJEk/YgIUQ6VDAPI4IbRfKX02Ljch1R2mgcgExEln3faJh6L5XVkLOd9Iev2TioKn/fcOrvioKYLRZR2h67iCu7OOI4pI6AUynuxxEJF3fSyXlKX+YCRkqzgfkCiR64fFkJGHTSl93r2IoEk8WN692JySBdL5Y70Vmb7o8XAm9yW15iw8y7EJKmv6FZgNhUQ==",
       "routes": [
         [
           "TSE",
@@ -345,7 +248,7 @@
       "conversion": {
         "EUR": 142
       },
-      "deep_link": "https://www.kiwi.com/deep?from=TSE&to=ALA&departure=06-06-2018&flightsId=3916460617654337_0%7C3916460617654337_1&price=142&passengers=1&affilid=picky&lang=en&currency=EUR&booking_token=TjFsU9KOyjpEDqm5dNSrO1ZjuRMVMgZrERrSppD325T6P8+P9w468E+3gYirNKm0xjFEaQ8brFkJXYHcFnHHQMiKg0Dkoaiav5UhUit795iRU7w9YBsM96jLgXVqtEbxhMe2dlcen2nPqmJ8aKPIKV7kbVwBVIx4oHNXQYoDwEKONdkKiqrtwq8KIYzFn967s/gCng04an4MZbUAX/VDweI9Q3V/xSqQDfGU+LTB75Ybv4VPrV67zguXBAtz/8+xq/GxYxb/srG3x/hDa1srQE38HK0YzGbHm5Vq5DF0HiNtyy+lRNxuqmUyHYQ6zqTSGIyIkop+E2/f2abMIhWwdjPQukzAiA5V7VqM4USFlMrxZhnyqY5ENSHcVkWKC3PxPc/heMLRanxSttTc4Niw7z/OMigBeyf+MIHEvNrcXlR4Pq510J2BgZzsinSDsQC9E13AQtgh9HjnYUQnjDsFc2NqxvZ46nenV7r+/ozEYjYIj/020AY1wvfb9Nm3EQFmOqOZLCCwkJNs+4RUHKZK3rimAH+vAK4/lIMjE8HKR5rAjfZXMbKKyhIjur2nrpndW9GdN3QWvwqkKNXkJZTROAsVExUzr3jZOC1ZzAFcC4g3YqVQfheASlXMYEgp5stlBaGOzAmnxLjxRGiAMqjQ2wAOP+uoPRhWk8XaN+btbqO3lFXYoZy7cNeGAQx/1mvEOpk1mho3xbsBpbjibV86OZwbHSZ35xWvPb1Zwx2ehFrBaPd+PM3v4yI1Z/buQGCtrDy4Vhj5aYQOVdQ85CsX5he6nyHXrOFknECE8ZdwGOU=",
+      "deep_link": "https://www.kiwi.com/deep?from=TSE&to=ALA&departure=06-06-2018&flightsId=3916460617654337_0%7C3916460617654337_1&price=142&passengers=1&affilid=picky&lang=en&currency=EUR&booking_token=TjFsU9KOyjpEDqm5dNSrO1ZjuRMVMgZrERrSppD325T6P8+P9w468E+3gYirNKm0xjFEaQ8brFkJXYHcFnHHQMiKg0Dkoaiav5UhUit795iRU7w9YBsM96jLgXVqtEbxhMe2dlcen2nPqmJ8aKPIKV7kbVwBVIx4oHNXQYoDwEKONdkKiqrtwq8KIYzFn967s/gCng04an4MZbUAX/VDwbPCyWlwZV27MvCAOJMU8tDWFr+Xj1EyGVvlZ4FpK2YAgqWj+/tCooTJF5QZ9njRTN58bzLxqQNHRg9yTs+wqrs+Vi1DqkmneWuxneeMRZvCI12DN+qBF/jlXHQS/j1QvYq9ZVgDkvV41eM1MsDnOKLNXB5byww/au7SssRJRDPLEZ+mn8oMXUklTesN22ofCfN3bZ20YtFVsSZ6Y4OpD3maKkGQz6Ypu8G13Ow6Er3Ihox4/8vkAtFiKAX4AKcMWG7Mrx5yuhDtZ6LdB0ht8c4FxABLOker/6abey7y4XRcphL4tjLXhXOkAybKoNbKlTgBMkSP3+djM4EjxG5x3P8FAM2jZKHA22dUGFW80azBzh0yqb0kCr215k2q0L0eJJqiCIZdI6SCexG6LMArBYFjp2cepE10w7E/AGnuAK5wzUsq6kGzsW+AWJxedZXhVR45oJdUv3xdFwSEMbMkDkwnZcDAV3FAjAXqdmdVYnKrm6bmu99iPIsvpdB5C+LdAs+QcNQ8sSw6TmUslO9HqslbCNrSi9oIVq01308xq6RJ8y2bzOCg5Bxn0LIfV8opV8w4szUjB7re/mAJbH48ab4=",
       "mapIdto": "almaty",
       "nightsInDest": null,
       "airlines": [
@@ -389,7 +292,7 @@
       "found_on": [
         "deprecated"
       ],
-      "booking_token": "TjFsU9KOyjpEDqm5dNSrO1ZjuRMVMgZrERrSppD325T6P8+P9w468E+3gYirNKm0xjFEaQ8brFkJXYHcFnHHQMiKg0Dkoaiav5UhUit795iRU7w9YBsM96jLgXVqtEbxhMe2dlcen2nPqmJ8aKPIKV7kbVwBVIx4oHNXQYoDwEKONdkKiqrtwq8KIYzFn967s/gCng04an4MZbUAX/VDweI9Q3V/xSqQDfGU+LTB75Ybv4VPrV67zguXBAtz/8+xq/GxYxb/srG3x/hDa1srQE38HK0YzGbHm5Vq5DF0HiNtyy+lRNxuqmUyHYQ6zqTSGIyIkop+E2/f2abMIhWwdjPQukzAiA5V7VqM4USFlMrxZhnyqY5ENSHcVkWKC3PxPc/heMLRanxSttTc4Niw7z/OMigBeyf+MIHEvNrcXlR4Pq510J2BgZzsinSDsQC9E13AQtgh9HjnYUQnjDsFc2NqxvZ46nenV7r+/ozEYjYIj/020AY1wvfb9Nm3EQFmOqOZLCCwkJNs+4RUHKZK3rimAH+vAK4/lIMjE8HKR5rAjfZXMbKKyhIjur2nrpndW9GdN3QWvwqkKNXkJZTROAsVExUzr3jZOC1ZzAFcC4g3YqVQfheASlXMYEgp5stlBaGOzAmnxLjxRGiAMqjQ2wAOP+uoPRhWk8XaN+btbqO3lFXYoZy7cNeGAQx/1mvEOpk1mho3xbsBpbjibV86OZwbHSZ35xWvPb1Zwx2ehFrBaPd+PM3v4yI1Z/buQGCtrDy4Vhj5aYQOVdQ85CsX5he6nyHXrOFknECE8ZdwGOU=",
+      "booking_token": "TjFsU9KOyjpEDqm5dNSrO1ZjuRMVMgZrERrSppD325T6P8+P9w468E+3gYirNKm0xjFEaQ8brFkJXYHcFnHHQMiKg0Dkoaiav5UhUit795iRU7w9YBsM96jLgXVqtEbxhMe2dlcen2nPqmJ8aKPIKV7kbVwBVIx4oHNXQYoDwEKONdkKiqrtwq8KIYzFn967s/gCng04an4MZbUAX/VDwbPCyWlwZV27MvCAOJMU8tDWFr+Xj1EyGVvlZ4FpK2YAgqWj+/tCooTJF5QZ9njRTN58bzLxqQNHRg9yTs+wqrs+Vi1DqkmneWuxneeMRZvCI12DN+qBF/jlXHQS/j1QvYq9ZVgDkvV41eM1MsDnOKLNXB5byww/au7SssRJRDPLEZ+mn8oMXUklTesN22ofCfN3bZ20YtFVsSZ6Y4OpD3maKkGQz6Ypu8G13Ow6Er3Ihox4/8vkAtFiKAX4AKcMWG7Mrx5yuhDtZ6LdB0ht8c4FxABLOker/6abey7y4XRcphL4tjLXhXOkAybKoNbKlTgBMkSP3+djM4EjxG5x3P8FAM2jZKHA22dUGFW80azBzh0yqb0kCr215k2q0L0eJJqiCIZdI6SCexG6LMArBYFjp2cepE10w7E/AGnuAK5wzUsq6kGzsW+AWJxedZXhVR45oJdUv3xdFwSEMbMkDkwnZcDAV3FAjAXqdmdVYnKrm6bmu99iPIsvpdB5C+LdAs+QcNQ8sSw6TmUslO9HqslbCNrSi9oIVq01308xq6RJ8y2bzOCg5Bxn0LIfV8opV8w4szUjB7re/mAJbH48ab4=",
       "routes": [
         [
           "TSE",
@@ -442,7 +345,7 @@
       "conversion": {
         "EUR": 142
       },
-      "deep_link": "https://www.kiwi.com/deep?from=TSE&to=ALA&departure=06-06-2018&flightsId=3916460617654397_0%7C3916460617654397_1&price=142&passengers=1&affilid=picky&lang=en&currency=EUR&booking_token=TjFsU9KOyjpEDqm5dNSrO1ZjuRMVMgZrERrSppD325T6P8+P9w468E+3gYirNKm0xjFEaQ8brFkJXYHcFnHHQMiKg0Dkoaiav5UhUit795gsYs5w9sxv48fNX0umK4yOjNoVkmbVsxsQDkXxaGMAjdLii63LLWn1EMQyen30tfZ2tnhbbGLY6aL7TRdg1atkZtbZl4nGthdKSnHQaWaa95Y5yFNhdHQp+6ZyYRrlvplnb0FQ+tCnCxH6FZzOFz/f/fqlxY+GN2+EpJUwN4Oi/KZhQJtFOu4kIIrcb9+br2lxqPxfVf50XJ0FHvyQDy9kqCJWFSEhJdcw0ysKT4XVmwD7fLzraKNw8T6Yy99qeIKhdx0w73Xqcghqy2WmwszRd5LGQ/zVpwT7GqU1LgOSbdCvOitCp5kr+ptnaYrV9x4vownXcgp0KNbTSRzUzon2AAvewctwU2VTZoPBvhIVR6O1T0cE9v4jTB3eXTbeo5Zd4Se8lYmncTzlB19YCJhEN9rSVxfJ+EhtI3h9f6eJmeaGzFkZ8q9RuP5VZx6XCMuO/r3W93E7JEVAy1jwCgWEwjSEWpjZDbx3z5D+30fDJZLeE4QY6oQ+zAAiHOTnHBOyKMRPvUfRBbfoWYFMvAp35iBfi6SQac0WJ7a0CO/UyCkzohfehGt1WTue9IsePxFa/qoNhHqnb9MssKhK8JCm3lIAQlNVYjs8vcdZnSNVMMMRVkPuoUzf5qzat+6i9gPySksnEiokN6q3AFOMguCXV7S826OCKoMerhujUNEDwZeF6s95GwiR/NBgmwbK9CU=",
+      "deep_link": "https://www.kiwi.com/deep?from=TSE&to=ALA&departure=06-06-2018&flightsId=3916460617654397_0%7C3916460617654397_1&price=142&passengers=1&affilid=picky&lang=en&currency=EUR&booking_token=TjFsU9KOyjpEDqm5dNSrO1ZjuRMVMgZrERrSppD325T6P8+P9w468E+3gYirNKm0xjFEaQ8brFkJXYHcFnHHQMiKg0Dkoaiav5UhUit795gsYs5w9sxv48fNX0umK4yOjNoVkmbVsxsQDkXxaGMAjdLii63LLWn1EMQyen30tfZ2tnhbbGLY6aL7TRdg1atkZtbZl4nGthdKSnHQaWaa9xgwx5N11tWkR6LGPOjRna9+dWKFH+du0IpBXEjz2/kF5Ubm+b+l3Xp43YGZ/q20j+zYYckQmirXiGBwNdQurCu8jnYhm36eDS1ke7a2/M9pkA2/s6R+hnq3UKEvb7RSvk43Kj1pZeLO5MxJn06qgJD4JRYZcHBkFCijhYgnqtuWYkwhWCwtNtkcOiC+QVY8vEuiSzzsDFI5mH6sgsA8Qq3WlXl7KiRnHPDqdcBj5lCm55MEbLF0bWtg5yp0ugRzxa3kqCxstUVU5GnuQtqTFO3xlT4jNxPTZgwcJ9FAZEUL7EpmFhPpCwdq3+RSpsL+lNFoxpG4LPwPc1cGqxgE+3ve99XSKpRwdAU+2/etpBFvMbvsF9Wxmts1EVsfw3K3FmUrMhVcW788UYdhTNqaMayJyWUs15wyerqIVbG8RuFb/1/Pvs75ykOey/CKZtk2ccWNcjl3GhHreHeiHW99qErtL2fey4PhmrfqU9w+nDlyHvbpzzE0xqvhpzOCX81LOd6+F+Pa6NZrXtIgcI91jnebOOst9l0jraUeryVqyQmd0mgEi8dePh7/JIkiOPTLC1BL7yECaGMHpFD7zbHn/DI=",
       "mapIdto": "almaty",
       "nightsInDest": null,
       "airlines": [
@@ -486,7 +389,7 @@
       "found_on": [
         "deprecated"
       ],
-      "booking_token": "TjFsU9KOyjpEDqm5dNSrO1ZjuRMVMgZrERrSppD325T6P8+P9w468E+3gYirNKm0xjFEaQ8brFkJXYHcFnHHQMiKg0Dkoaiav5UhUit795gsYs5w9sxv48fNX0umK4yOjNoVkmbVsxsQDkXxaGMAjdLii63LLWn1EMQyen30tfZ2tnhbbGLY6aL7TRdg1atkZtbZl4nGthdKSnHQaWaa95Y5yFNhdHQp+6ZyYRrlvplnb0FQ+tCnCxH6FZzOFz/f/fqlxY+GN2+EpJUwN4Oi/KZhQJtFOu4kIIrcb9+br2lxqPxfVf50XJ0FHvyQDy9kqCJWFSEhJdcw0ysKT4XVmwD7fLzraKNw8T6Yy99qeIKhdx0w73Xqcghqy2WmwszRd5LGQ/zVpwT7GqU1LgOSbdCvOitCp5kr+ptnaYrV9x4vownXcgp0KNbTSRzUzon2AAvewctwU2VTZoPBvhIVR6O1T0cE9v4jTB3eXTbeo5Zd4Se8lYmncTzlB19YCJhEN9rSVxfJ+EhtI3h9f6eJmeaGzFkZ8q9RuP5VZx6XCMuO/r3W93E7JEVAy1jwCgWEwjSEWpjZDbx3z5D+30fDJZLeE4QY6oQ+zAAiHOTnHBOyKMRPvUfRBbfoWYFMvAp35iBfi6SQac0WJ7a0CO/UyCkzohfehGt1WTue9IsePxFa/qoNhHqnb9MssKhK8JCm3lIAQlNVYjs8vcdZnSNVMMMRVkPuoUzf5qzat+6i9gPySksnEiokN6q3AFOMguCXV7S826OCKoMerhujUNEDwZeF6s95GwiR/NBgmwbK9CU=",
+      "booking_token": "TjFsU9KOyjpEDqm5dNSrO1ZjuRMVMgZrERrSppD325T6P8+P9w468E+3gYirNKm0xjFEaQ8brFkJXYHcFnHHQMiKg0Dkoaiav5UhUit795gsYs5w9sxv48fNX0umK4yOjNoVkmbVsxsQDkXxaGMAjdLii63LLWn1EMQyen30tfZ2tnhbbGLY6aL7TRdg1atkZtbZl4nGthdKSnHQaWaa9xgwx5N11tWkR6LGPOjRna9+dWKFH+du0IpBXEjz2/kF5Ubm+b+l3Xp43YGZ/q20j+zYYckQmirXiGBwNdQurCu8jnYhm36eDS1ke7a2/M9pkA2/s6R+hnq3UKEvb7RSvk43Kj1pZeLO5MxJn06qgJD4JRYZcHBkFCijhYgnqtuWYkwhWCwtNtkcOiC+QVY8vEuiSzzsDFI5mH6sgsA8Qq3WlXl7KiRnHPDqdcBj5lCm55MEbLF0bWtg5yp0ugRzxa3kqCxstUVU5GnuQtqTFO3xlT4jNxPTZgwcJ9FAZEUL7EpmFhPpCwdq3+RSpsL+lNFoxpG4LPwPc1cGqxgE+3ve99XSKpRwdAU+2/etpBFvMbvsF9Wxmts1EVsfw3K3FmUrMhVcW788UYdhTNqaMayJyWUs15wyerqIVbG8RuFb/1/Pvs75ykOey/CKZtk2ccWNcjl3GhHreHeiHW99qErtL2fey4PhmrfqU9w+nDlyHvbpzzE0xqvhpzOCX81LOd6+F+Pa6NZrXtIgcI91jnebOOst9l0jraUeryVqyQmd0mgEi8dePh7/JIkiOPTLC1BL7yECaGMHpFD7zbHn/DI=",
       "routes": [
         [
           "TSE",
@@ -539,7 +442,7 @@
       "conversion": {
         "EUR": 142
       },
-      "deep_link": "https://www.kiwi.com/deep?from=TSE&to=ALA&departure=06-06-2018&flightsId=3916460617654346_0%7C3916460617654346_1&price=142&passengers=1&affilid=picky&lang=en&currency=EUR&booking_token=TjFsU9KOyjpEDqm5dNSrO1ZjuRMVMgZrERrSppD325T6P8+P9w468E+3gYirNKm0xjFEaQ8brFkJXYHcFnHHQMiKg0Dkoaiav5UhUit795j+3QzVIZDNwK9FpsHB1guJQKTeTn2li7Cfm0kRO48YpzzornqRjkSjXj8EqsRtW9jY12Yj9YdY+OpvVkBdyDsb6Os635vFlcZhgMyQ0iB80TVLqWPL9GjQJve34EGYsNa/aSa4Ofm/C5ZHrIczUeAEsrA/SMkaEHDzY4NuFxK7LNA4xpvlW0Qzp3a84+WV/rxL4fLf3ChTIsD1VwzkNzp2tEKB+7leGzsaRL2uWM73d1Evr6SR0ZourSca2/0j0AjmvBwEgyl+bcFIv045UOT1QP1BoUEWWQ/9xUUinfuixSnSAjnNc4j3wOw8T0AjWAf5jeNMr7vQax7fEi6eSPC9+zd4SrUSD2xaEqSB/7mlLL5gqkVCZM58WLn1Faqwx6WZKw7H5qD5xyxCxRpyTipqXuZxg/5Dg0X7Lyl95tIl1lDY9EnTg0qt7tXGyfYSeG0o336PuMVDCf+czjvua5lHN2KwqawcJUNHDTy0J7PGuzv94QbqsToW23h0rb6LDMkwu0/93sm6BV8A4J6vc0O+j9WuNZAde9R8Nae2/OVGf/2uHZ8A0x7QNF1kZ6mXJjLhqzFVurjoWGOBrPCu1WhGcMW7F5hunpmHk4dw367oY7s3SaKMsbMhExK0D63lBMxdpiVkF+g0iLZdb6N7iwX+0FZxYPR0f/BQGAsfPDHGKAvj1rJFYctEMGrVc+XW7Lk=",
+      "deep_link": "https://www.kiwi.com/deep?from=TSE&to=ALA&departure=06-06-2018&flightsId=3916460617654346_0%7C3916460617654346_1&price=142&passengers=1&affilid=picky&lang=en&currency=EUR&booking_token=TjFsU9KOyjpEDqm5dNSrO1ZjuRMVMgZrERrSppD325T6P8+P9w468E+3gYirNKm0xjFEaQ8brFkJXYHcFnHHQMiKg0Dkoaiav5UhUit795j+3QzVIZDNwK9FpsHB1guJQKTeTn2li7Cfm0kRO48YpzzornqRjkSjXj8EqsRtW9jY12Yj9YdY+OpvVkBdyDsb6Os635vFlcZhgMyQ0iB80VVV/Okkflvvh5QoW+JCxaEMczC6BLdaVVWp5XUat2VJjYSPciLvXBjqtjvvW2I49EH2E887tgxmIPAnm0zFxg1WDHy3sxekmoACfqr8DeQrLYgwhqwg9QV73P49by/aE3qknFQkF3atyZcRKVb0mnZl2wePuIiIC6K9j2z4AR7kH7imQHSFoFtF9uBPkLdcO8IuRlLkM/bPbNiy3bYxFQ4GxxbDlERVEHCJXYt/2Tw4Lk51wWFRTQCeqtscC4zEN0oXfXUqzSgSBrp6HP0nb3bevZBfbPulhzV6RwRhv6ge1ELE+wZ0kO9K85xQYIfZojbpLhV5jQVbT+nvyVuFO5bEzkbxicU75iwoj7b43nzFORgEQNNYAJjuAAzrn8QQqsk9lQpRYcg1lp7Jr+tJo4NIxXTpUle22v1eXHuAUbjr0qXo3AmjwK86d+S7s2osg4wGgnNZesxZj/wkeCUefZ32kQFM9avFRcXP0VWIERToOuNRszVUJAGItReace60lGPseZJ2ZSHUHkopDIw/BKZmZPNgK/ZOnFjjdRb4e14Pjj3yY4t0NU3BXAQBLxnZtS7iBgFj+HVnydkPqNopsqc=",
       "mapIdto": "almaty",
       "nightsInDest": null,
       "airlines": [
@@ -583,7 +486,7 @@
       "found_on": [
         "deprecated"
       ],
-      "booking_token": "TjFsU9KOyjpEDqm5dNSrO1ZjuRMVMgZrERrSppD325T6P8+P9w468E+3gYirNKm0xjFEaQ8brFkJXYHcFnHHQMiKg0Dkoaiav5UhUit795j+3QzVIZDNwK9FpsHB1guJQKTeTn2li7Cfm0kRO48YpzzornqRjkSjXj8EqsRtW9jY12Yj9YdY+OpvVkBdyDsb6Os635vFlcZhgMyQ0iB80TVLqWPL9GjQJve34EGYsNa/aSa4Ofm/C5ZHrIczUeAEsrA/SMkaEHDzY4NuFxK7LNA4xpvlW0Qzp3a84+WV/rxL4fLf3ChTIsD1VwzkNzp2tEKB+7leGzsaRL2uWM73d1Evr6SR0ZourSca2/0j0AjmvBwEgyl+bcFIv045UOT1QP1BoUEWWQ/9xUUinfuixSnSAjnNc4j3wOw8T0AjWAf5jeNMr7vQax7fEi6eSPC9+zd4SrUSD2xaEqSB/7mlLL5gqkVCZM58WLn1Faqwx6WZKw7H5qD5xyxCxRpyTipqXuZxg/5Dg0X7Lyl95tIl1lDY9EnTg0qt7tXGyfYSeG0o336PuMVDCf+czjvua5lHN2KwqawcJUNHDTy0J7PGuzv94QbqsToW23h0rb6LDMkwu0/93sm6BV8A4J6vc0O+j9WuNZAde9R8Nae2/OVGf/2uHZ8A0x7QNF1kZ6mXJjLhqzFVurjoWGOBrPCu1WhGcMW7F5hunpmHk4dw367oY7s3SaKMsbMhExK0D63lBMxdpiVkF+g0iLZdb6N7iwX+0FZxYPR0f/BQGAsfPDHGKAvj1rJFYctEMGrVc+XW7Lk=",
+      "booking_token": "TjFsU9KOyjpEDqm5dNSrO1ZjuRMVMgZrERrSppD325T6P8+P9w468E+3gYirNKm0xjFEaQ8brFkJXYHcFnHHQMiKg0Dkoaiav5UhUit795j+3QzVIZDNwK9FpsHB1guJQKTeTn2li7Cfm0kRO48YpzzornqRjkSjXj8EqsRtW9jY12Yj9YdY+OpvVkBdyDsb6Os635vFlcZhgMyQ0iB80VVV/Okkflvvh5QoW+JCxaEMczC6BLdaVVWp5XUat2VJjYSPciLvXBjqtjvvW2I49EH2E887tgxmIPAnm0zFxg1WDHy3sxekmoACfqr8DeQrLYgwhqwg9QV73P49by/aE3qknFQkF3atyZcRKVb0mnZl2wePuIiIC6K9j2z4AR7kH7imQHSFoFtF9uBPkLdcO8IuRlLkM/bPbNiy3bYxFQ4GxxbDlERVEHCJXYt/2Tw4Lk51wWFRTQCeqtscC4zEN0oXfXUqzSgSBrp6HP0nb3bevZBfbPulhzV6RwRhv6ge1ELE+wZ0kO9K85xQYIfZojbpLhV5jQVbT+nvyVuFO5bEzkbxicU75iwoj7b43nzFORgEQNNYAJjuAAzrn8QQqsk9lQpRYcg1lp7Jr+tJo4NIxXTpUle22v1eXHuAUbjr0qXo3AmjwK86d+S7s2osg4wGgnNZesxZj/wkeCUefZ32kQFM9avFRcXP0VWIERToOuNRszVUJAGItReace60lGPseZJ2ZSHUHkopDIw/BKZmZPNgK/ZOnFjjdRb4e14Pjj3yY4t0NU3BXAQBLxnZtS7iBgFj+HVnydkPqNopsqc=",
       "routes": [
         [
           "TSE",
@@ -636,7 +539,7 @@
       "conversion": {
         "EUR": 142
       },
-      "deep_link": "https://www.kiwi.com/deep?from=TSE&to=ALA&departure=06-06-2018&flightsId=3916460617654477_0%7C3916460617654477_1&price=142&passengers=1&affilid=picky&lang=en&currency=EUR&booking_token=TjFsU9KOyjpEDqm5dNSrO1ZjuRMVMgZrERrSppD325T6P8+P9w468E+3gYirNKm0xjFEaQ8brFkJXYHcFnHHQMiKg0Dkoaiav5UhUit795jUcbstbHe6xNC5AMmlfCmGYtBmM7mrYpyVGuiBBQx8VDf1sbnKDm5Yftkf+7WF0ZLLA+kqyz0qDyaurktetIQ2YjsIBM2g+lg+4b7nw6ec4aYCHDqZh18tXWkrWGb69/fzK72wWUouIDX8obfyltaT1J6fpwnChWi57avs47WG/AGoLaX7Jcya8yysK2b/7M5rkp/eUTaWAdPnDeCDj217trwflwl+esYTIIXkgfYF+HBrmtxwpjj+7a61feuuFJxeOdbx/3IPfCnJLtNZrKpn/dtgf/+n0COgJY1EyEV7YLx5nqYLf4FbhGz5boKsNVzBzzPZOGYMR+8vI8FhVCbE8o4shusxHjTpga3XyKb+R+G2rudO0O0uVq3PtEcoCyyNhPN5NKJSQn65MJGAaa1cevU41gMh4XBTNr0Ijg4KxbBo+5qeSJEEOJ0MgXn5O5Au4Ha6V0VFVX6AfNTJfMjKTxv18C7PDtC/LsTlj/PLrApE46rJihIQaNMWtFODBZ7j1hnlGrNQM9rlHE5bGYnKN0lDVRITjaCH7lhPiVfuGDdXzcKCfjKedKjX7Fp3TZv59oXlRiLHvSz5KCiYgV5KpNYq3Nru1JYfGFaWeostmfu6r/Dvcrd0JbCJOLUZ4zAABGm9XzTK4t0kjGDJbC4YHlReJ56GuY0Yr7OOpx5moqZu/IFpQBWhU4aci1vrtQg=",
+      "deep_link": "https://www.kiwi.com/deep?from=TSE&to=ALA&departure=06-06-2018&flightsId=3916460617654477_0%7C3916460617654477_1&price=142&passengers=1&affilid=picky&lang=en&currency=EUR&booking_token=TjFsU9KOyjpEDqm5dNSrO1ZjuRMVMgZrERrSppD325T6P8+P9w468E+3gYirNKm0xjFEaQ8brFkJXYHcFnHHQMiKg0Dkoaiav5UhUit795jUcbstbHe6xNC5AMmlfCmGYtBmM7mrYpyVGuiBBQx8VDf1sbnKDm5Yftkf+7WF0ZLLA+kqyz0qDyaurktetIQ2YjsIBM2g+lg+4b7nw6ec4YcO/wufZrNiUb0+jJqsVM3YRQoN+s6H9fNR0ymQiZqcK7y0MlMojX/wHY6dbv2CokF0geKTRUpWFVVzY1JDGIJUR93Wlh9kAN0gk9mMaFFry+f9CVDiDzh5xt1On4+bSf5tvTPJKq5WWTGB2004+ViELwTHQtmbfN6V4n1N6Wh5hgTi/Mhwk4/OjULxAOYXxsuv7ILboVftdPcXItQNll+2jMvHAZZBpq/BqwHct6ELA/L9GLimYGM5sWmIyo2NKNEZy7p4C3f7FxxNPUKL8TAVQkxYvf7/zW/fbZEdyoKVtJjSDN8ph+HJYXFlpVaE/O/qX7iHhFTTRhI69rH/5r0ZdUBJEWFk5UX+pLq9yq1aJZuYvUqcMWq9eqNDwioXHt0J/p/SE8bFMtdYGclPagdbDo8kvozl1snHDgzjJUEZej/MZl6Hfo/N6z6/pg9lUZFvr3F4MSLXvkhg94R+0voKUtmJhE3k2gJcjjIzLbxooTRuYdOzvJdsDdLGbGKQk97cQ77DkqqXgsOFtaWmhKiD+lUpk9J5MSSFX0GsW9rDgGmQXnMuM7y2kuWbrPBnEFwzTcmm9MYNSr5i5EBqGZU=",
       "mapIdto": "almaty",
       "nightsInDest": null,
       "airlines": [
@@ -680,7 +583,7 @@
       "found_on": [
         "deprecated"
       ],
-      "booking_token": "TjFsU9KOyjpEDqm5dNSrO1ZjuRMVMgZrERrSppD325T6P8+P9w468E+3gYirNKm0xjFEaQ8brFkJXYHcFnHHQMiKg0Dkoaiav5UhUit795jUcbstbHe6xNC5AMmlfCmGYtBmM7mrYpyVGuiBBQx8VDf1sbnKDm5Yftkf+7WF0ZLLA+kqyz0qDyaurktetIQ2YjsIBM2g+lg+4b7nw6ec4aYCHDqZh18tXWkrWGb69/fzK72wWUouIDX8obfyltaT1J6fpwnChWi57avs47WG/AGoLaX7Jcya8yysK2b/7M5rkp/eUTaWAdPnDeCDj217trwflwl+esYTIIXkgfYF+HBrmtxwpjj+7a61feuuFJxeOdbx/3IPfCnJLtNZrKpn/dtgf/+n0COgJY1EyEV7YLx5nqYLf4FbhGz5boKsNVzBzzPZOGYMR+8vI8FhVCbE8o4shusxHjTpga3XyKb+R+G2rudO0O0uVq3PtEcoCyyNhPN5NKJSQn65MJGAaa1cevU41gMh4XBTNr0Ijg4KxbBo+5qeSJEEOJ0MgXn5O5Au4Ha6V0VFVX6AfNTJfMjKTxv18C7PDtC/LsTlj/PLrApE46rJihIQaNMWtFODBZ7j1hnlGrNQM9rlHE5bGYnKN0lDVRITjaCH7lhPiVfuGDdXzcKCfjKedKjX7Fp3TZv59oXlRiLHvSz5KCiYgV5KpNYq3Nru1JYfGFaWeostmfu6r/Dvcrd0JbCJOLUZ4zAABGm9XzTK4t0kjGDJbC4YHlReJ56GuY0Yr7OOpx5moqZu/IFpQBWhU4aci1vrtQg=",
+      "booking_token": "TjFsU9KOyjpEDqm5dNSrO1ZjuRMVMgZrERrSppD325T6P8+P9w468E+3gYirNKm0xjFEaQ8brFkJXYHcFnHHQMiKg0Dkoaiav5UhUit795jUcbstbHe6xNC5AMmlfCmGYtBmM7mrYpyVGuiBBQx8VDf1sbnKDm5Yftkf+7WF0ZLLA+kqyz0qDyaurktetIQ2YjsIBM2g+lg+4b7nw6ec4YcO/wufZrNiUb0+jJqsVM3YRQoN+s6H9fNR0ymQiZqcK7y0MlMojX/wHY6dbv2CokF0geKTRUpWFVVzY1JDGIJUR93Wlh9kAN0gk9mMaFFry+f9CVDiDzh5xt1On4+bSf5tvTPJKq5WWTGB2004+ViELwTHQtmbfN6V4n1N6Wh5hgTi/Mhwk4/OjULxAOYXxsuv7ILboVftdPcXItQNll+2jMvHAZZBpq/BqwHct6ELA/L9GLimYGM5sWmIyo2NKNEZy7p4C3f7FxxNPUKL8TAVQkxYvf7/zW/fbZEdyoKVtJjSDN8ph+HJYXFlpVaE/O/qX7iHhFTTRhI69rH/5r0ZdUBJEWFk5UX+pLq9yq1aJZuYvUqcMWq9eqNDwioXHt0J/p/SE8bFMtdYGclPagdbDo8kvozl1snHDgzjJUEZej/MZl6Hfo/N6z6/pg9lUZFvr3F4MSLXvkhg94R+0voKUtmJhE3k2gJcjjIzLbxooTRuYdOzvJdsDdLGbGKQk97cQ77DkqqXgsOFtaWmhKiD+lUpk9J5MSSFX0GsW9rDgGmQXnMuM7y2kuWbrPBnEFwzTcmm9MYNSr5i5EBqGZU=",
       "routes": [
         [
           "TSE",
@@ -733,7 +636,7 @@
       "conversion": {
         "EUR": 142
       },
-      "deep_link": "https://www.kiwi.com/deep?from=TSE&to=ALA&departure=06-06-2018&flightsId=3916460617654372_0%7C3916460617654372_1&price=142&passengers=1&affilid=picky&lang=en&currency=EUR&booking_token=TjFsU9KOyjpEDqm5dNSrO1ZjuRMVMgZrERrSppD325T6P8+P9w468E+3gYirNKm0xjFEaQ8brFkJXYHcFnHHQMiKg0Dkoaiav5UhUit795g/OIIeGu3zW66n+AI37L3cX8rOurQNOgK87p3BOFC020QM/63r5Vh9NXsJkaNfgOhsuoxHDPjPrScY/0g4ajhTpRP6j5lAFCtwNo6dx9SKTuCl+hWHJgzsHG+IVrfKoLFHIAVIStDslAO7jSz0zzDl5ZfjHxMdLql9oYZDpy5WfCmKNTMPFQ2u1lE+6XK2hSW5DXKcvIlyi3iny0fovsynGb1qXsoh7fp89Y7sHtJ/Q2bLGqTbqPzP6zZHurUlL6evRJtf8cbnyqkkeOKY4RGPwmHduDzotyTSk1iOoz3D+ZL+Yz2AZyxwkKI9R+QE8xJNK5D2NFyMvGen7AlF5e7PFDimn8YlBKxKsWWYteJRQvuFRM3TBsQxipjs9VHcPe/d9SJ9mdUxVgcrM+FNnx+6jrHEUn7xulgJjnvLf+OsU/FZkvKeN2ZiyRWF5n0151H6oylruQ45PVQSvFYBbOq0ysRGuDlOo7Hx00H0x/2xfomfRW5DnrTNeVfDjtu9rP+31HH+bQ+4z4L9rcPLiBto8wJ2w5BOulrO3Gk/aulQhNiabN4fsQQ/KdyyJrBApXxOxP/teW7VNjmOVUcx/LES03c5x6xOuqsuInLD7m9ByS3D8AOAtjnrE0tlXfLqnC3Sjv8WvYRTdI/w+M9LUYdgLoF1ftKNGS1pmP1yBA7jSsxlZOLPkHZ9CWR0BIUm2Ok=",
+      "deep_link": "https://www.kiwi.com/deep?from=TSE&to=ALA&departure=06-06-2018&flightsId=3916460617654372_0%7C3916460617654372_1&price=142&passengers=1&affilid=picky&lang=en&currency=EUR&booking_token=TjFsU9KOyjpEDqm5dNSrO1ZjuRMVMgZrERrSppD325T6P8+P9w468E+3gYirNKm0xjFEaQ8brFkJXYHcFnHHQMiKg0Dkoaiav5UhUit795g/OIIeGu3zW66n+AI37L3cX8rOurQNOgK87p3BOFC020QM/63r5Vh9NXsJkaNfgOhsuoxHDPjPrScY/0g4ajhTpRP6j5lAFCtwNo6dx9SKTrB+dWS7akUj7N7PL1MCUVckenCa39fH3gT4veQ0NhYml3cyJLlsaIxEXe+HB4uB9BQufZRUwLDLnl8QGklmLCmXeT3sNflF5fuitZXujg4hwxDlOcADBSPhqPJcWfINgV8+00fhfQ7wBnTtQpZb/zz2rkOw542XDwtCVG+WWCnuIhdnZ9IpNtmvWJg0ydbz3Wbms7sihhqHLtItC3HiHyvm6uBhchaNjp7N5wl9K6jbhTyA2JOYpf04zClP00fPCq+SvLFHUoNG3884sGhKFytizys0EiPPQsramZ8bKs24FyuWc4BXGDA2Qx7cLPKsc49iCwjArDsQQEKM6mMgdsCFYtxB5qNGMQBkh3+XUr4gJU/LjkDK4elpQrf/SEjINxGIc8pW0qs652c4u4k+nlFcca9bhHjfqgETCwixtj1o0DTIlepfm37/6wIGSEifvKiRGmzSfj5N4oQ+ks6NgxhzqWKtOmq4VuIZMmEzrkMevJnIcz2a8GlIrE5GEa/B1Eyi0nDOgf1QMed036ZzSds6KQz/koYFXlgu4JY3KbZ23C3+PTR9D0x/js+mFDxHGsuFd2XYB4IW43ldCWdPtYg=",
       "mapIdto": "almaty",
       "nightsInDest": null,
       "airlines": [
@@ -777,7 +680,7 @@
       "found_on": [
         "deprecated"
       ],
-      "booking_token": "TjFsU9KOyjpEDqm5dNSrO1ZjuRMVMgZrERrSppD325T6P8+P9w468E+3gYirNKm0xjFEaQ8brFkJXYHcFnHHQMiKg0Dkoaiav5UhUit795g/OIIeGu3zW66n+AI37L3cX8rOurQNOgK87p3BOFC020QM/63r5Vh9NXsJkaNfgOhsuoxHDPjPrScY/0g4ajhTpRP6j5lAFCtwNo6dx9SKTuCl+hWHJgzsHG+IVrfKoLFHIAVIStDslAO7jSz0zzDl5ZfjHxMdLql9oYZDpy5WfCmKNTMPFQ2u1lE+6XK2hSW5DXKcvIlyi3iny0fovsynGb1qXsoh7fp89Y7sHtJ/Q2bLGqTbqPzP6zZHurUlL6evRJtf8cbnyqkkeOKY4RGPwmHduDzotyTSk1iOoz3D+ZL+Yz2AZyxwkKI9R+QE8xJNK5D2NFyMvGen7AlF5e7PFDimn8YlBKxKsWWYteJRQvuFRM3TBsQxipjs9VHcPe/d9SJ9mdUxVgcrM+FNnx+6jrHEUn7xulgJjnvLf+OsU/FZkvKeN2ZiyRWF5n0151H6oylruQ45PVQSvFYBbOq0ysRGuDlOo7Hx00H0x/2xfomfRW5DnrTNeVfDjtu9rP+31HH+bQ+4z4L9rcPLiBto8wJ2w5BOulrO3Gk/aulQhNiabN4fsQQ/KdyyJrBApXxOxP/teW7VNjmOVUcx/LES03c5x6xOuqsuInLD7m9ByS3D8AOAtjnrE0tlXfLqnC3Sjv8WvYRTdI/w+M9LUYdgLoF1ftKNGS1pmP1yBA7jSsxlZOLPkHZ9CWR0BIUm2Ok=",
+      "booking_token": "TjFsU9KOyjpEDqm5dNSrO1ZjuRMVMgZrERrSppD325T6P8+P9w468E+3gYirNKm0xjFEaQ8brFkJXYHcFnHHQMiKg0Dkoaiav5UhUit795g/OIIeGu3zW66n+AI37L3cX8rOurQNOgK87p3BOFC020QM/63r5Vh9NXsJkaNfgOhsuoxHDPjPrScY/0g4ajhTpRP6j5lAFCtwNo6dx9SKTrB+dWS7akUj7N7PL1MCUVckenCa39fH3gT4veQ0NhYml3cyJLlsaIxEXe+HB4uB9BQufZRUwLDLnl8QGklmLCmXeT3sNflF5fuitZXujg4hwxDlOcADBSPhqPJcWfINgV8+00fhfQ7wBnTtQpZb/zz2rkOw542XDwtCVG+WWCnuIhdnZ9IpNtmvWJg0ydbz3Wbms7sihhqHLtItC3HiHyvm6uBhchaNjp7N5wl9K6jbhTyA2JOYpf04zClP00fPCq+SvLFHUoNG3884sGhKFytizys0EiPPQsramZ8bKs24FyuWc4BXGDA2Qx7cLPKsc49iCwjArDsQQEKM6mMgdsCFYtxB5qNGMQBkh3+XUr4gJU/LjkDK4elpQrf/SEjINxGIc8pW0qs652c4u4k+nlFcca9bhHjfqgETCwixtj1o0DTIlepfm37/6wIGSEifvKiRGmzSfj5N4oQ+ks6NgxhzqWKtOmq4VuIZMmEzrkMevJnIcz2a8GlIrE5GEa/B1Eyi0nDOgf1QMed036ZzSds6KQz/koYFXlgu4JY3KbZ23C3+PTR9D0x/js+mFDxHGsuFd2XYB4IW43ldCWdPtYg=",
       "routes": [
         [
           "TSE",
@@ -830,7 +733,7 @@
       "conversion": {
         "EUR": 142
       },
-      "deep_link": "https://www.kiwi.com/deep?from=TSE&to=ALA&departure=06-06-2018&flightsId=3916460617654420_0%7C3916460617654420_1&price=142&passengers=1&affilid=picky&lang=en&currency=EUR&booking_token=TjFsU9KOyjpEDqm5dNSrO1ZjuRMVMgZrERrSppD325T6P8+P9w468E+3gYirNKm0xjFEaQ8brFkJXYHcFnHHQMiKg0Dkoaiav5UhUit795iY9mzUM7kpJ4QeWM2TLM86qop/AQ7j+4MeTH4TC1dr3NEF6gCa0uapDp+oPecOi57GBXX0qxLzefvY089XZUu8gDsf4fPYHi/9SWlGWqyvTKQlIVZqT3LUpvay4DMQKKQh3bkaWVhrVZ/87S9DWenKnQF1dInrs11f/hZlvT8c7YpdUOWlZPj3kDOU3Gozzi/6O3UCHoBf5KIupDAsKkLg45lRP6/bsG3hy8ybDAGh6gLl9iY6IGuOGs7PIwJqjBWXfHIQGzt40fEQfaRjp94womt9RQ8NCvmPKbSibZ+2t00MsNMXkAZNxMMisvTFXUe/z3FlDJ4e1SJTDn2FbeGxpdEJgPrm29keJ8621LoQKJRc4O+DkfWdBKtKvisyt5VrwvYWds7Z+N0fRqXFe1mYeBXkyg0qf47Rjd3PRMW3vMNeu31Qq9Mj+PP2JiuFOTij/T9sDHgV7zMU8EjJOEnwA2tNbMNN0oesJSPS1CNpVX8jXWidpJtaGxhj/2c8o4glmQE8P7wJLF2Lc1oAD58aOeMVaLl1EYRdyMtI7bOypDNnzgjPn5v/z7bQfBtIF/HdKzcc3wVdvGXRYF5EQtw+vzGk/p7dd3JZ/Na1yWy3feN2iQBTFF0eG5ha82GGBUEpnck3IOS/oYFllN0Juc5oU0uNy4m4P6C9nfGq42Ht5dCs+bFwLVh9qyEbELy2eFo=",
+      "deep_link": "https://www.kiwi.com/deep?from=TSE&to=ALA&departure=06-06-2018&flightsId=3916460617654420_0%7C3916460617654420_1&price=142&passengers=1&affilid=picky&lang=en&currency=EUR&booking_token=TjFsU9KOyjpEDqm5dNSrO1ZjuRMVMgZrERrSppD325T6P8+P9w468E+3gYirNKm0xjFEaQ8brFkJXYHcFnHHQMiKg0Dkoaiav5UhUit795iY9mzUM7kpJ4QeWM2TLM86qop/AQ7j+4MeTH4TC1dr3NEF6gCa0uapDp+oPecOi57GBXX0qxLzefvY089XZUu8gDsf4fPYHi/9SWlGWqyvTOqGoRVZuGkrEoeL8nKiDcPbnUT/YNQN8vi0r3jp3myAyZhPd51sU+LlTnv+4Pf/ywa5KLGVTp1oXffSa8QVmFYELhnAl7oLPmFSQOxSCagJKHSPdNcDnx2o8HNIdVqqJjuBIHyNDrHM8xEm2Zijfzoh+9uRcp71IFBryJnHU4ptSajyDkdMHIvbszYVtsezCdNVPcDM9Y2j2t0LY8ozQLKmdPWZtH2j5GdSZsH8ViXX50NFlgT5ZXzV/iIVezYJYyep0+BOIMKSKCzFUAxxV3W2ttCRu2kdO+Z7WOY+8p36xgf+eIE0zLzPDd9AK9fYuT3lsk8ZopVFmULulYBTo1JWcCgXvXgFsSlr7BY83EM77Iie7a9cR6OyxE/Is397GJYevi+geBPgVN+YouqsX4KQ4aV2VAf+/ufTZ62+8na5iqVAbvNzhekUSwwkTzpn0nTLCcDgcIhZovp6+7D8RYPZD/dq2i2Wg24qDBq31DU9sPsscs7djlxdVBPJcJ2jnJTZb/8x/U2DsMsvHYF6jnVQoXxtMtY/bp4mSTv7KFgdYlLAC8s7VclGx2A1pGGPkrnL5/I66VNC+Ml+WhrVatk=",
       "mapIdto": "almaty",
       "nightsInDest": null,
       "airlines": [
@@ -874,7 +777,7 @@
       "found_on": [
         "deprecated"
       ],
-      "booking_token": "TjFsU9KOyjpEDqm5dNSrO1ZjuRMVMgZrERrSppD325T6P8+P9w468E+3gYirNKm0xjFEaQ8brFkJXYHcFnHHQMiKg0Dkoaiav5UhUit795iY9mzUM7kpJ4QeWM2TLM86qop/AQ7j+4MeTH4TC1dr3NEF6gCa0uapDp+oPecOi57GBXX0qxLzefvY089XZUu8gDsf4fPYHi/9SWlGWqyvTKQlIVZqT3LUpvay4DMQKKQh3bkaWVhrVZ/87S9DWenKnQF1dInrs11f/hZlvT8c7YpdUOWlZPj3kDOU3Gozzi/6O3UCHoBf5KIupDAsKkLg45lRP6/bsG3hy8ybDAGh6gLl9iY6IGuOGs7PIwJqjBWXfHIQGzt40fEQfaRjp94womt9RQ8NCvmPKbSibZ+2t00MsNMXkAZNxMMisvTFXUe/z3FlDJ4e1SJTDn2FbeGxpdEJgPrm29keJ8621LoQKJRc4O+DkfWdBKtKvisyt5VrwvYWds7Z+N0fRqXFe1mYeBXkyg0qf47Rjd3PRMW3vMNeu31Qq9Mj+PP2JiuFOTij/T9sDHgV7zMU8EjJOEnwA2tNbMNN0oesJSPS1CNpVX8jXWidpJtaGxhj/2c8o4glmQE8P7wJLF2Lc1oAD58aOeMVaLl1EYRdyMtI7bOypDNnzgjPn5v/z7bQfBtIF/HdKzcc3wVdvGXRYF5EQtw+vzGk/p7dd3JZ/Na1yWy3feN2iQBTFF0eG5ha82GGBUEpnck3IOS/oYFllN0Juc5oU0uNy4m4P6C9nfGq42Ht5dCs+bFwLVh9qyEbELy2eFo=",
+      "booking_token": "TjFsU9KOyjpEDqm5dNSrO1ZjuRMVMgZrERrSppD325T6P8+P9w468E+3gYirNKm0xjFEaQ8brFkJXYHcFnHHQMiKg0Dkoaiav5UhUit795iY9mzUM7kpJ4QeWM2TLM86qop/AQ7j+4MeTH4TC1dr3NEF6gCa0uapDp+oPecOi57GBXX0qxLzefvY089XZUu8gDsf4fPYHi/9SWlGWqyvTOqGoRVZuGkrEoeL8nKiDcPbnUT/YNQN8vi0r3jp3myAyZhPd51sU+LlTnv+4Pf/ywa5KLGVTp1oXffSa8QVmFYELhnAl7oLPmFSQOxSCagJKHSPdNcDnx2o8HNIdVqqJjuBIHyNDrHM8xEm2Zijfzoh+9uRcp71IFBryJnHU4ptSajyDkdMHIvbszYVtsezCdNVPcDM9Y2j2t0LY8ozQLKmdPWZtH2j5GdSZsH8ViXX50NFlgT5ZXzV/iIVezYJYyep0+BOIMKSKCzFUAxxV3W2ttCRu2kdO+Z7WOY+8p36xgf+eIE0zLzPDd9AK9fYuT3lsk8ZopVFmULulYBTo1JWcCgXvXgFsSlr7BY83EM77Iie7a9cR6OyxE/Is397GJYevi+geBPgVN+YouqsX4KQ4aV2VAf+/ufTZ62+8na5iqVAbvNzhekUSwwkTzpn0nTLCcDgcIhZovp6+7D8RYPZD/dq2i2Wg24qDBq31DU9sPsscs7djlxdVBPJcJ2jnJTZb/8x/U2DsMsvHYF6jnVQoXxtMtY/bp4mSTv7KFgdYlLAC8s7VclGx2A1pGGPkrnL5/I66VNC+Ml+WhrVatk=",
       "routes": [
         [
           "TSE",
@@ -927,7 +830,7 @@
       "conversion": {
         "EUR": 142
       },
-      "deep_link": "https://www.kiwi.com/deep?from=TSE&to=ALA&departure=06-06-2018&flightsId=3916460617654369_0%7C3916460617654369_1&price=142&passengers=1&affilid=picky&lang=en&currency=EUR&booking_token=TjFsU9KOyjpEDqm5dNSrO1ZjuRMVMgZrERrSppD325T6P8+P9w468E+3gYirNKm0xjFEaQ8brFkJXYHcFnHHQMiKg0Dkoaiav5UhUit795ga968ZfId6YSqVSAY60AYp2XDUbszUu55Gp0PwqgMBTBQ8rwIbgxQhJMttc2C6pricvG8jN70mT5pBHLdWp8bIdhBSb0be31KjPfa/dmCIM3yPsy7YwyJhDcYP//bnQMyuj/15pcGLOlBkvYY3a6Txc1bAomBSspLgsd8QT0XqJ5eiESWsdO7WoWMF2yMhhTrtN0zPxi2Z59bnROUBIeE6w3W2aCMoM8R8tYZRPlRyo9GTfUQDcnjUFC0822dwi3SPqyELjlcC/uhvFt7PWK9TOKSNg9ICNA2b5SL+IKJiwyxt1kJ720ZlSbHQ2hz3FqM3WPkO/y+hptjkV9P88rvWIECARlob+Sgy6ddokGED7J763f9lAikvoLD0mnd+y0w54GJSLvcXG5qNaEWy21QLvESBae9FrF1g5IZV1beUInYpnyioLFcT0B4kTYg+ApRFlaZS4INnsEY1GRx8w+JLx8ZbkeeVWm5CEJFAzVeJrlko+vr2o3dJ6jpNpsCng/8raRjklK/NQKtjLNEcW2TBlWCRFl/mE3fe54DY9XETb8omBS/fkpyudfXEvGTBkgZooNV4C5LF7rf6welPpfPswA1v7fP1EbOPCN3DIOOYcTWmZnT6K3pKm8ynP4w9OZ4pMh4BDkn3JlS5Se+EbkbRQlLjSe6vUViS9Ib6CqVWsT1GWfoXdPq7LbKge0o8lyE=",
+      "deep_link": "https://www.kiwi.com/deep?from=TSE&to=ALA&departure=06-06-2018&flightsId=3916460617654369_0%7C3916460617654369_1&price=142&passengers=1&affilid=picky&lang=en&currency=EUR&booking_token=TjFsU9KOyjpEDqm5dNSrO1ZjuRMVMgZrERrSppD325T6P8+P9w468E+3gYirNKm0xjFEaQ8brFkJXYHcFnHHQMiKg0Dkoaiav5UhUit795ga968ZfId6YSqVSAY60AYp2XDUbszUu55Gp0PwqgMBTBQ8rwIbgxQhJMttc2C6pricvG8jN70mT5pBHLdWp8bIdhBSb0be31KjPfa/dmCIM/66QF9Vaig2XVPoU7je3XFQkC2rNTVaPpOe8pF0yx6d3UyFc7tI/wjdrDjHnoEtqpH9HE8+x+JntbdPiEJ8+VNhQzsIHC3GuoO2J4Gy04jU5Ly41Bfun9vUwcDa8kM57hZvQoj0z8l7UY9CwXbywxgzejd+n8VKLK1IvciZzcG10wQr+nFP8iaQsKmwADWJNrtdxCAQgvEZsxPTgQZNMoJ5t0ndMw4p1Q9EbE5ZhoMXMZ2D2JRkfWyfutnZaahDWrRdmEAokjcf3U0yqP9BMZuxKoRWJcDzk+bbYF67SwQBRK9YqpUdGikDMTTdWFW18Zpqh+Pz0jctmVXXJFOVRLslBtV638Aw8j3JrgXv263xGjeFXsQuGgMzgMDvRPTSdnuxSscrKgPqgwWP70sGq5gGqlVU64HicLRqPyYVvf+pVb5KZARsHYt8+kEDXDe1Qrf4oI4oWCK5nhHkjT1eeSD8DhtaAbWTFoXF6a1BHAllj7eM5M1lQ1vrMW8q4KoDb5h5bR62ZPx0lsZx+svw/5LLLOVIaS8NaHuYaY4cLsJPoXO2CtSb0KFqWlZ29XipHNSr6HPu4MbCbVm3eLrB1Nw=",
       "mapIdto": "almaty",
       "nightsInDest": null,
       "airlines": [
@@ -971,7 +874,7 @@
       "found_on": [
         "deprecated"
       ],
-      "booking_token": "TjFsU9KOyjpEDqm5dNSrO1ZjuRMVMgZrERrSppD325T6P8+P9w468E+3gYirNKm0xjFEaQ8brFkJXYHcFnHHQMiKg0Dkoaiav5UhUit795ga968ZfId6YSqVSAY60AYp2XDUbszUu55Gp0PwqgMBTBQ8rwIbgxQhJMttc2C6pricvG8jN70mT5pBHLdWp8bIdhBSb0be31KjPfa/dmCIM3yPsy7YwyJhDcYP//bnQMyuj/15pcGLOlBkvYY3a6Txc1bAomBSspLgsd8QT0XqJ5eiESWsdO7WoWMF2yMhhTrtN0zPxi2Z59bnROUBIeE6w3W2aCMoM8R8tYZRPlRyo9GTfUQDcnjUFC0822dwi3SPqyELjlcC/uhvFt7PWK9TOKSNg9ICNA2b5SL+IKJiwyxt1kJ720ZlSbHQ2hz3FqM3WPkO/y+hptjkV9P88rvWIECARlob+Sgy6ddokGED7J763f9lAikvoLD0mnd+y0w54GJSLvcXG5qNaEWy21QLvESBae9FrF1g5IZV1beUInYpnyioLFcT0B4kTYg+ApRFlaZS4INnsEY1GRx8w+JLx8ZbkeeVWm5CEJFAzVeJrlko+vr2o3dJ6jpNpsCng/8raRjklK/NQKtjLNEcW2TBlWCRFl/mE3fe54DY9XETb8omBS/fkpyudfXEvGTBkgZooNV4C5LF7rf6welPpfPswA1v7fP1EbOPCN3DIOOYcTWmZnT6K3pKm8ynP4w9OZ4pMh4BDkn3JlS5Se+EbkbRQlLjSe6vUViS9Ib6CqVWsT1GWfoXdPq7LbKge0o8lyE=",
+      "booking_token": "TjFsU9KOyjpEDqm5dNSrO1ZjuRMVMgZrERrSppD325T6P8+P9w468E+3gYirNKm0xjFEaQ8brFkJXYHcFnHHQMiKg0Dkoaiav5UhUit795ga968ZfId6YSqVSAY60AYp2XDUbszUu55Gp0PwqgMBTBQ8rwIbgxQhJMttc2C6pricvG8jN70mT5pBHLdWp8bIdhBSb0be31KjPfa/dmCIM/66QF9Vaig2XVPoU7je3XFQkC2rNTVaPpOe8pF0yx6d3UyFc7tI/wjdrDjHnoEtqpH9HE8+x+JntbdPiEJ8+VNhQzsIHC3GuoO2J4Gy04jU5Ly41Bfun9vUwcDa8kM57hZvQoj0z8l7UY9CwXbywxgzejd+n8VKLK1IvciZzcG10wQr+nFP8iaQsKmwADWJNrtdxCAQgvEZsxPTgQZNMoJ5t0ndMw4p1Q9EbE5ZhoMXMZ2D2JRkfWyfutnZaahDWrRdmEAokjcf3U0yqP9BMZuxKoRWJcDzk+bbYF67SwQBRK9YqpUdGikDMTTdWFW18Zpqh+Pz0jctmVXXJFOVRLslBtV638Aw8j3JrgXv263xGjeFXsQuGgMzgMDvRPTSdnuxSscrKgPqgwWP70sGq5gGqlVU64HicLRqPyYVvf+pVb5KZARsHYt8+kEDXDe1Qrf4oI4oWCK5nhHkjT1eeSD8DhtaAbWTFoXF6a1BHAllj7eM5M1lQ1vrMW8q4KoDb5h5bR62ZPx0lsZx+svw/5LLLOVIaS8NaHuYaY4cLsJPoXO2CtSb0KFqWlZ29XipHNSr6HPu4MbCbVm3eLrB1Nw=",
       "routes": [
         [
           "TSE",
@@ -1024,7 +927,7 @@
       "conversion": {
         "EUR": 142
       },
-      "deep_link": "https://www.kiwi.com/deep?from=TSE&to=ALA&departure=06-06-2018&flightsId=3916460617654399_0%7C3916460617654399_1&price=142&passengers=1&affilid=picky&lang=en&currency=EUR&booking_token=TjFsU9KOyjpEDqm5dNSrO1ZjuRMVMgZrERrSppD325T6P8+P9w468E+3gYirNKm0xjFEaQ8brFkJXYHcFnHHQMiKg0Dkoaiav5UhUit795h+NjF2jvU7URzSxfPch1Mb85S4UqjjyewXZTLD4/n8Fg8C2Ft5vdafXswrEGBoHklL1A4ogw4frpWrHo1X0pB0M3F/LK8JmY7zPoT1ldrLvjKrL7HeAVXuwai5NSGBgo7UyGhziobEX5DYVyj53NDbcCZ/Jb3MHMWlOEQ5jcCBO8I/rMwACuvnAO99gFzJE2GeEwOyvqVOXZzpkAooz2UyzdJeGGFj0eq5/gpkqX8y1mVpouDlnvdrJdJxNDEWPq7CwNeUfYrFx0HtEVE0TU/oah6EN6VHjgeDoLtqT3W6vRk1KMYf87H7IT4m0iRIZ2lU2ie3Zkh5EG07QdLOSl3yaCEama0WIyVzjhVwbZCfwbEyVeovCQvPr5JQdf5PoyDIkMIkMDhXkEnJ9PSUSQHgtpsHOtSlgyrkJ5fjxPRCrwy6gz3hKfAkEQ8ezQiRpARlvijDJA4ZXwa4ru0NxsNrSXmIOUUShKL415ed9IbZ0ngfiu0MYALIy0VZ20V+wrCn7Xk//Urj6Qyf/BZY3ikWk5XL8w9kLRB64snqVOtnI67pKrVH8RPE+nx8aVmRO2x57aujsbwOkMYYEm4CCqNrNgZTXkchtP9MIYyXIMT/QD8hwFfeOdXdltxfV2WtJfuacApWWXstg/tzNH60AsUKfH/+hNayury2g1VdzRTj0wBE6GlBYOzSv04fxNd6N/Q=",
+      "deep_link": "https://www.kiwi.com/deep?from=TSE&to=ALA&departure=06-06-2018&flightsId=3916460617654399_0%7C3916460617654399_1&price=142&passengers=1&affilid=picky&lang=en&currency=EUR&booking_token=TjFsU9KOyjpEDqm5dNSrO1ZjuRMVMgZrERrSppD325T6P8+P9w468E+3gYirNKm0xjFEaQ8brFkJXYHcFnHHQMiKg0Dkoaiav5UhUit795h+NjF2jvU7URzSxfPch1Mb85S4UqjjyewXZTLD4/n8Fg8C2Ft5vdafXswrEGBoHklL1A4ogw4frpWrHo1X0pB0M3F/LK8JmY7zPoT1ldrLvoDEzz0H7hlZ/Z3X2rISAhKWdu6IN8zVfjj8r20lk1mYM2H/vP/8sDAtzGxG+SpjIc6WDduOyOkuNUW8a+tpaxKz2yOIVXK6rSM+wd9nQeZfkENPyTYPu3qtqxUXZUrw0Ttj5wNtoHj+O/BXRiePqcSGM1IeyF3/YQZmiig1WlzeqwuU4S+7v2JgAGm9/r8iqPWaOhC49qt2jL+hXbEWpqWQSbD7aZl8zorhMQLsu02zwcTDM8Abe+TmehmjXhXZNA9QABuzXtbimieCcdYuwpBrt7Jd8Y2GskVCYjYzAeuazZg/n9JaD/x69JfKoBsY/jkwiN2ZiKh5/Ddw4VINGa7t+xKou1zaQK3NRs3vlRsdHODe5b9CaaA+iy/LT1cXj1/l6S3krlOR/iqEvhdZhxmktq74oFDTMSGf22C51AsImz4FAVC3ymJRSuf9pbu6WHoK9uCXmq317RWwmUNrTGLLyLeSlTN3m+TTzqDhv+zZvkmJkPqAfihoJChGF/yiWvAz6gyy0dzxF5tFF+5S7Tex8aFdTeTfIUDWs0/7N2NSBt8/NUKJ+bQGel5s1DQFnmZxOvW4Y6eawlGyzgfRqD4=",
       "mapIdto": "almaty",
       "nightsInDest": null,
       "airlines": [
@@ -1068,7 +971,7 @@
       "found_on": [
         "deprecated"
       ],
-      "booking_token": "TjFsU9KOyjpEDqm5dNSrO1ZjuRMVMgZrERrSppD325T6P8+P9w468E+3gYirNKm0xjFEaQ8brFkJXYHcFnHHQMiKg0Dkoaiav5UhUit795h+NjF2jvU7URzSxfPch1Mb85S4UqjjyewXZTLD4/n8Fg8C2Ft5vdafXswrEGBoHklL1A4ogw4frpWrHo1X0pB0M3F/LK8JmY7zPoT1ldrLvjKrL7HeAVXuwai5NSGBgo7UyGhziobEX5DYVyj53NDbcCZ/Jb3MHMWlOEQ5jcCBO8I/rMwACuvnAO99gFzJE2GeEwOyvqVOXZzpkAooz2UyzdJeGGFj0eq5/gpkqX8y1mVpouDlnvdrJdJxNDEWPq7CwNeUfYrFx0HtEVE0TU/oah6EN6VHjgeDoLtqT3W6vRk1KMYf87H7IT4m0iRIZ2lU2ie3Zkh5EG07QdLOSl3yaCEama0WIyVzjhVwbZCfwbEyVeovCQvPr5JQdf5PoyDIkMIkMDhXkEnJ9PSUSQHgtpsHOtSlgyrkJ5fjxPRCrwy6gz3hKfAkEQ8ezQiRpARlvijDJA4ZXwa4ru0NxsNrSXmIOUUShKL415ed9IbZ0ngfiu0MYALIy0VZ20V+wrCn7Xk//Urj6Qyf/BZY3ikWk5XL8w9kLRB64snqVOtnI67pKrVH8RPE+nx8aVmRO2x57aujsbwOkMYYEm4CCqNrNgZTXkchtP9MIYyXIMT/QD8hwFfeOdXdltxfV2WtJfuacApWWXstg/tzNH60AsUKfH/+hNayury2g1VdzRTj0wBE6GlBYOzSv04fxNd6N/Q=",
+      "booking_token": "TjFsU9KOyjpEDqm5dNSrO1ZjuRMVMgZrERrSppD325T6P8+P9w468E+3gYirNKm0xjFEaQ8brFkJXYHcFnHHQMiKg0Dkoaiav5UhUit795h+NjF2jvU7URzSxfPch1Mb85S4UqjjyewXZTLD4/n8Fg8C2Ft5vdafXswrEGBoHklL1A4ogw4frpWrHo1X0pB0M3F/LK8JmY7zPoT1ldrLvoDEzz0H7hlZ/Z3X2rISAhKWdu6IN8zVfjj8r20lk1mYM2H/vP/8sDAtzGxG+SpjIc6WDduOyOkuNUW8a+tpaxKz2yOIVXK6rSM+wd9nQeZfkENPyTYPu3qtqxUXZUrw0Ttj5wNtoHj+O/BXRiePqcSGM1IeyF3/YQZmiig1WlzeqwuU4S+7v2JgAGm9/r8iqPWaOhC49qt2jL+hXbEWpqWQSbD7aZl8zorhMQLsu02zwcTDM8Abe+TmehmjXhXZNA9QABuzXtbimieCcdYuwpBrt7Jd8Y2GskVCYjYzAeuazZg/n9JaD/x69JfKoBsY/jkwiN2ZiKh5/Ddw4VINGa7t+xKou1zaQK3NRs3vlRsdHODe5b9CaaA+iy/LT1cXj1/l6S3krlOR/iqEvhdZhxmktq74oFDTMSGf22C51AsImz4FAVC3ymJRSuf9pbu6WHoK9uCXmq317RWwmUNrTGLLyLeSlTN3m+TTzqDhv+zZvkmJkPqAfihoJChGF/yiWvAz6gyy0dzxF5tFF+5S7Tex8aFdTeTfIUDWs0/7N2NSBt8/NUKJ+bQGel5s1DQFnmZxOvW4Y6eawlGyzgfRqD4=",
       "routes": [
         [
           "TSE",
@@ -1121,14 +1024,14 @@
       "conversion": {
         "EUR": 274
       },
-      "deep_link": "https://www.kiwi.com/deep?from=TSE&to=ALA&departure=06-06-2018&flightsId=3527233855686565_0&price=274&passengers=1&affilid=picky&lang=en&currency=EUR&booking_token=TjFsU9KOyjpEDqm5dNSrO1ZjuRMVMgZrERrSppD325T6P8+P9w468E+3gYirNKm0xjFEaQ8brFkJXYHcFnHHQMiKg0Dkoaiav5UhUit795iz0U2G0Ppa2u2c+RlkxXhRAjiiIfv/NdX42b7wOfTIbldcnrPPnmZbWvxtbwyu/4QeypH1uA2oHZiFD2z8qjer3nvpJK9vFE4Y9Z4UYL5SrpUATW/0WQLcAV0aeseihn5XWRs5nWDdhpewr0alqgIaa+spUpW6KwPSFdsjAnssAeK0FjKaW/jFsEcWUHnSNqagJNNJmaUaS8g+xo9bjFbRBXA/nXlAUzFZx98UC9WvfRwu+oDbhLyGFvwWykGeLg+n5PzIekwMVRX/SxhR+oxRAji4K6CGIqk4be5DxCzIo6mdb+Rx18EMdyFdsxtTyavX2bAJmW337G0z2ONC9ByMfqPJbZKPYiM3qGZExGr5jlNgQ4OQRbQrHZWQOGSjHR3+PWXVO9A0plmNYV+Rgd2ViJmNv9tXvekhCKrAAZBzKPwtIk+I/zRcANvWGjVABIGAm2ftRbIPDFleYsqKPxEL7LzgNdMJBXMDeSf5fYB0uSWrxrr+gMpq0B7n6ftI98jpuBWcEcAuPrgbYeNETssjjHThhFdiEIk+VQf3IjYJywk8i6jGvw9auBz2orR4LKdrZ5sh/PC4svEoiLMEUGyhLQSQUPw/AACbkwvXyfGF3jBZU5dYiU+FWKmxn4CiIqU=",
+      "deep_link": "https://www.kiwi.com/deep?from=TSE&to=ALA&departure=06-06-2018&flightsId=3527233855686565_0&price=274&passengers=1&affilid=picky&lang=en&currency=EUR&booking_token=TjFsU9KOyjpEDqm5dNSrO1ZjuRMVMgZrERrSppD325T6P8+P9w468E+3gYirNKm0xjFEaQ8brFkJXYHcFnHHQMiKg0Dkoaiav5UhUit795iz0U2G0Ppa2u2c+RlkxXhRAjiiIfv/NdX42b7wOfTIbldcnrPPnmZbWvxtbwyu/4R+THQdPkCOdbQ2Yndar92MccxMl0omHyoCodFhlWozs7T5tLwdG2Qztb9IAzuPkMCkptiRriFfRFqehjw3cM84JmNJxs5VHq2aSRHvsg55CDkkQ26AQP71upLh7/NOMaUF0XmDZTHOn+GakuFBjyKWrPOT9LobYvkd2W1Qp3odOF6cbnHovWLOlVngYLN7VILPU10lyFCprG6HTS9yKsjY80fRv0BzLYEJ6taXk3TU5w7pFAr9ZL3u+YE27krpMMsBCx0MdFrOmngvAN9xYxRJMhix1DjXEfoYHFqEYZ/0t5VPTrqNQ2SftuPRpIet3sV/6m/MWtWoTVHAyrYUTDHu2JFWf4rTnUtAizK7A6D2w8ZunJUVQrk9ACtyC07EdSamjapIreUkOSVY8tBLDQNBhxHrv87roQzvejSWlHNU5yRrrNVgdW38pkekFybdWI5YtTeNNB0IHVoApePOe80uAHt2uBGKsUM5OOidmzREwxNhIzZKbuUI0DsQXwdrHMsSjdMpyQbnvukq4yNSgzpDKMljFSD/eeURBp3XM0z1Y9weyC5SkpPt3CAoowF8rXk=",
       "mapIdto": "almaty",
       "nightsInDest": null,
       "airlines": [
         "Z9"
       ],
       "id": "3527233855686565_0",
-      "facilitated_booking_available": false,
+      "facilitated_booking_available": true,
       "pnr_count": 1,
       "fly_duration": "1h 30m",
       "countryTo": {
@@ -1146,7 +1049,7 @@
       "p3": 1,
       "price": 274,
       "type_flights": [
-        "lcc-Z9"
+        "GDS-r"
       ],
       "bags_price": {
         "1": 20.0
@@ -1165,7 +1068,7 @@
       "found_on": [
         "deprecated"
       ],
-      "booking_token": "TjFsU9KOyjpEDqm5dNSrO1ZjuRMVMgZrERrSppD325T6P8+P9w468E+3gYirNKm0xjFEaQ8brFkJXYHcFnHHQMiKg0Dkoaiav5UhUit795iz0U2G0Ppa2u2c+RlkxXhRAjiiIfv/NdX42b7wOfTIbldcnrPPnmZbWvxtbwyu/4QeypH1uA2oHZiFD2z8qjer3nvpJK9vFE4Y9Z4UYL5SrpUATW/0WQLcAV0aeseihn5XWRs5nWDdhpewr0alqgIaa+spUpW6KwPSFdsjAnssAeK0FjKaW/jFsEcWUHnSNqagJNNJmaUaS8g+xo9bjFbRBXA/nXlAUzFZx98UC9WvfRwu+oDbhLyGFvwWykGeLg+n5PzIekwMVRX/SxhR+oxRAji4K6CGIqk4be5DxCzIo6mdb+Rx18EMdyFdsxtTyavX2bAJmW337G0z2ONC9ByMfqPJbZKPYiM3qGZExGr5jlNgQ4OQRbQrHZWQOGSjHR3+PWXVO9A0plmNYV+Rgd2ViJmNv9tXvekhCKrAAZBzKPwtIk+I/zRcANvWGjVABIGAm2ftRbIPDFleYsqKPxEL7LzgNdMJBXMDeSf5fYB0uSWrxrr+gMpq0B7n6ftI98jpuBWcEcAuPrgbYeNETssjjHThhFdiEIk+VQf3IjYJywk8i6jGvw9auBz2orR4LKdrZ5sh/PC4svEoiLMEUGyhLQSQUPw/AACbkwvXyfGF3jBZU5dYiU+FWKmxn4CiIqU=",
+      "booking_token": "TjFsU9KOyjpEDqm5dNSrO1ZjuRMVMgZrERrSppD325T6P8+P9w468E+3gYirNKm0xjFEaQ8brFkJXYHcFnHHQMiKg0Dkoaiav5UhUit795iz0U2G0Ppa2u2c+RlkxXhRAjiiIfv/NdX42b7wOfTIbldcnrPPnmZbWvxtbwyu/4R+THQdPkCOdbQ2Yndar92MccxMl0omHyoCodFhlWozs7T5tLwdG2Qztb9IAzuPkMCkptiRriFfRFqehjw3cM84JmNJxs5VHq2aSRHvsg55CDkkQ26AQP71upLh7/NOMaUF0XmDZTHOn+GakuFBjyKWrPOT9LobYvkd2W1Qp3odOF6cbnHovWLOlVngYLN7VILPU10lyFCprG6HTS9yKsjY80fRv0BzLYEJ6taXk3TU5w7pFAr9ZL3u+YE27krpMMsBCx0MdFrOmngvAN9xYxRJMhix1DjXEfoYHFqEYZ/0t5VPTrqNQ2SftuPRpIet3sV/6m/MWtWoTVHAyrYUTDHu2JFWf4rTnUtAizK7A6D2w8ZunJUVQrk9ACtyC07EdSamjapIreUkOSVY8tBLDQNBhxHrv87roQzvejSWlHNU5yRrrNVgdW38pkekFybdWI5YtTeNNB0IHVoApePOe80uAHt2uBGKsUM5OOidmzREwxNhIzZKbuUI0DsQXwdrHMsSjdMpyQbnvukq4yNSgzpDKMljFSD/eeURBp3XM0z1Y9weyC5SkpPt3CAoowF8rXk=",
       "routes": [
         [
           "TSE",
@@ -1190,7 +1093,7 @@
           "latFrom": 51.023056,
           "lngTo": 77.042222,
           "aTimeUTC": 1528291800,
-          "refresh_timestamp": 1523720784,
+          "refresh_timestamp": 1523724240,
           "return": 0,
           "price": 1,
           "cityTo": "Almaty",
@@ -1218,7 +1121,7 @@
       "conversion": {
         "EUR": 274
       },
-      "deep_link": "https://www.kiwi.com/deep?from=TSE&to=ALA&departure=06-06-2018&flightsId=3527233855686564_0&price=274&passengers=1&affilid=picky&lang=en&currency=EUR&booking_token=TjFsU9KOyjpEDqm5dNSrO1ZjuRMVMgZrERrSppD325T6P8+P9w468E+3gYirNKm0xjFEaQ8brFkJXYHcFnHHQMiKg0Dkoaiav5UhUit795jzqmPY3OpkfNsGhCi4f1nTjXTBNR9YHIxc70Jk6yHLgs+//7R81f3S7vNa5/Dx4X8EBnkOUlUqG6mQhwNZ064nGJjt6jZwPdwuSbdldE5lmsGioBXALqDGoqTPhlZv9TFU3NOXhQwPeBahLe2wA3rwV3pm/RFvj330dkarWFmcw5lyx7auhcZUamMuYEWqgS87Ha35yX1zGXKW2QiXARS0isWTbbtEGSXeFZoHqCKAuuem62h1OReId+59bEYi/BWQKI6Vfmmicb3qFaw9jt4qKhIhBOomMVSdL96l8Y6uN3H/7Ul2psvvvXTL9txCTc+kJBS7gAATaUyxbTaC76PG8uwheVM2rbzafxVb/xsNZFhGRsZQZbz/jcCgm1m38BLJCiByMdzplTUj1gvqWsqxvBqJrNDS09pUJcS0WoweZ2X7+LQcEyT21eUWxILcvYLdw0ude50o07DgP5QZIRbnjVufKITORzw1OKmHYzGEPAJFwde30auYmKj7KxhaD/5lXrDuYrP4sxDz2/YLrjrc8ESpNt87hkOWffoBIWGXqeYiyQ5Ev/mnmANx3eOU2iZIESsTUQM9P08PTlVelozUSSsV6LR299LF4HJFPsZbYUv23lDea5oGkzo/tExnG+k=",
+      "deep_link": "https://www.kiwi.com/deep?from=TSE&to=ALA&departure=06-06-2018&flightsId=3527233855686564_0&price=274&passengers=1&affilid=picky&lang=en&currency=EUR&booking_token=TjFsU9KOyjpEDqm5dNSrO1ZjuRMVMgZrERrSppD325T6P8+P9w468E+3gYirNKm0xjFEaQ8brFkJXYHcFnHHQMiKg0Dkoaiav5UhUit795jzqmPY3OpkfNsGhCi4f1nTjXTBNR9YHIxc70Jk6yHLgs+//7R81f3S7vNa5/Dx4X81wBnfsq/rRPmghqdvXoRc+CzLANMOXx0oe1tTjCqo1Cx1oWmDxrswDzTvMyaYDryPl2L0kzJXVcZyaYGMSx8Cu05HpBqS2qi780aa7dAmhtf4dt/9IhxNtKflLRIbMfWQJDx8K6KgYTsKeEnIThLhKAggNbFMXVyl87QlAJvqv86qz+3y8mAa/9rHXwXyvLarR/yNnbdJgihu97hfGWp1W704fPTub7hEpVOp5t0OU7i/eKIKQCJjMtgOEcCaAqyaJwRBIzXptzjxwdRUVmfcID7MQGuLeSYuUC13EqeonAdJij3/m/78US1k/Vxs1VlcCtqhqfe07HrXB4cf09rNnknb9kjCnKJ65X4lhrb4o93kNlxAoiLl7JrFtBPHtAd9trsWAMk3JYz4wobSiqtxmYqB2OqY/319Zcn6FnHT/A4rNQQ7lfIf6c5uuYAFnsRJrZC5DCFFP54WZYvZ4vklTaVKdDsmCcclivzvqT6J8tRvgl4MMTT8cKdF55FjxjKJU6nkZuRHAcwRQj4Af9NZbz9bZeJ9VAKcbB3Ogw/eI7/KbrVg+stFWA8UyAdrhD8=",
       "mapIdto": "almaty",
       "nightsInDest": null,
       "airlines": [
@@ -1262,7 +1165,7 @@
       "found_on": [
         "deprecated"
       ],
-      "booking_token": "TjFsU9KOyjpEDqm5dNSrO1ZjuRMVMgZrERrSppD325T6P8+P9w468E+3gYirNKm0xjFEaQ8brFkJXYHcFnHHQMiKg0Dkoaiav5UhUit795jzqmPY3OpkfNsGhCi4f1nTjXTBNR9YHIxc70Jk6yHLgs+//7R81f3S7vNa5/Dx4X8EBnkOUlUqG6mQhwNZ064nGJjt6jZwPdwuSbdldE5lmsGioBXALqDGoqTPhlZv9TFU3NOXhQwPeBahLe2wA3rwV3pm/RFvj330dkarWFmcw5lyx7auhcZUamMuYEWqgS87Ha35yX1zGXKW2QiXARS0isWTbbtEGSXeFZoHqCKAuuem62h1OReId+59bEYi/BWQKI6Vfmmicb3qFaw9jt4qKhIhBOomMVSdL96l8Y6uN3H/7Ul2psvvvXTL9txCTc+kJBS7gAATaUyxbTaC76PG8uwheVM2rbzafxVb/xsNZFhGRsZQZbz/jcCgm1m38BLJCiByMdzplTUj1gvqWsqxvBqJrNDS09pUJcS0WoweZ2X7+LQcEyT21eUWxILcvYLdw0ude50o07DgP5QZIRbnjVufKITORzw1OKmHYzGEPAJFwde30auYmKj7KxhaD/5lXrDuYrP4sxDz2/YLrjrc8ESpNt87hkOWffoBIWGXqeYiyQ5Ev/mnmANx3eOU2iZIESsTUQM9P08PTlVelozUSSsV6LR299LF4HJFPsZbYUv23lDea5oGkzo/tExnG+k=",
+      "booking_token": "TjFsU9KOyjpEDqm5dNSrO1ZjuRMVMgZrERrSppD325T6P8+P9w468E+3gYirNKm0xjFEaQ8brFkJXYHcFnHHQMiKg0Dkoaiav5UhUit795jzqmPY3OpkfNsGhCi4f1nTjXTBNR9YHIxc70Jk6yHLgs+//7R81f3S7vNa5/Dx4X81wBnfsq/rRPmghqdvXoRc+CzLANMOXx0oe1tTjCqo1Cx1oWmDxrswDzTvMyaYDryPl2L0kzJXVcZyaYGMSx8Cu05HpBqS2qi780aa7dAmhtf4dt/9IhxNtKflLRIbMfWQJDx8K6KgYTsKeEnIThLhKAggNbFMXVyl87QlAJvqv86qz+3y8mAa/9rHXwXyvLarR/yNnbdJgihu97hfGWp1W704fPTub7hEpVOp5t0OU7i/eKIKQCJjMtgOEcCaAqyaJwRBIzXptzjxwdRUVmfcID7MQGuLeSYuUC13EqeonAdJij3/m/78US1k/Vxs1VlcCtqhqfe07HrXB4cf09rNnknb9kjCnKJ65X4lhrb4o93kNlxAoiLl7JrFtBPHtAd9trsWAMk3JYz4wobSiqtxmYqB2OqY/319Zcn6FnHT/A4rNQQ7lfIf6c5uuYAFnsRJrZC5DCFFP54WZYvZ4vklTaVKdDsmCcclivzvqT6J8tRvgl4MMTT8cKdF55FjxjKJU6nkZuRHAcwRQj4Af9NZbz9bZeJ9VAKcbB3Ogw/eI7/KbrVg+stFWA8UyAdrhD8=",
       "routes": [
         [
           "TSE",
@@ -1287,7 +1190,7 @@
           "latFrom": 51.023056,
           "lngTo": 77.042222,
           "aTimeUTC": 1528257600,
-          "refresh_timestamp": 1523719762,
+          "refresh_timestamp": 1523724240,
           "return": 0,
           "price": 1,
           "cityTo": "Almaty",
@@ -1315,14 +1218,14 @@
       "conversion": {
         "EUR": 274
       },
-      "deep_link": "https://www.kiwi.com/deep?from=TSE&to=ALA&departure=06-06-2018&flightsId=3527233855686563_0&price=274&passengers=1&affilid=picky&lang=en&currency=EUR&booking_token=TjFsU9KOyjpEDqm5dNSrO1ZjuRMVMgZrERrSppD325T6P8+P9w468E+3gYirNKm0xjFEaQ8brFkJXYHcFnHHQMiKg0Dkoaiav5UhUit795gkf4zGhVA7zek//RtJl6UIc2ZJAdVvMIVQwgnsMmf5vP58z9kZaePQXvQOgaT10yDGrCxJaxNUJcUN53c6u9t+mKWjTS1XSe8PvEyi1aWsXn6W8SzbFIyXy7VVDViqwYpVM7QhBwnPQyuOiJKgBi3mC55kNhwuFrz8J7QNFn3E7Klhow+XoGhnWLx3jrPSvRx5RE+f4A8mc1EMeOskOjsirgnLd252AbziXSQ6OsBMRhGGQT0UALGY8svveGvkHbHOinpD31m7G2FRjWk5lfUEmIN25PIrIB1dKpljMIX8qbCGq46ejqiJNmwyjuXXfEb/EbqHN/fcjYhUBQzc6PgkP74h8RA+8/YtENQBofPwU/raFT14MsZ6CrvPqeK+gfcQnxKY1ho2ZC+q5QPRuHpiO6LWWEbf3uBLUIxyxCHs81S95O4mhiIt66pvshZuMEzCARHtTios30TBnePwfcXKPTB6rv/BNGRU7GL7mLYazPoN7MaODT3Zp2gzT2orbyWR9ocvQ5x/eNT6SgB3fOD69j6xJldIc5HZfSpH2PA5Vutd4h3LJjwvQe+ofuovHMnT3jxmmNVQ8wcMCN1SzcrMJXwTT/oJrGA6KfNDHCtx9Nlv+z2FCyqq0bxDAYsMjDE=",
+      "deep_link": "https://www.kiwi.com/deep?from=TSE&to=ALA&departure=06-06-2018&flightsId=3527233855686563_0&price=274&passengers=1&affilid=picky&lang=en&currency=EUR&booking_token=TjFsU9KOyjpEDqm5dNSrO1ZjuRMVMgZrERrSppD325T6P8+P9w468E+3gYirNKm0xjFEaQ8brFkJXYHcFnHHQMiKg0Dkoaiav5UhUit795gkf4zGhVA7zek//RtJl6UIc2ZJAdVvMIVQwgnsMmf5vP58z9kZaePQXvQOgaT10yDO6Am4eI/NCYettD04DS3V37HwdZdVfx9ORZDktrINZ6EL4E1+PCw1uZ/qSBGsV8bCCfoe1+fxTA31AoAtxR3vco2g6VnlLp9UjQrSXdOChfP/hONR5U9MbPyhsZDuuwB9rH+db0sjlhAB4wiIIZPhxFnY7z6A7hRiyeWABF/Go2hULpkJ9qbKcsQaBomGrJ0YcL3stCH+uBeyJXag0rgzqe6tEE4MBnT3fNiyhhIfQLXk9U9wCB/9O4MXpUE7fjZ4+jnt1Bm085n/MQv0Z5CDQsmqnvOTHL/DSuOpK4qsd6qvC18kwtdvmR5J5kVTGPGxKpCmzBp7w0DkRr5t4mIt7w5NhO3vilfYtIkmDEP/5wYH8Z+nRrNqBzEGtsAwnTGZpkUnKie+MVyOCZDg50twXCxIntgMi6XOcDA2g10ttV/+kyW9RU3/Z3OolXXvYoKphvULGRN/5myWAx6l39tx1zDqAlnh4K97zcvFLGaHaXV+43CBfJ7jU0JlCD7a3MUyRw6jHAATXTHJOjxATGhOgswvtkg1Xgrhxdjnkyk1oY6bqoqY3sSaGqqtBdb7qhY=",
       "mapIdto": "almaty",
       "nightsInDest": null,
       "airlines": [
         "Z9"
       ],
       "id": "3527233855686563_0",
-      "facilitated_booking_available": false,
+      "facilitated_booking_available": true,
       "pnr_count": 1,
       "fly_duration": "1h 30m",
       "countryTo": {
@@ -1340,7 +1243,7 @@
       "p3": 1,
       "price": 274,
       "type_flights": [
-        "lcc-Z9"
+        "GDS-r"
       ],
       "bags_price": {
         "1": 20.0
@@ -1359,7 +1262,7 @@
       "found_on": [
         "deprecated"
       ],
-      "booking_token": "TjFsU9KOyjpEDqm5dNSrO1ZjuRMVMgZrERrSppD325T6P8+P9w468E+3gYirNKm0xjFEaQ8brFkJXYHcFnHHQMiKg0Dkoaiav5UhUit795gkf4zGhVA7zek//RtJl6UIc2ZJAdVvMIVQwgnsMmf5vP58z9kZaePQXvQOgaT10yDGrCxJaxNUJcUN53c6u9t+mKWjTS1XSe8PvEyi1aWsXn6W8SzbFIyXy7VVDViqwYpVM7QhBwnPQyuOiJKgBi3mC55kNhwuFrz8J7QNFn3E7Klhow+XoGhnWLx3jrPSvRx5RE+f4A8mc1EMeOskOjsirgnLd252AbziXSQ6OsBMRhGGQT0UALGY8svveGvkHbHOinpD31m7G2FRjWk5lfUEmIN25PIrIB1dKpljMIX8qbCGq46ejqiJNmwyjuXXfEb/EbqHN/fcjYhUBQzc6PgkP74h8RA+8/YtENQBofPwU/raFT14MsZ6CrvPqeK+gfcQnxKY1ho2ZC+q5QPRuHpiO6LWWEbf3uBLUIxyxCHs81S95O4mhiIt66pvshZuMEzCARHtTios30TBnePwfcXKPTB6rv/BNGRU7GL7mLYazPoN7MaODT3Zp2gzT2orbyWR9ocvQ5x/eNT6SgB3fOD69j6xJldIc5HZfSpH2PA5Vutd4h3LJjwvQe+ofuovHMnT3jxmmNVQ8wcMCN1SzcrMJXwTT/oJrGA6KfNDHCtx9Nlv+z2FCyqq0bxDAYsMjDE=",
+      "booking_token": "TjFsU9KOyjpEDqm5dNSrO1ZjuRMVMgZrERrSppD325T6P8+P9w468E+3gYirNKm0xjFEaQ8brFkJXYHcFnHHQMiKg0Dkoaiav5UhUit795gkf4zGhVA7zek//RtJl6UIc2ZJAdVvMIVQwgnsMmf5vP58z9kZaePQXvQOgaT10yDO6Am4eI/NCYettD04DS3V37HwdZdVfx9ORZDktrINZ6EL4E1+PCw1uZ/qSBGsV8bCCfoe1+fxTA31AoAtxR3vco2g6VnlLp9UjQrSXdOChfP/hONR5U9MbPyhsZDuuwB9rH+db0sjlhAB4wiIIZPhxFnY7z6A7hRiyeWABF/Go2hULpkJ9qbKcsQaBomGrJ0YcL3stCH+uBeyJXag0rgzqe6tEE4MBnT3fNiyhhIfQLXk9U9wCB/9O4MXpUE7fjZ4+jnt1Bm085n/MQv0Z5CDQsmqnvOTHL/DSuOpK4qsd6qvC18kwtdvmR5J5kVTGPGxKpCmzBp7w0DkRr5t4mIt7w5NhO3vilfYtIkmDEP/5wYH8Z+nRrNqBzEGtsAwnTGZpkUnKie+MVyOCZDg50twXCxIntgMi6XOcDA2g10ttV/+kyW9RU3/Z3OolXXvYoKphvULGRN/5myWAx6l39tx1zDqAlnh4K97zcvFLGaHaXV+43CBfJ7jU0JlCD7a3MUyRw6jHAATXTHJOjxATGhOgswvtkg1Xgrhxdjnkyk1oY6bqoqY3sSaGqqtBdb7qhY=",
       "routes": [
         [
           "TSE",
@@ -1384,7 +1287,7 @@
           "latFrom": 51.023056,
           "lngTo": 77.042222,
           "aTimeUTC": 1528232400,
-          "refresh_timestamp": 1523720784,
+          "refresh_timestamp": 1523724240,
           "return": 0,
           "price": 1,
           "cityTo": "Almaty",
@@ -1397,6 +1300,200 @@
           "airline": "Z9",
           "cityFrom": "Astana",
           "aTime": 1528254000
+        }
+      ],
+      "distance": 951.6
+    },
+    {
+      "mapIdfrom": "astana",
+      "duration": {
+        "total": 5400,
+        "return": 0,
+        "departure": 5400
+      },
+      "flyTo": "ALA",
+      "conversion": {
+        "EUR": 274
+      },
+      "deep_link": "https://www.kiwi.com/deep?from=TSE&to=ALA&departure=06-06-2018&flightsId=3527233855686566_0&price=274&passengers=1&affilid=picky&lang=en&currency=EUR&booking_token=TjFsU9KOyjpEDqm5dNSrO1ZjuRMVMgZrERrSppD325T6P8+P9w468E+3gYirNKm0xjFEaQ8brFkJXYHcFnHHQMiKg0Dkoaiav5UhUit795iZ0Ymp49eaUPKc8SQZnSyq2Gzpbe/un6uR4xUgQLXoWxG1Luu9a7pa6n2f9UIE6rMxUE2aPvK2j4coNXvIxyfe3cApYGYmQcotKl3vBZW60U39hOI4Pu/lN6txqnGIXmC/mIABy2+23NcvuDMqy8jTduguNiat6Of6eXfjYOheQ3Sz9IdOmTSRhzEIKfl/WMWdny5qOQzrRrQsth5ioZJHLaO/ePh2egWJN9g0RSxd7ucd86T6hAnbLs7wQFg0DVg8jADsRyp4j0DNC9Jfmk+7gJgbYH/TW0MbQhs7Vt3KEK9Uh8bG2FblS9IfTp9AB2/1mObWAO0YusRFLB9/UlSOPhr8Bwis9O/WyK2xov8w952Gdv4IqRyDlBsi3ZVDLKfh2ETPlJnwhvhJkTGVlGQswdkUkMiEC7eMuaVjm6Gx823K2dB4/2rHgsxsP5ZHDUXFxcNkwBPMwiQBZQtzZkWdewVN6jmSA+4UAZpTNZ5t2cxQiQHesdJQ2TaS3vw3+Oj6UTWuuFvfWE8fKiGwqC6f7AX6NhB7r/KnFCm92Ug9JamjkbwTLcJDD7DK39qEFsg3Hg/zgEbtI6j0Djxp+71v0qRuLZzCx8ObYbvDtBpuuSVH1h13qrfnxCHH2TvujtQ=",
+      "mapIdto": "almaty",
+      "nightsInDest": null,
+      "airlines": [
+        "Z9"
+      ],
+      "id": "3527233855686566_0",
+      "facilitated_booking_available": true,
+      "pnr_count": 1,
+      "fly_duration": "1h 30m",
+      "countryTo": {
+        "code": "KZ",
+        "name": "Kazakhstan"
+      },
+      "baglimit": {
+        "hand_width": 40,
+        "hand_length": 55,
+        "hold_weight": 15,
+        "hand_height": 20,
+        "hand_weight": 5
+      },
+      "aTimeUTC": 1528303500,
+      "p3": 1,
+      "price": 274,
+      "type_flights": [
+        "GDS-r"
+      ],
+      "bags_price": {
+        "1": 20.0
+      },
+      "cityTo": "Almaty",
+      "transfers": [],
+      "flyFrom": "TSE",
+      "dTimeUTC": 1528298100,
+      "p2": 1,
+      "countryFrom": {
+        "code": "KZ",
+        "name": "Kazakhstan"
+      },
+      "p1": 1,
+      "dTime": 1528319700,
+      "found_on": [
+        "deprecated"
+      ],
+      "booking_token": "TjFsU9KOyjpEDqm5dNSrO1ZjuRMVMgZrERrSppD325T6P8+P9w468E+3gYirNKm0xjFEaQ8brFkJXYHcFnHHQMiKg0Dkoaiav5UhUit795iZ0Ymp49eaUPKc8SQZnSyq2Gzpbe/un6uR4xUgQLXoWxG1Luu9a7pa6n2f9UIE6rMxUE2aPvK2j4coNXvIxyfe3cApYGYmQcotKl3vBZW60U39hOI4Pu/lN6txqnGIXmC/mIABy2+23NcvuDMqy8jTduguNiat6Of6eXfjYOheQ3Sz9IdOmTSRhzEIKfl/WMWdny5qOQzrRrQsth5ioZJHLaO/ePh2egWJN9g0RSxd7ucd86T6hAnbLs7wQFg0DVg8jADsRyp4j0DNC9Jfmk+7gJgbYH/TW0MbQhs7Vt3KEK9Uh8bG2FblS9IfTp9AB2/1mObWAO0YusRFLB9/UlSOPhr8Bwis9O/WyK2xov8w952Gdv4IqRyDlBsi3ZVDLKfh2ETPlJnwhvhJkTGVlGQswdkUkMiEC7eMuaVjm6Gx823K2dB4/2rHgsxsP5ZHDUXFxcNkwBPMwiQBZQtzZkWdewVN6jmSA+4UAZpTNZ5t2cxQiQHesdJQ2TaS3vw3+Oj6UTWuuFvfWE8fKiGwqC6f7AX6NhB7r/KnFCm92Ug9JamjkbwTLcJDD7DK39qEFsg3Hg/zgEbtI6j0Djxp+71v0qRuLZzCx8ObYbvDtBpuuSVH1h13qrfnxCHH2TvujtQ=",
+      "routes": [
+        [
+          "TSE",
+          "ALA"
+        ]
+      ],
+      "cityFrom": "Astana",
+      "aTime": 1528325100,
+      "route": [
+        {
+          "bags_recheck_required": false,
+          "mapIdfrom": "astana",
+          "flight_no": 2101,
+          "original_return": 0,
+          "lngFrom": 71.466944,
+          "flyTo": "ALA",
+          "guarantee": false,
+          "mapIdto": "almaty",
+          "source": "deprecated",
+          "combination_id": "3527233855686566",
+          "id": "3527233855686566_0",
+          "latFrom": 51.023056,
+          "lngTo": 77.042222,
+          "aTimeUTC": 1528303500,
+          "refresh_timestamp": 1523724240,
+          "return": 0,
+          "price": 1,
+          "cityTo": "Almaty",
+          "vehicle_type": "aircraft",
+          "flyFrom": "TSE",
+          "dTimeUTC": 1528298100,
+          "latTo": 43.353333,
+          "dTime": 1528319700,
+          "found_on": "deprecated",
+          "airline": "Z9",
+          "cityFrom": "Astana",
+          "aTime": 1528325100
+        }
+      ],
+      "distance": 951.6
+    },
+    {
+      "mapIdfrom": "astana",
+      "duration": {
+        "total": 6000,
+        "return": 0,
+        "departure": 6000
+      },
+      "flyTo": "ALA",
+      "conversion": {
+        "EUR": 327
+      },
+      "deep_link": "https://www.kiwi.com/deep?from=TSE&to=ALA&departure=06-06-2018&flightsId=4031909150582640_0%7C4031909150582640_1&price=327&passengers=1&affilid=picky&lang=en&currency=EUR&booking_token=TjFsU9KOyjpEDqm5dNSrO1ZjuRMVMgZrERrSppD325T6P8+P9w468E+3gYirNKm0xjFEaQ8brFkJXYHcFnHHQMiKg0Dkoaiav5UhUit795iH+ye6QLBiXEuRH7DpkvCi518FkCTa6S44z3bBlYWTndkvPfzVpD9ObGLn5CQOSGu9DhApd/fckx+1UZp3ZFmexJ+zOZE/3pcv5jz+1sPUp3TPbMb7vMC/j66xwiavMx+D8E21SbUHi3Hy3QebtDdZjn3EUFT7xMcfrNy8BILz5Ch8+bvIM1a4phuhFBapzfS3dixYtvwkVtpLCh4t6ud9XMk1NfDDKIdVwqH4Oqz6kAh1XtljJv2JyxvwOYS+51RUyS1gtgyMRnAVkB/MiUhwO0qkTSBsrgNiI80uPnjAgAzS5qUYtmzXR3aDxHZyyebCayph1WSH0fwB6HS4lEb0/+KSxYnk87ApTKeroiEbKJ6NOBOtQuk0SZBZktsTk4wONbb5g+zPOKW+CZzgqpa/NE+LqwHX7cA994yskhfxfIX/LMD/sRvMSYbWNOt8mZ9q/uuacebGDt7j/if/d04hQzk7TazDzhZXS6rKgbWWDaSx6qfXLpOJr/JnYTqjUIH2V0fsExcuTEH7JYqrKgsb4Tlhs/xbAn1kbQK7LFYC08YIeMA/NRMMRgnWXEy0ukqzS+SeKCfn1zDTA5yQDUcrtRiPYoxH1WPMpcQiFvO2a1InEP2benymGJ/FhjVHRcWa4X9AeUPlnQJYZ9JxA77hG6Nay3dH4iPyfLutkThAm3yWAwYzsxSWkhVJTZ2CTOA=",
+      "mapIdto": "almaty",
+      "nightsInDest": null,
+      "airlines": [
+        "KC"
+      ],
+      "id": "4031909150582640_0|4031909150582640_1",
+      "facilitated_booking_available": true,
+      "pnr_count": 1,
+      "fly_duration": "1h 40m",
+      "countryTo": {
+        "code": "KZ",
+        "name": "Kazakhstan"
+      },
+      "baglimit": {
+        "hand_width": 45,
+        "hand_length": 56,
+        "hold_weight": 20,
+        "hand_height": 25,
+        "hand_weight": 7
+      },
+      "aTimeUTC": 1528262400,
+      "p3": 1,
+      "price": 327,
+      "type_flights": [
+        "GDS-r"
+      ],
+      "bags_price": {
+        "1": 0.0
+      },
+      "cityTo": "Almaty",
+      "transfers": [],
+      "flyFrom": "TSE",
+      "dTimeUTC": 1528256400,
+      "p2": 1,
+      "countryFrom": {
+        "code": "KZ",
+        "name": "Kazakhstan"
+      },
+      "p1": 1,
+      "dTime": 1528278000,
+      "found_on": [
+        "deprecated"
+      ],
+      "booking_token": "TjFsU9KOyjpEDqm5dNSrO1ZjuRMVMgZrERrSppD325T6P8+P9w468E+3gYirNKm0xjFEaQ8brFkJXYHcFnHHQMiKg0Dkoaiav5UhUit795iH+ye6QLBiXEuRH7DpkvCi518FkCTa6S44z3bBlYWTndkvPfzVpD9ObGLn5CQOSGu9DhApd/fckx+1UZp3ZFmexJ+zOZE/3pcv5jz+1sPUp3TPbMb7vMC/j66xwiavMx+D8E21SbUHi3Hy3QebtDdZjn3EUFT7xMcfrNy8BILz5Ch8+bvIM1a4phuhFBapzfS3dixYtvwkVtpLCh4t6ud9XMk1NfDDKIdVwqH4Oqz6kAh1XtljJv2JyxvwOYS+51RUyS1gtgyMRnAVkB/MiUhwO0qkTSBsrgNiI80uPnjAgAzS5qUYtmzXR3aDxHZyyebCayph1WSH0fwB6HS4lEb0/+KSxYnk87ApTKeroiEbKJ6NOBOtQuk0SZBZktsTk4wONbb5g+zPOKW+CZzgqpa/NE+LqwHX7cA994yskhfxfIX/LMD/sRvMSYbWNOt8mZ9q/uuacebGDt7j/if/d04hQzk7TazDzhZXS6rKgbWWDaSx6qfXLpOJr/JnYTqjUIH2V0fsExcuTEH7JYqrKgsb4Tlhs/xbAn1kbQK7LFYC08YIeMA/NRMMRgnWXEy0ukqzS+SeKCfn1zDTA5yQDUcrtRiPYoxH1WPMpcQiFvO2a1InEP2benymGJ/FhjVHRcWa4X9AeUPlnQJYZ9JxA77hG6Nay3dH4iPyfLutkThAm3yWAwYzsxSWkhVJTZ2CTOA=",
+      "routes": [
+        [
+          "TSE",
+          "ALA"
+        ]
+      ],
+      "cityFrom": "Astana",
+      "aTime": 1528284000,
+      "route": [
+        {
+          "bags_recheck_required": false,
+          "mapIdfrom": "astana",
+          "flight_no": 672,
+          "original_return": 0,
+          "lngFrom": 71.466944,
+          "flyTo": "ALA",
+          "guarantee": false,
+          "mapIdto": "almaty",
+          "source": "deprecated",
+          "combination_id": "4031909150582640",
+          "id": "4031909150582640_0",
+          "latFrom": 51.023056,
+          "lngTo": 77.042222,
+          "aTimeUTC": 1528262400,
+          "refresh_timestamp": 1523724237,
+          "return": 0,
+          "price": 1,
+          "cityTo": "Almaty",
+          "vehicle_type": "aircraft",
+          "flyFrom": "TSE",
+          "dTimeUTC": 1528256400,
+          "latTo": 43.353333,
+          "dTime": 1528278000,
+          "found_on": "deprecated",
+          "airline": "KC",
+          "cityFrom": "Astana",
+          "aTime": 1528284000
         }
       ],
       "distance": 951.6
