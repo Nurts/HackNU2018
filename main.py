@@ -1,7 +1,4 @@
-#hmmm
-"""
-so this is a comment
-"""
+
 import telebot
 import constants
 import requests
@@ -41,7 +38,10 @@ def handle_text(message):
         url = 'https://api.skypicker.com/flights?flyFrom=' + cityFrom + '&to=' + cityTo + '&dateFrom=' + dateFrom + '&dateTo=' + dateTo + '&partner=picky'
         req = requests.get(url)
         print(req.json())
-        write_json(req.json())
+        #write_json(req.json())
+        req_dict = req.json()
+        print(req_dict['data'][0])
+
     else:
         answer = "I don't know"
     bot.send_message(message.from_user.id, answer)
