@@ -20,6 +20,12 @@ def log(message, answer):
                                                                   str(message.from_user.id), message.text))
     print("Answer: " + answer)
 
+def goo_shorten_url(url):
+    post_url = constants.shortener_url
+    payload = {'longUrl': url}
+    headers = {'content-type': 'application/json'}
+    r = requests.post(post_url, data=json.dumps(payload), headers=headers)
+    return r.json()['id']
 
 @bot.message_handler(commands=['help'])
 def handle_text(message):
@@ -45,7 +51,6 @@ def handle_text(message):
         elif len(message.text.split(" "))== 3:
             cityFrom, cityTo, dateFrom = message.text.split(" ")
             dateTo = dateFrom
-
         answer = cityFrom + " || " + cityTo + " || " + dateFrom + " || " + dateTo
         url = 'https://api.skypicker.com/flights?flyFrom=' + cityFrom + '&to=' + cityTo + '&dateFrom=' + dateFrom + '&dateTo=' + dateTo + '&partner=picky'
         req = requests.get(url)
@@ -53,17 +58,18 @@ def handle_text(message):
         #print(req.json())
         write_json(req.json())
         req_dict = req.json()
-        ticket_url = None
-        min_cost = 10000
         if 'data' in req_dict:
             if len(req_dict['data']) == 0:
                 answer = "No tickets"
             else:
+                ticket_url = None
+                min_cost = 10000
                 for each in req_dict['data']:
                     if min_cost > each['conversion']['EUR']:
                         ticket_url = each['deep_link']
                         min_cost = each['conversion']['EUR']
-                    answer = ticket_url
+                answer = goo_shorten_url(ticket_url)
+
         else:
             answer = "Input Error! Please try again!"
 
