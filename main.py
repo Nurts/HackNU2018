@@ -21,6 +21,12 @@ def log(message, answer):
                                                                   str(message.from_user.id), message.text))
     print("Answer: " + answer)
 
+def goo_shorten_url(url):
+    post_url = constants.shortener_url
+    payload = {'longUrl': url}
+    headers = {'content-type': 'application/json'}
+    r = requests.post(post_url, data=json.dumps(payload), headers=headers)
+    return r.json()['id']
 
 
 @bot.message_handler(commands=['help'])
@@ -47,7 +53,6 @@ def handle_text(message):
         elif len(message.text.split(" "))== 3:
             cityFrom, cityTo, dateFrom = message.text.split(" ")
             dateTo = dateFrom
-
         answer = cityFrom + " || " + cityTo + " || " + dateFrom + " || " + dateTo
         url = 'https://api.skypicker.com/flights?flyFrom=' + cityFrom + '&to=' + cityTo + '&dateFrom=' + dateFrom + '&dateTo=' + dateTo + '&partner=picky'
         req = requests.get(url)
@@ -55,22 +60,32 @@ def handle_text(message):
         #print(req.json())
         write_json(req.json())
         req_dict = req.json()
+<<<<<<< HEAD
         ticket_url = None
         min_cost = 10000
         tem1 = ""
         tem2= ""
+=======
+>>>>>>> caa89f31a2ab532ecb9da4671fdd58829847044a
         if 'data' in req_dict:
             if len(req_dict['data']) == 0:
                 answer = "No tickets"
             else:
+                ticket_url = None
+                min_cost = 10000
                 for each in req_dict['data']:
                     if min_cost > each['conversion']['EUR']:
                         ticket_url = each['deep_link']
                         min_cost = each['conversion']['EUR']
+<<<<<<< HEAD
                         tem1 = "From airport: " + each['cityFrom']+"  To airport: "+ each['cityTo']+"\n"
                         tem2 = "Time leaving: " + time.strftime("%D %H:%M", time.localtime(int(each['dTime']))) +"  Time arriving: " + time.strftime("%D %H:%M", time.localtime(int(each['aTime']))) +"\n Time in flight"
 
                     answer = tem1 + tem2 + "For more info:" + ticket_url + "\n"
+=======
+                answer = goo_shorten_url(ticket_url)
+
+>>>>>>> caa89f31a2ab532ecb9da4671fdd58829847044a
         else:
             answer = "Input Error! Please try again!"
 
