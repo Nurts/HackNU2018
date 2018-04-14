@@ -13,7 +13,7 @@ bot = telebot.TeleBot(constants.token)
 def write_json(data, filename='answer.json'):
     with open(filename, 'w') as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
-
+        f.close()
 
 def log(message, answer):
     print("\n ----------------")
@@ -35,14 +35,15 @@ def handle_text(message):
     answer = ""
     if message.text == "Hello" or message.text == "Привет" or message.text == "Пока" or message.text == "Bye":
         answer = message.text + "!"
-    else:
+    elif len(message.text) > 10:
         cityFrom, cityTo, dateFrom, dateTo = message.text.split(" ")
         answer = cityFrom + " || " + cityTo + " || " + dateFrom + " || " + dateTo
         url = 'https://api.skypicker.com/flights?flyFrom=' + cityFrom + '&to=' + cityTo + '&dateFrom=' + dateFrom + '&dateTo=' + dateTo + '&partner=picky'
         req = requests.get(url)
         print(req.json())
-        #write_json(req.json())
-
+        write_json(req.json())
+    else:
+        answer = "I don't know"
     bot.send_message(message.from_user.id, answer)
     log(message, answer)
 
