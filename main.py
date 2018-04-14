@@ -41,14 +41,15 @@ def handle_text(message):
 
 @bot.message_handler(commands=['start'])
 def handle_text(message):
-    m1="Hello, my dear friend!\n I can find the cheapest airline tickets for you!"
+    m1="Hello, my dear friend!\n I can find the cheapest airline tickets for you! "
     m2="You have to just write some information about destinations and date in the given order:\n"
-    m3="City from you will fly out"
-    m4="City where you will fly"
-    m5="Date of the fly or first day of the interval"
-    m6="Last day of the interval(optional)"
-    m7="For example:\n Moscow - Astana - 19/05/2018"
-    m8=" Almaty - Kazan - 16/04/2018 - 25/04/2018"
+    m3="City from you will fly out "
+    m4="City where you will fly "
+    m5="Date of the fly or first day of the interval "
+    m6="Last day of the interval(optional) "
+    m7="For example:\n _Moscow - Astana - 19/05/2018_ "
+    m8=" _Almaty - Kazan - 16/04/2018 - 25/04/2018_ "
+    m9="*You can use any language that you want:3*"
     em1=emojize(":airplane:", use_aliases=True)
     em2 = emojize(":date:", use_aliases=True)
     em3 = emojize(":small_orange_diamond:", use_aliases=True)
@@ -56,8 +57,9 @@ def handle_text(message):
     em8 = emojize(":arrow_upper_right:", use_aliases=True)
     em9 = emojize(":arrow_lower_right:", use_aliases=True)
     em5 = emojize(":white_check_mark:", use_aliases=True)
-    sendtext=m1+em1+"\n"+m2+em3+m3+em8+"\n"+em4+m4+em9+"\n"+em3+m5+em2+"\n"+em4+m6+em2+"\n"+m7+em5+"\n"+m8+em5
-    bot.send_message(message.from_user.id, sendtext)
+    em6 = emojize(":warning:", use_aliases=True)
+    sendtext=m1+em1+"\n"+m2+em3+m3+em8+"\n"+em4+m4+em9+"\n"+em3+m5+em2+"\n"+em4+m6+em2+"\n"+m7+em5+"\n"+m8+em5+"\n\n"+em6+m9
+    bot.send_message(message.from_user.id, sendtext, parse_mode="Markdown")
 
 @bot.message_handler(content_types=['text'])
 def handle_text(message):
@@ -90,6 +92,12 @@ def handle_text(message):
             req = requests.get(url)
             write_json(req.json())
             req_dict = req.json()
+            emm1= emojize(":credit_card:", use_aliases=True)
+            emm2 = emojize(":customs:", use_aliases=True)
+            emm3 = emojize(":arrow_upper_right:", use_aliases=True)
+            emm4 = emojize(":arrow_lower_right:", use_aliases=True)
+            emm5 = emojize(":information_source:", use_aliases=True)
+            emm6 = emojize(":large_blue_circle:", use_aliases=True)
 
             tem1 = ""
             tem2 = ""
@@ -106,17 +114,17 @@ def handle_text(message):
                             min_cost = each['conversion']['EUR']
                             price = each['price']
                             c = CurrencyConverter()
-                            tem1 = "From airport: " +  each['cityFrom']  + "  To airport: " + each['cityTo'] + "\n"
-                            tem2 = "Time leaving: " + time.strftime("%D %H:%M", time.localtime(int(each['dTime']))) + "  Time arriving: " + time.strftime("%D %H:%M", time.localtime(int(each['aTime'])))
-                            tem3 = "The best Price: €" + str(price) + " (" + str(c.convert(price,'EUR','USD'))[:6] + " USD)\n"
+                            tem1 = emm2 +"*From airport:* " +  each['cityFrom'] +"\n" +emm2+"*To airport:* " + each['cityTo'] + "\n"
+                            tem2 = emm3 +"*Time leaving:* " + time.strftime("%D %H:%M", time.localtime(int(each['dTime']))) + "\n" +emm4+"*Time arriving:* " + time.strftime("%D %H:%M", time.localtime(int(each['aTime'])))
+                            tem3 =emm1+ "*The best Price:* €" + str(price) + " (" + str(c.convert(price,'EUR','USD'))[:6] + " USD)"+"\n"
 
-                    answer = tem3 + tem1 + tem2 + "\nFor more info:" + goo_shorten_url(ticket_url) + "\n"
+                    answer = tem3 + tem1 + tem2 + "\n"+emm5+"*For more info:*" + goo_shorten_url(ticket_url) + "\n"
             else:
                 answer = "Input Error! Please try again!"
 
     else:
         answer = "I don't know"
-    bot.send_message(message.from_user.id, answer)
+    bot.send_message(message.from_user.id, answer,parse_mode="Markdown")
     log(message, answer)
 
 
