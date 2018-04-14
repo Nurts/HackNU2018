@@ -24,6 +24,7 @@ def log(message, answer):
     print("Answer: " + answer)
 
 
+
 @bot.message_handler(commands=['help'])
 def handle_text(message):
     bot.send_message(message.from_user.id, """Я бот для поиска авиабилетов
@@ -40,7 +41,7 @@ def handle_text(message):
 def handle_text(message):
     answer = ""
     if message.text == "Hello" or message.text == "Привет" or message.text == "Пока" or message.text == "Bye":
-        answer = message.text + "!"
+        answer = message.text + "hello"
     elif len(message.text) > 10:
         cityFrom, cityTo, dateFrom, dateTo = message.text.split(" ")
         answer = cityFrom + " || " + cityTo + " || " + dateFrom + " || " + dateTo
