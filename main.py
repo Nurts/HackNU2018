@@ -60,13 +60,10 @@ def handle_text(message):
         #print(req.json())
         write_json(req.json())
         req_dict = req.json()
-<<<<<<< HEAD
-        ticket_url = None
-        min_cost = 10000
+
         tem1 = ""
         tem2= ""
-=======
->>>>>>> caa89f31a2ab532ecb9da4671fdd58829847044a
+
         if 'data' in req_dict:
             if len(req_dict['data']) == 0:
                 answer = "No tickets"
@@ -77,15 +74,13 @@ def handle_text(message):
                     if min_cost > each['conversion']['EUR']:
                         ticket_url = each['deep_link']
                         min_cost = each['conversion']['EUR']
-<<<<<<< HEAD
+
                         tem1 = "From airport: " + each['cityFrom']+"  To airport: "+ each['cityTo']+"\n"
                         tem2 = "Time leaving: " + time.strftime("%D %H:%M", time.localtime(int(each['dTime']))) +"  Time arriving: " + time.strftime("%D %H:%M", time.localtime(int(each['aTime']))) +"\n Time in flight"
 
-                    answer = tem1 + tem2 + "For more info:" + ticket_url + "\n"
-=======
-                answer = goo_shorten_url(ticket_url)
+                answer = tem1 + tem2 + "For more info:" + goo_shorten_url(ticket_url) + "\n"
 
->>>>>>> caa89f31a2ab532ecb9da4671fdd58829847044a
+
         else:
             answer = "Input Error! Please try again!"
 
