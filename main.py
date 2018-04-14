@@ -4,6 +4,7 @@ import constants
 import requests
 import json
 import time
+from currency_converter import CurrencyConverter
 
 bot = telebot.TeleBot(constants.token)
 
@@ -43,46 +44,53 @@ def handle_text(message):
 
 @bot.message_handler(content_types=['text'])
 def handle_text(message):
+    bot.send_chat_action(message.from_user.id,'typing')
     answer = ""
     if message.text == "Hello" or message.text == "Привет" or message.text == "Пока" or message.text == "Bye":
         answer = message.text + "hello"
     elif len(message.text) > 10:
+        checker = True
+
         if len(message.text.split(" "))== 4:
             cityFrom, cityTo, dateFrom, dateTo = message.text.split(" ")
             answer = cityFrom + " || " + cityTo + " || " + dateFrom + " || " + dateTo
+            checker = False
         elif len(message.text.split(" "))== 3:
             cityFrom, cityTo, dateFrom = message.text.split(" ")
             dateTo = dateFrom
-        answer = cityFrom + " || " + cityTo + " || " + dateFrom + " || " + dateTo
-        url = 'https://api.skypicker.com/flights?flyFrom=' + cityFrom + '&to=' + cityTo + '&dateFrom=' + dateFrom + '&dateTo=' + dateTo + '&partner=picky'
-        req = requests.get(url)
-        #req = unicode(req, "utf-8")
-        #print(req.json())
-        write_json(req.json())
-        req_dict = req.json()
+            checker = False
 
-        tem1 = ""
-        tem2= ""
 
-        if 'data' in req_dict:
-            if len(req_dict['data']) == 0:
-                answer = "No tickets"
+        if(checker == False):
+            url = 'https://api.skypicker.com/flights?flyFrom=' + cityFrom + '&to=' + cityTo + '&dateFrom=' + dateFrom + '&dateTo=' + dateTo + '&partner=picky'
+            req = requests.get(url)
+            # req = unicode(req, "utf-8")
+            # print(req.json())
+            write_json(req.json())
+            req_dict = req.json()
+
+            tem1 = ""
+            tem2 = ""
+            tem3 = ""
+            if 'data' in req_dict:
+                if len(req_dict['data']) == 0:
+                    answer = "No tickets"
+                else:
+                    ticket_url = None
+                    min_cost = 10000
+                    for each in req_dict['data']:
+                        if min_cost > each['conversion']['EUR']:
+                            ticket_url = each['deep_link']
+                            min_cost = each['conversion']['EUR']
+                            price = each['price']
+                            c = CurrencyConverter()
+                            tem1 = "From airport: " +  each['cityFrom']  + "  To airport: " + each['cityTo'] + "\n"
+                            tem2 = "Time leaving: " + time.strftime("%D %H:%M", time.localtime(int(each['dTime']))) + "  Time arriving: " + time.strftime("%D %H:%M", time.localtime(int(each['aTime'])))
+                            tem3 = "The best Price: €" + str(price) + " (" + str(c.convert(price,'EUR','USD'))[:6] + " USD)\n"
+
+                    answer = tem3 + tem1 + tem2 + "\nFor more info:" + goo_shorten_url(ticket_url) + "\n"
             else:
-                ticket_url = None
-                min_cost = 10000
-                for each in req_dict['data']:
-                    if min_cost > each['conversion']['EUR']:
-                        ticket_url = each['deep_link']
-                        min_cost = each['conversion']['EUR']
-
-                        tem1 = "From airport: " + each['cityFrom']+"  To airport: "+ each['cityTo']+"\n"
-                        tem2 = "Time leaving: " + time.strftime("%D %H:%M", time.localtime(int(each['dTime']))) +"  Time arriving: " + time.strftime("%D %H:%M", time.localtime(int(each['aTime']))) +"\n Time in flight"
-
-                answer = tem1 + tem2 + "For more info:" + goo_shorten_url(ticket_url) + "\n"
-
-
-        else:
-            answer = "Input Error! Please try again!"
+                answer = "Input Error! Please try again!"
 
     else:
         answer = "I don't know"
