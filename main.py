@@ -6,6 +6,9 @@ import time
 from currency_converter import CurrencyConverter
 from emoji import emojize
 
+BOLD = '\033[1m'
+END = '\033[0m'
+
 bot = telebot.TeleBot(constants.token)
 
 def translate_text(text):
@@ -33,6 +36,7 @@ def goo_shorten_url(url):
     r = requests.post(post_url, data=json.dumps(payload), headers=headers)
     return r.json()['id']
 
+#def sort_by_time(s, f):
 
 @bot.message_handler(commands=['help'])
 def handle_text(message):
@@ -41,6 +45,7 @@ def handle_text(message):
 
 @bot.message_handler(commands=['start'])
 def handle_text(message):
+<<<<<<< HEAD
     m1="Hello, my dear friend!\n I can find the cheapest airline tickets for you! "
     m2="You have to just write some information about destinations and date in the given order:\n"
     m3="City from you will fly out "
@@ -51,15 +56,42 @@ def handle_text(message):
     m8=" _Almaty - Kazan - 16/04/2018 - 25/04/2018_ "
     m9="*You can use any language that you want:3*"
     em1=emojize(":airplane:", use_aliases=True)
+=======
+    user_markup = telebot.types.ReplyKeyboardMarkup(True, False)
+    user_markup.row('/start', '/end')
+    user_markup.row('/next', '/choose time')
+    m1 = "Hello, my dear friend!\n I can find the cheapest airline tickets for you!"
+    m2 = "You have to just write some information about destinations and date in the given order:\n"
+    m3 = "City from you will fly out"
+    m4 = "City where you will fly"
+    m5 = "Date of the fly or first day of the interval"
+    m6 = "Last day of the interval(optional)"
+    m7 = "For example:\n Moscow - Astana - 19/05/2018"
+    m8 = " Almaty - Kazan - 16/04/2018 - 25/04/2018"
+    em1 = emojize(":airplane:", use_aliases=True)
+>>>>>>> 5d14a822eefd6b0c1b07a8358f6c7022277cdabd
     em2 = emojize(":date:", use_aliases=True)
     em3 = emojize(":small_orange_diamond:", use_aliases=True)
     em4 = emojize(":small_blue_diamond:", use_aliases=True)
     em8 = emojize(":arrow_upper_right:", use_aliases=True)
     em9 = emojize(":arrow_lower_right:", use_aliases=True)
     em5 = emojize(":white_check_mark:", use_aliases=True)
+<<<<<<< HEAD
     em6 = emojize(":warning:", use_aliases=True)
     sendtext=m1+em1+"\n"+m2+em3+m3+em8+"\n"+em4+m4+em9+"\n"+em3+m5+em2+"\n"+em4+m6+em2+"\n"+m7+em5+"\n"+m8+em5+"\n\n"+em6+m9
     bot.send_message(message.from_user.id, sendtext, parse_mode="Markdown")
+=======
+    sendtext = m1 + em1 + "\n" + m2 + em3 + m3 + em8 + "\n" + em4 + m4 + em9 + "\n" + em3 + m5 + em2 + "\n" + em4 + m6 + em2 + "\n" + m7 + em5 + "\n" + m8 + em5
+    bot.send_message(message.from_user.id, sendtext, reply_markup=user_markup)
+
+@bot.message_handler(commands=['end'])
+def handle_text(message):
+    hide_markup = telebot.types.ReplyKeyboardRemove()
+    bot.send_message(message.from_user.id, "GoodBye", reply_markup=hide_markup)
+
+
+
+>>>>>>> 5d14a822eefd6b0c1b07a8358f6c7022277cdabd
 
 @bot.message_handler(content_types=['text'])
 def handle_text(message):
@@ -114,9 +146,15 @@ def handle_text(message):
                             min_cost = each['conversion']['EUR']
                             price = each['price']
                             c = CurrencyConverter()
+<<<<<<< HEAD
                             tem1 = emm2 +"*From airport:* " +  each['cityFrom'] +"\n" +emm2+"*To airport:* " + each['cityTo'] + "\n"
                             tem2 = emm3 +"*Time leaving:* " + time.strftime("%D %H:%M", time.localtime(int(each['dTime']))) + "\n" +emm4+"*Time arriving:* " + time.strftime("%D %H:%M", time.localtime(int(each['aTime'])))
                             tem3 =emm1+ "*The best Price:* €" + str(price) + " (" + str(c.convert(price,'EUR','USD'))[:6] + " USD)"+"\n"
+=======
+                            tem1 = "From airport: " +  each['cityFrom'] +"  To airport: " + each['cityTo'] + "\n"
+                            tem2 = "Time leaving: " + time.strftime("%D %H:%M", time.localtime(int(each['dTime']))) + "  Time arriving: " + time.strftime("%D %H:%M", time.localtime(int(each['aTime'])))
+                            tem3 = "The best Price: €" + str(price) + " (" + str(c.convert(price,'EUR','USD'))[:6] + " USD)\n"
+>>>>>>> 5d14a822eefd6b0c1b07a8358f6c7022277cdabd
 
                     answer = tem3 + tem1 + tem2 + "\n"+emm5+"*For more info:*" + goo_shorten_url(ticket_url) + "\n"
             else:
