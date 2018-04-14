@@ -40,7 +40,8 @@ def handle_text(message):
         answer = cityFrom + " || " + cityTo + " || " + dateFrom + " || " + dateTo
         url = 'https://api.skypicker.com/flights?flyFrom=' + cityFrom + '&to=' + cityTo + '&dateFrom=' + dateFrom + '&dateTo=' + dateTo + '&partner=picky'
         req = requests.get(url)
-        write_json(req.json())
+        print(req.json())
+        #write_json(req.json())
 
     bot.send_message(message.from_user.id, answer)
     log(message, answer)
