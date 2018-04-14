@@ -26,6 +26,12 @@ def handle_text(message):
     bot.send_message(message.from_user.id, """Я бот для поиска авиабилетов
 Но я еще не готов к работе!""")
 
+@bot.message_handler(commands=['start'])
+def handle_text(message):
+    bot.send_message(message.from_user.id, """Hello, I can help you to find the tickets to airplane.
+    It will be easy to use me instead of surfing the Internet
+    """)
+
 
 @bot.message_handler(content_types=['text'])
 def handle_text(message):
