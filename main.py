@@ -1,4 +1,3 @@
-
 import telebot
 import constants
 import requests
@@ -11,6 +10,10 @@ END = '\033[0m'
 
 bot = telebot.TeleBot(constants.token)
 
+def translate_text(text):
+    req_url = constants.translate_url + 'key=' + constants.translate_key + '&text=' + text + "&lang=en"
+    r = requests.post(req_url)
+    return r.json()['text'][0]
 
 def write_json(data, filename='answer.json'):
     with open(filename, 'w') as f:
@@ -56,27 +59,32 @@ def handle_text(message):
 @bot.message_handler(content_types=['text'])
 def handle_text(message):
     bot.send_chat_action(message.from_user.id,'typing')
-    answer = ""
+    answer = "Input Error! Please Try again!"
     if message.text == "Hello" or message.text == "Привет" or message.text == "Пока" or message.text == "Bye":
-        answer = message.text + "hello"
+        answer = message.text
     elif len(message.text) > 10:
         checker = True
 
-        if len(message.text.split(" "))== 4:
-            cityFrom, cityTo, dateFrom, dateTo = message.text.split(" ")
-            answer = cityFrom + " || " + cityTo + " || " + dateFrom + " || " + dateTo
+        if len(message.text.split("-")) == 4:
+            cityFrom, cityTo, dateFrom, dateTo = message.text.split("-")
             checker = False
-        elif len(message.text.split(" "))== 3:
-            cityFrom, cityTo, dateFrom = message.text.split(" ")
+        elif len(message.text.split("-"))== 3:
+            cityFrom, cityTo, dateFrom = message.text.split("-")
             dateTo = dateFrom
             checker = False
 
 
         if(checker == False):
-            url = 'https://api.skypicker.com/flights?flyFrom=' + cityFrom + '&to=' + cityTo + '&dateFrom=' + dateFrom + '&dateTo=' + dateTo + '&partner=picky'
+            cityFrom = " ".join(cityFrom.split())
+            cityTo = " ".join(cityTo.split())
+            dateFrom = " ".join(dateFrom.split())
+            dateTo = " ".join(dateTo.split())
+            cityFrom = translate_text(cityFrom)
+            cityTo = translate_text(cityTo)
+            #print(cityFrom + "\n" + cityTo + "\n" + dateFrom + "\n" + dateTo)
+            url = 'https://api.skypicker.com/flights?flyFrom=' + cityFrom + '&to=' + cityTo + '&dateFrom=' + dateFrom +\
+                  '&dateTo=' + dateTo + '&partner=picky'
             req = requests.get(url)
-            # req = unicode(req, "utf-8")
-            # print(req.json())
             write_json(req.json())
             req_dict = req.json()
 
@@ -95,7 +103,7 @@ def handle_text(message):
                             min_cost = each['conversion']['EUR']
                             price = each['price']
                             c = CurrencyConverter()
-                            tem1 = "From airport: " + BOLD + each['cityFrom'] +END + "  To airport: " + each['cityTo'] + "\n"
+                            tem1 = "From airport: " +  each['cityFrom'] +"  To airport: " + each['cityTo'] + "\n"
                             tem2 = "Time leaving: " + time.strftime("%D %H:%M", time.localtime(int(each['dTime']))) + "  Time arriving: " + time.strftime("%D %H:%M", time.localtime(int(each['aTime'])))
                             tem3 = "The best Price: €" + str(price) + " (" + str(c.convert(price,'EUR','USD'))[:6] + " USD)\n"
 
@@ -105,11 +113,9 @@ def handle_text(message):
 
     else:
         answer = "I don't know"
-    bot.send_message(message.from_user.id)
+    bot.send_message(message.from_user.id, answer)
     log(message, answer)
 
 
 if __name__ == '__main__':
     bot.polling(none_stop=True, interval=0)
-
-#if __name__ == 'hello':
