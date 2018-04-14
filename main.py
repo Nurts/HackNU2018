@@ -9,7 +9,7 @@ bot = telebot.TeleBot(constants.token)
 
 def write_json(data, filename='answer.json'):
     with open(filename, 'w') as f:
-        json.dump(data, f, indent=2, ensure_ascii=False)
+        json.dump(data, f, indent=2, ensure_ascii=True)
         f.close()
 
 def log(message, answer):
@@ -49,17 +49,23 @@ def handle_text(message):
         answer = cityFrom + " || " + cityTo + " || " + dateFrom + " || " + dateTo
         url = 'https://api.skypicker.com/flights?flyFrom=' + cityFrom + '&to=' + cityTo + '&dateFrom=' + dateFrom + '&dateTo=' + dateTo + '&partner=picky'
         req = requests.get(url)
-        print(req.json())
+        #req = unicode(req, "utf-8")
+        #print(req.json())
         write_json(req.json())
         req_dict = req.json()
         ticket_url = None
         min_cost = 10000
-        for each in req_dict['data']:
-            if min_cost > each['conversion']['EUR']:
-                ticket_url = each['deep_link']
-                min_cost = each['conversion']['EUR']
-
-        bot.send_message(message.from_user.id, ticket_url)
+        if 'data' in req_dict:
+            if len(req_dict['data']) == 0:
+                answer = "No tickets"
+            else:
+                for each in req_dict['data']:
+                    if min_cost > each['conversion']['EUR']:
+                        ticket_url = each['deep_link']
+                        min_cost = each['conversion']['EUR']
+                    answer = ticket_url
+        else:
+            answer = "Input Error! Please try again!"
 
     else:
         answer = "I don't know"
