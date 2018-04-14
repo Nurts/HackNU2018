@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-=======
+
 
 import telebot
 import constants
@@ -7,6 +6,7 @@ import requests
 import json
 import time
 from currency_converter import CurrencyConverter
+from emoji import emojize
 
 bot = telebot.TeleBot(constants.token)
 
@@ -39,15 +39,28 @@ def handle_text(message):
 
 @bot.message_handler(commands=['start'])
 def handle_text(message):
-    bot.send_message(message.from_user.id, """Hello, I can help you to find the tickets to airplane.
-    It will be easy to use me instead of surfing the Internet
-    """)
-
+    m1="Hello, my dear friend!\n I can find the cheapest airline tickets for you!"
+    m2="You have to just write some information about destinations and date in the given order:\n"
+    m3="City from you will fly out"
+    m4="City where you will fly"
+    m5="Date of the fly or first day of the interval"
+    m6="Last day of the interval(optional)"
+    m7="For example:\n Moscow - Astana - 19/05/2018"
+    m8=" Almaty - Kazan - 16/04/2018 - 25/04/2018"
+    em1=emojize(":airplane:", use_aliases=True)
+    em2 = emojize(":date:", use_aliases=True)
+    em3 = emojize(":small_orange_diamond:", use_aliases=True)
+    em4 = emojize(":small_blue_diamond:", use_aliases=True)
+    em8 = emojize(":arrow_upper_right:", use_aliases=True)
+    em9 = emojize(":arrow_lower_right:", use_aliases=True)
+    em5 = emojize(":white_check_mark:", use_aliases=True)
+    sendtext=m1+em1+"\n"+m2+em3+m3+em8+"\n"+em4+m4+em9+"\n"+em3+m5+em2+"\n"+em4+m6+em2+"\n"+m7+em5+"\n"+m8+em5
+    bot.send_message(message.from_user.id, sendtext)
 
 @bot.message_handler(content_types=['text'])
 def handle_text(message):
     bot.send_chat_action(message.from_user.id,'typing')
-    answer = ""
+    answer = "None"
     if message.text == "Hello" or message.text == "Привет" or message.text == "Пока" or message.text == "Bye":
         answer = message.text + "hello"
     elif len(message.text) > 10:
@@ -104,4 +117,4 @@ if __name__ == '__main__':
     bot.polling(none_stop=True, interval=0)
 
 #if __name__ == 'hello':
->>>>>>> 3d3dbc6f507bb8d1e8063d391bf991b9ce6c9d5f
+
