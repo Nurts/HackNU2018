@@ -21,7 +21,7 @@ def make_request():
     req = requests.get(url)
     write_json(req.json())
     req_dict = req.json()
-
+    print(url)
     if 'data' not in req_dict:
         return answer
     elif len(req_dict['data']) == 0:
@@ -31,13 +31,18 @@ def make_request():
     return answer
 
 def jsontoString(each):
+    emm1 = emojize(":credit_card:", use_aliases=True)
+    emm2 = emojize(":customs:", use_aliases=True)
+    emm3 = emojize(":arrow_upper_right:", use_aliases=True)
+    emm4 = emojize(":arrow_lower_right:", use_aliases=True)
+    emm5 = emojize(":information_source:", use_aliases=True)
     ticket_url = each['deep_link']
     price = each['price']
     c = CurrencyConverter()
-    tem1 = "From airport: " + each['cityFrom'] + "  To airport: " + each['cityTo'] + "\n"
-    tem2 = "Time leaving: " + time.strftime("%D %H:%M",time.gmtime(int(each['dTime']))) + "  Time arriving: " + time.strftime("%D %H:%M", time.gmtime(int(each['aTime'])))
-    tem3 = "The best Price: €" + str(price) + " (" + str(c.convert(price, 'EUR', 'USD'))[:6] + " USD)\n"
-    answer = tem3 + tem1 + tem2 + "\nFor more info:" + goo_shorten_url(ticket_url) + "\n"
+    tem1 = emm2 + "*From airport:* " + each['cityFrom'] + "\n" + emm2 + "*To airport:* " + each['cityTo'] + "\n"
+    tem2 = emm3 + "*Time leaving:* " + time.strftime("%D %H:%M", time.gmtime(int(each['dTime']))) + "\n" + emm4 + "*Time arriving:* " + time.strftime("%D %H:%M",time.gmtime(int(each['aTime'])))
+    tem3 = emm1 + "*The best Price:* €" + str(price) + " (" + str(c.convert(price, 'EUR', 'USD'))[:6] + " USD)" + "\n"
+    answer = tem3 + tem1 + tem2 + "\n" + emm5 + "For more info:" + goo_shorten_url(ticket_url) + "\n"
     return answer
 
 def translate_text(text):
@@ -79,6 +84,7 @@ def handle_text(message):
     m6 = "Last day of the interval(optional)"
     m7 = "For example:\n Moscow - Astana - 19/05/2018"
     m8 = " Almaty - Kazan - 16/04/2018 - 25/04/2018"
+    m9 = "*You can use any language that you want:3*"
     em1 = emojize(":airplane:", use_aliases=True)
     em2 = emojize(":date:", use_aliases=True)
     em3 = emojize(":small_orange_diamond:", use_aliases=True)
@@ -86,8 +92,9 @@ def handle_text(message):
     em8 = emojize(":arrow_upper_right:", use_aliases=True)
     em9 = emojize(":arrow_lower_right:", use_aliases=True)
     em5 = emojize(":white_check_mark:", use_aliases=True)
-    sendtext = m1 + em1 + "\n" + m2 + em3 + m3 + em8 + "\n" + em4 + m4 + em9 + "\n" + em3 + m5 + em2 + "\n" + em4 + m6 + em2 + "\n" + m7 + em5 + "\n" + m8 + em5
-    msg = bot.send_message(message.from_user.id, sendtext, reply_markup=user_markup)
+    em6 = emojize(":warning:", use_aliases=True)
+    sendtext=m1+em1+"\n"+m2+em3+m3+em8+"\n"+em4+m4+em9+"\n"+em3+m5+em2+"\n"+em4+m6+em2+"\n"+m7+em5+"\n"+m8+em5+"\n\n"+em6+m9
+    msg = bot.send_message(message.from_user.id, sendtext, reply_markup=user_markup, parse_mode="Markdown")
     bot.register_next_step_handler(msg, initial_case_step)
 
 @bot.message_handler(commands=['end'])
@@ -99,6 +106,7 @@ def handle_text(message):
 
 @bot.message_handler(commands=['next'])
 def handle_text(message):
+    bot.send_chat_action(message.from_user.id, 'typing')
     answer = "No more tickets";
     cur_data = json.load(open('cur_data.json'))
     cur_data['id'] = cur_data['id'] + 1
@@ -109,10 +117,11 @@ def handle_text(message):
     else:
         answer = jsontoString(req_dict['data'][cur_data['id']])
     #answer = make_request()
-    bot.send_message(message.from_user.id, answer)
+    bot.send_message(message.from_user.id, answer, parse_mode="Markdown")
 
 @bot.message_handler(commands=['choose_time'])
 def handle_text(message):
+    bot.send_chat_action(message.from_user.id, 'typing')
     user_markup = telebot.types.ReplyKeyboardMarkup(True, False)
     user_markup.row('/morning', '/afternoon')
     user_markup.row('/night', '/midnight')
@@ -129,7 +138,7 @@ def choose_time_step(message):
     cur_data['dtimeto'] = tito
     write_json(cur_data, 'cur_data.json')
     answer = make_request()
-    bot.send_message(message.from_user.id, answer)
+    bot.send_message(message.from_user.id, answer,parse_mode="Markdown")
 
 def initial_case_step(message):
     bot.send_chat_action(message.from_user.id,'typing')
@@ -158,12 +167,11 @@ def initial_case_step(message):
             data = {"cityFrom":cityFrom, "cityTo":cityTo, "dateFrom":dateFrom, "dateTo":dateTo,
                     "dtimefrom":'00:00', "dtimeto":"00:00", "passengers":'1', "adults":'1',"children":'0',
                     "infants":'0', "curr":'EUR', "id":0}
-
             write_json(data, filename='cur_data.json')
             answer = make_request()
     else:
         answer = constants.tryagain_message
-    msg = bot.send_message(message.from_user.id, answer)
+    msg = bot.send_message(message.from_user.id, answer,parse_mode="Markdown")
     if answer == constants.tryagain_message:
         bot.register_next_step_handler(msg, initial_case_step)
     log(message, answer)

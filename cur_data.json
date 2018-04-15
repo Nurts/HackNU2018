@@ -1,0 +1,14 @@
+{
+  "cityFrom": "Moscow",
+  "cityTo": "Astana",
+  "dateFrom": "19/05/2018",
+  "dateTo": "19/05/2018",
+  "dtimefrom": "00:40",
+  "dtimeto": "00:50",
+  "passengers": "1",
+  "adults": "1",
+  "children": "0",
+  "infants": "0",
+  "curr": "EUR",
+  "id": 2
+}
