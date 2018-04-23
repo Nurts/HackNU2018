@@ -1,8 +1,8 @@
 import telebot
-import constants
 import requests
 import json
 import time
+from HackNU2018 import constants
 from currency_converter import CurrencyConverter
 from emoji import emojize
 
@@ -21,7 +21,7 @@ def make_request():
     req = requests.get(url)
     write_json(req.json())
     req_dict = req.json()
-    #print(url)
+    print(url + "\n" + cur_data['cityTo'])
     if 'data' not in req_dict:
         return answer
     elif len(req_dict['data']) == 0:
@@ -106,7 +106,7 @@ def home_buttons(user_id):
     user_markup.row('/start', '/end', '/addPassengers')
     user_markup.row('/next', '/choose_time')
     bot.send_message(user_id,em9+"Now you can choose number of passangers and suitable daytime:\n"
-    +em7+"To add passangers press /addpassanger, please \n"+em7+"To choose time press /choose_time, please\n"
+    +em7+"To add passengers press /addpassenger, please \n"+em7+"To choose time press /choose_time, please\n"
     +em7+"If you are single and the daytime is does not matter for you, press /next",reply_markup=user_markup)
 
 @bot.message_handler(commands=['end'])
@@ -248,6 +248,12 @@ def choose_time_step(message):
 
 def initial_case_step(message):
     bot.send_chat_action(message.from_user.id,'typing')
+    if message.text == "/start":
+        start_function(message)
+        return
+    elif message.text == "/end":
+        end_function(message)
+        return
     answer = constants.tryagain_message
     if message.text == "Hello" or message.text == "Привет" or message.text == "Пока" or message.text == "Bye":
         answer = message.text
@@ -278,10 +284,8 @@ def initial_case_step(message):
 
     else:
         answer = constants.tryagain_message
-    msg = bot.send_message(message.from_user.id, answer,parse_mode="Markdown")
-    if message.text == "/end":
-        end_function(message)
-    elif len(answer)>50:
+    msg = bot.send_message(message.from_user.id, answer, parse_mode="Markdown")
+    if len(answer)>50:
         home_buttons(message.from_user.id)
     else:
         start_function(message)
